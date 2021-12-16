@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "nikaya"
+  },
+  "targets": {
+    "nikaya2500": {
+      "hosting": {
+        "nikaya": [
+          "nikaya"
+        ]
+      }
+    }
+  }
+}

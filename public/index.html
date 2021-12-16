@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Kinh Nikaya</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="/static/css/normalize.css">
+    <link rel="stylesheet" href="/static/css/skeleton.css">
+    <link rel="stylesheet" href="/static/css/custom.css">
+    
+    <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/static/js/epub.js"></script>
+    <script src="/static/js/site.js"></script>
+    
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="/static/favicon.ico">
+
+
+    
+
+</head>
+
+<body style="height:100%; width:100%; padding:0px; margin:0px;">
+
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="navbar-spacer"></div>
+        <nav class="navbar">
+            <div class="container">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><a class="navbar-link" href="/">Home</a></li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#" data-popover="#moreNavPopover">[ Mục lục</a>
+                        <div id="moreNavPopover" class="popover" style="min-width: 400px;position:absolute; z-index: 3; overflow-x: hidden; overflow-y: auto; height:calc(100vh - 66px);">
+                            <ul class="popover-list" id="muclucItem">
+                                
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-item"><a class="navbar-link" id="viewNext" href="#">Next</a></li>
+                    <li class="navbar-item"><a class="navbar-link" id="viewBack" href="#">Back ]</a></li>
+                    <li class="navbar-item"><a class="navbar-link" id="test" href="#">test</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <!-- -->
+        <div id="books">
+
+        </div>
+        <!-- <div class="row">
+            <div class="row" style="text-align: center;">
+                <div class="one-third column book">
+                    <a href="/books/duc-phat-lich-su/">
+                        <img src="/books/duc-phat-lich-su/index-1_1.jpg" style="max-height: 100%"/>
+                    </a>
+                    <a href="/books/duc-phat-lich-su/">
+                        <h6 class="example-header">Đức Phật Lịch Sử</h6></a>
+                    <p class="book-desc">H. W. Schumann là học giả người Ðức sinh năm 1928. Ông nghiên cứu ngành Ấn Ðộ học, các tôn giáo đối chiếu và nhân chủng xã hội học tại Ðại học Bonn (Ðức). Ông nhận rằng tiến sĩ năm 1957 với luận án Triết học phật giáo. Từ 1960 đến 1963 ông là giảng sư Ðại học Ấn Ðộ ở Benares, Ấn Ðộ. Năm 1963 ông tham gia công tác Bộ Ngoại giao và lãnh sự Cộng hòa liên bang Ðức, phục vụ ngành ngoại giao và lãnh sự của Tây Ðức tại Calcutta (Ấn), Rangoon (Miến), Chicago (Mỹ) và Colombo (Srilanka).
+                    </p>
+                </div>
+                <div class="one-third column book">
+                    <div class="cover">
+                        <a href="/books/duc-phat-lich-su/">
+                            <img src="/books/kinh-trung-bo/cover.jpeg"/>
+                        </a>
+                    </div>
+                    
+                    <a href="/books/duc-phat-lich-su/">
+                        <h6 class="example-header">Đức Phật Lịch Sử</h6></a>
+                    <p class="book-desc">H. W. Schumann là học giả người Ðức sinh năm 1928. Ông nghiên cứu ngành Ấn Ðộ học, các tôn giáo đối chiếu và nhân chủng xã hội học tại Ðại học Bonn (Ðức). Ông nhận rằng tiến sĩ năm 1957 với luận án Triết học phật giáo. Từ 1960 đến 1963 ông là giảng sư Ðại học Ấn Ðộ ở Benares, Ấn Ðộ. Năm 1963 ông tham gia công tác Bộ Ngoại giao và lãnh sự Cộng hòa liên bang Ðức, phục vụ ngành ngoại giao và lãnh sự của Tây Ðức tại Calcutta (Ấn), Rangoon (Miến), Chicago (Mỹ) và Colombo (Srilanka).
+                    </p>
+                </div>
+                <div class="one-third column book">
+                    <div class="cover">
+                        <a href="/books/duc-phat-lich-su/">
+                            <img src="/books/duc-phat-lich-su/index-1_1.jpg"/>
+                        </a>
+                    </div>
+                    
+                    <a href="/books/duc-phat-lich-su/">
+                        <h6 class="example-header">Đức Phật Lịch Sử</h6></a>
+                    <p class="book-desc">H. W. Schumann là học giả người Ðức sinh năm 1928. Ông nghiên cứu ngành Ấn Ðộ học, các tôn giáo đối chiếu và nhân chủng xã hội học tại Ðại học Bonn (Ðức). Ông nhận rằng tiến sĩ năm 1957 với luận án Triết học phật giáo. Từ 1960 đến 1963 ông là giảng sư Ðại học Ấn Ðộ ở Benares, Ấn Ðộ. Năm 1963 ông tham gia công tác Bộ Ngoại giao và lãnh sự Cộng hòa liên bang Ðức, phục vụ ngành ngoại giao và lãnh sự của Tây Ðức tại Calcutta (Ấn), Rangoon (Miến), Chicago (Mỹ) và Colombo (Srilanka).
+                    </p>
+                </div>
+            </div>
+           
+            
+        </div> -->
+    </div>
+    <iframe id="content_frame" class="viewer"></iframe>
+    <!-- <style xmlns='' type='text/css' id='content_frame'>html {direction: ltr !important; margin-top:12px !important;-moz-column-width:120mm !important; -webkit-column-width:120mm !important; column-width:120mm !important;-moz-column-count:auto !important; -webkit-column-count:auto !important; column-count:auto !important;-moz-column-fill:auto !important; -webkit-column-fill:auto !important; column-fill:auto !important;-moz-column-gap:0px !important; -webkit-column-gap:0px !important; column-gap:0px !important;background-color:transparent !important;}         body {margin-left:0px !important; margin-right:0px !important; font-size:14pt !important; text-align:justify !important;padding-left:6mm !important; padding-right:6mm !important;background-color:transparent !important;}         div, span, p, ul, li, code, pre, a {-moz-hyphens:auto !important; -webkit-hyphens:auto !important; -ms-hyphens:auto !important; hypens:auto !important; font-size:14pt !important; line-height:normal !important;background-color:transparent !important;}         h1, h2, h3, h4, h5, h6 {background-color:transparent !important;}         img {max-width:100% !important;}</style></head> -->
+
+    <!-- <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBmW-yUP0LHXcQrMeu9KeXpVjmCSAvZvoo",
+          authDomain: "nikaya2500.firebaseapp.com",
+          projectId: "nikaya2500",
+          storageBucket: "nikaya2500.appspot.com",
+          messagingSenderId: "797929309367",
+          appId: "1:797929309367:web:42f28b41f9355ce9643932",
+          measurementId: "G-71HP7PCMGP"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script> -->
+    <script>
+        document.getElementById('content_frame').onload = function() {
+            console.log("iframe loaded");
+    		console.log($(epubReader.viewer).contents().height());
+
+        };
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+firebase emulators:start
+firebase serve
+firebase serve --host 0.0.0.0
+
+Preview for others
+firebase hosting:channel:deploy CHANNEL_ID -> PROJECT_ID--CHANNEL_ID-RANDOM_HASH.web.app
+firebase deploy -m "first commit."
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {"source":"/books/**","destination":"/index.html"}
+    ]
+  }
+}
+firebase target:apply hosting nikaya nikaya
+-->
+{
+  "projects": {
+    "default": "nikaya"
+  },
+  "targets": {
+    "nikaya2500": {
+      "hosting": {
+        "nikaya": [
+          "nikaya"
+        ]
+      }
+    }
+  }
+}

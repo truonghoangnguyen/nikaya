@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Skeleton: Responsive CSS Boilerplate</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="/static/css/normalize.css">
+    <link rel="stylesheet" href="/static/css/skeleton.css">
+    <link rel="stylesheet" href="/static/css/custom.css">
+    <link rel="stylesheet" href="/static/css/epub.css">
+    
+    <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/static/js/epub.js"></script>
+    <script src="/static/js/site.js"></script>
+    
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="/static/favicon.ico">
+</head>
+
+<body style="height:100%; width:100%; padding:0px; margin:0px;">
+
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+        <div class="navbar-spacer"></div>
+        <nav class="navbar">
+            <div class="container">
+                <ul 
+                class="navbar-list">
+                    <li class="navbar-item"><a class="navbar-link" href="#" onclick='loadf1()'>Intro 1</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#intro">Intro 2</a></li>
+                    <li class="navbar-item"><a class="navbar-link" href="#intro">Intro</a></li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#" data-popover="#ng">More</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#" data-popover="#moreNavPopover">More</a>
+                        <div id="moreNavPopover" class="popover">
+                            <ul class="popover-list">
+                                <li class="popover-item">
+                                    <a class="popover-link" href="https://github.com/dhg/Skeleton">On Github</a>
+                                </li>
+                                <li class="popover-item">
+                                    <a class="popover-link"
+                                        href="https://github.com/dhg/Skeleton#browser-support">Browsers</a>
+                                </li>
+                                <li class="popover-item">
+                                    <a class="popover-link" href="https://github.com/dhg/Skeleton#license">License</a>
+                                </li>
+                                <li class="popover-item">
+                                    <a class="popover-link"
+                                        href="https://github.com/dhg/Skeleton#extensions">Extensions</a>
+                                </li>
+                                <li class="popover-item">
+                                    <a class="popover-link" href="https://github.com/dhg/Skeleton/releases">Versions</a>
+                                </li>
+                                <li class="popover-item">
+                                    <a class="popover-link" href="https://github.com/dhg/Skeleton#colophon">Colophon</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- <iframe id="content_frame"></iframe> -->
+    <div class="container">
+        <div id="ng" class="mucluc" style="overflow-x: hidden; overflow-y: auto; height:calc(100vh - 62px);">
+            <ul class="popover-list" id="muclucItem">
+                <li class="popover-item">
+                    <a class="popover-link" href="https://github.com/dhg/Skeleton">On Github</a>
+                </li>
+                <li class="popover-item">
+                    <a class="popover-link"
+                        href="https://github.com/dhg/Skeleton#browser-support">Browsers</a>
+                </li>
+                <li class="popover-item">
+                    <a class="popover-link" href="https://github.com/dhg/Skeleton#license">License</a>
+                </li>
+                <li class="popover-item">
+                    <a class="popover-link"
+                        href="https://github.com/dhg/Skeleton#extensions">Extensions</a>
+                </li>
+                <li class="popover-item">
+                    <a class="popover-link" href="https://github.com/dhg/Skeleton/releases">Versions</a>
+                </li>
+                <li class="popover-item">
+                    <a class="popover-link" href="https://github.com/dhg/Skeleton#colophon">Colophon</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBmW-yUP0LHXcQrMeu9KeXpVjmCSAvZvoo",
+          authDomain: "nikaya2500.firebaseapp.com",
+          projectId: "nikaya2500",
+          storageBucket: "nikaya2500.appspot.com",
+          messagingSenderId: "797929309367",
+          appId: "1:797929309367:web:42f28b41f9355ce9643932",
+          measurementId: "G-71HP7PCMGP"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body>
+
+</html>
+
+

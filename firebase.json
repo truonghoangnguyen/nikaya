@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "public",
+    "target": "nikaya",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {"source":"/books/**","destination":"/index.html"}
+    ]
+  }
+}
