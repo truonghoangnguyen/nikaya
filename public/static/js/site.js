@@ -45,55 +45,44 @@ $(document).ready(function () {
 			//epubReader.viewer.contentDocument.documentElement.scrollWidth
 			let cw = epubReader.viewer.contentWindow,
 				maxw = epubReader.viewer.contentDocument.documentElement.scrollWidth;
-			if ((cw.pageXOffset + cw.innerWidth) < maxw){
+			// some calc result 0.xyz, so round number to 1 pixel
+			let n = Math.floor(cw.pageXOffset + cw.innerWidth)+1;
+			if (n < maxw){
 				// contentFrame.contentDocument.documentElement.scrollWidth
-				cw.scroll(cw.pageXOffset + cw.innerWidth, 0);
+				cw.scroll(n, 0);
 			}
 			else{
 				// load next page
 				epubReader.nextPage();
 			}
-			// let z = $(epubReader.viewer.contentDocument.documentElement),
-			// 	max = z.prop('scrollWidth'),
-			// 	clientWidth = z.prop('clientWidth'),
-			// 	top = z.scrollTop();
-			// if ((top + clientWidth) < max){
-			// 	let cw = epubReader.viewer.contentWindow;
-			// 	cw.scroll(cw.pageXOffset + cw.innerWidth, 0);
-			// }
-			// else{
-			// 	epubReader.nextPage();
-			// }
 		
 		});
 		$('#test').on('click', e=>{
 			console.log($(epubReader.viewer).contents().height());
 			var contentWindow = epubReader.viewer.contentWindow;
-			contentWindow.scroll(contentWindow.pageXOffset + (contentWindow.innerWidth + 5) * 1, 0);
+			contentWindow.scroll(contentWindow.pageXOffset + contentWindow.innerWidth, 0);
 		});
 		$('#viewBack').on('click', e=>{
 			
-			let cw = epubReader.viewer.contentWindow,
-				maxw = epubReader.viewer.contentDocument.documentElement.scrollWidth;
+			let cw = epubReader.viewer.contentWindow;
 			if (cw.pageXOffset > 0){
-				// contentFrame.contentDocument.documentElement.scrollWidth
 				cw.scroll(cw.pageXOffset - cw.innerWidth, 0);
 			}
 			else{
 				// load next page
-				epubReader.prevPage();
+				epubReader.prevPage(onLoadPartDone);
+
+				function onLoadPartDone() {
+					// then go to end of part
+					let cw = epubReader.viewer.contentWindow,
+						maxw = epubReader.viewer.contentDocument.documentElement.scrollWidth,
+						page = Math.floor(maxw/cw.innerWidth);
+					cw.scroll(page*cw.innerWidth, 0);
+
+				}
+
+				cw.scroll(cw.pageXOffset + cw.innerWidth, 0);
 			}
-
-
-			//  var height = contentFrame.contentWindow.innerHeight;
-			//  contentFrame.contentDocument.documentElement.style.height = "332px";
-			//  contentFrame.contentDocument.documentElement.style.overflow = "hidden";
-			//  contentFrame.contentWindow.location.reload();
-			// contentFrame.style.height = "332px";
-			// contentFrame.documentElement.style.overflow = "hidden";
-			// contentFrame.location.reload();
-			// epubReader.viewer.contentDocument.documentElement.style.height = '322px';
-			//epubReader.back();
 		});
 
 		$window.on('resize', function	(){ 
@@ -107,7 +96,65 @@ $(document).ready(function () {
 		viewer.addEventListener("load", ev => {
 			const new_style_element = document.createElement("style");
 			// new_style_element.textContent =  "body { font-family: 'EB Garamond', serif !important; font-size:22px !important; line-height: 6 !important; }"
-			new_style_element.textContent = "html {overflow: hidden; direction: ltr !important; margin-top:12px !important;-moz-column-width:120mm !important; -webkit-column-width:120mm !important; column-width:120mm !important;-moz-column-count:auto !important; -webkit-column-count:auto !important; column-count:auto !important;-moz-column-fill:auto !important; -webkit-column-fill:auto !important; column-fill:auto !important;-moz-column-gap:0px !important; -webkit-column-gap:0px !important; column-gap:0px !important;background-color:transparent !important;}         body {margin-left:0px !important; margin-right:0px !important; font-size:14pt !important; text-align:justify !important;padding-left:6mm !important; padding-right:6mm !important;background-color:transparent !important;}         div, span, p, ul, li, code, pre, a {-moz-hyphens:auto !important; -webkit-hyphens:auto !important; -ms-hyphens:auto !important; hypens:auto !important; font-size:14pt !important; line-height:normal !important;background-color:transparent !important;} h1, h2, h3, h4, h5, h6 {background-color:transparent !important;} img {max-width:100% !important;}";
+			new_style_element.textContent = `
+			html {
+				overflow: hidden;
+				direction: ltr !important;
+				margin-top: 12px !important;
+				-moz-column-width: 120mm !important;
+				-webkit-column-width: 120mm !important;
+				column-width: 120mm !important;
+				-moz-column-count: auto !important;
+				-webkit-column-count: auto !important;
+				column-count: auto !important;
+				-moz-column-fill: auto !important;
+				-webkit-column-fill: auto !important;
+				column-fill: auto !important;
+				-moz-column-gap: 0px !important;
+				-webkit-column-gap: 0px !important;
+				column-gap: 0px !important;
+				background-color: transparent !important;
+			  }
+			  body {
+				margin-left: 0px !important;
+				margin-right: 0px !important;
+				font-size: 14pt !important;
+				text-align: justify !important;
+				padding-left: 6mm !important;
+				padding-right: 6mm !important;
+				background-color: transparent !important;
+				font-family: 'EB Garamond', serif !important; 
+				font-size:22px !important; 
+				line-height: 6 !important; 
+			  }
+			  div,
+			  span,
+			  p,
+			  ul,
+			  li,
+			  code,
+			  pre,
+			  a {
+				-moz-hyphens: auto !important;
+				-webkit-hyphens: auto !important;
+				-ms-hyphens: auto !important;
+				hypens: auto !important;
+				font-size: 14pt !important;
+				line-height: normal !important;
+				background-color: transparent !important;
+			  }
+			  h1,
+			  h2,
+			  h3,
+			  h4,
+			  h5,
+			  h6 {
+				background-color: transparent !important;
+			  }
+			  img {
+				max-width: 100% !important;
+			  }
+			`;
 			ev.target.contentDocument.head.appendChild(new_style_element);
 
 			const font = document.createElement("link");
@@ -317,19 +364,67 @@ function router() {
 
 /**
  * after open book, UI show mucluc
+ * TODO: 
  */
 function cbViewMucluc(){
-	var ul = $("#muclucItem");
-	var pointsToc = epubReader.pointsToc;
-	for (var i = 0; i < pointsToc.length; i++) {
+
+	function removeAnchorHtmlPart(part) {
+		if (part.lastIndexOf('#') >= 0){
+			return part.substr(0, part.lastIndexOf('#'));
+		}
+		return part;
+	}
+	
+	var ul = $("#muclucItem"),
+	 	pointsToc = epubReader.pointsToc,
+		htmlPartCounter = 0,
+		currHtmlPart = removeAnchorHtmlPart(pointsToc[0]['content']);
+
+	for (let i = 0; i < pointsToc.length; i++) {
+		let p = removeAnchorHtmlPart(pointsToc[i]['content']);
+		if (p !== currHtmlPart){
+			currHtmlPart = p;
+			htmlPartCounter ++;
+		}
+
 		let li = $('<li>', {class: 'popover-item'})
 			.append($('<a>', { 
 				class   :'popover-link',
-				href    : epubReader.path+'/'+pointsToc[i]['content'],
-				text    : pointsToc[i]['label']
+				href	: epubReader.path+'/'+pointsToc[i]['content'],  	
+				text	: pointsToc[i]['label'],
+				'book-index': htmlPartCounter,
+				click	: function(ev) {
+					// seek to current part or load new part
+					try{
+						let idx = parseInt($(this).attr('book-index'));
+						// this html part is current loaded 
+						if(epubReader.position === idx){
+							// get anchor #: '/books/duc-phat-lich-su/index_split_000.html#p15.se'
+							let href=$(this).attr('href'),
+								anchor = epubReader.getAnchor(href);
+							
+							if (anchor){
+								let cw = epubReader.viewer.contentWindow,
+									top = cw.document.getElementById(anchor).offsetTop,
+									page = Math.floor(top/cw.innerWidth);
+								cw.scroll(page*cw.innerWidth, 0);
+								// cw.scroll(3*cw.innerWidth, 0);
+								return false; // prevent click 
+							}
+							else;// do nothing
+						}
+						else{; // do nothing, do normal href
+						}
+					}
+					catch{; // pass, do normal href
+					}
+				}
 			}));
 		ul.append(li)
 	}
+
+	// view book-control menu
+	$('.book-control').toggleClass('active');
 }
 
 /**

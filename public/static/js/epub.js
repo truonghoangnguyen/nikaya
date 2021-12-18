@@ -33,47 +33,38 @@ class Epub {
 		this.position = -1;
 		this.pointsToc = [];
 		this.bookExt = '' // @see 'se' extension
-		
-		
-		// this.viewer.addEventListener("resize", ev => {
-		// 	let h = epubReader.viewer.contentWindow.innerHeight-100 +'px';
-		// 	// epubReader.viewer.contentDocument.documentElement.style.height  = '200px';
-		// 	epubReader.viewer.contentDocument.documentElement.style.height = h;
-		// });
+	
+	}
 
+	/**
+	 * get html anchor
+	 * @param {string} part 
+	 * return undefined if not found
+	 */
+	getAnchor(part){
+		if(part.lastIndexOf('#') == -1)
+			return undefined;
+
+		let x = part.substring (part.lastIndexOf('#')+1);
+		if (x.lastIndexOf('.se') == -1)
+			return x;
+		return x.substring (0, x.lastIndexOf('.se'))
 	}
 
 	setPath(path){
 		this.path = path;
 	}
 
-	nextPage(){
-		let i = this.position;
-		this.readContent(++i);
+	nextPage(onLoadPartDone=undefined){
+		let i = this.position+1;
+		this.readPart(i, onLoadPartDone);
 	}
 
-	prevPage(){
-		let i = this.position;
-		this.readContent(--i);
+	prevPage(onLoadPartDone=undefined){
+		let i = this.position-1;
+		this.readPart(i, onLoadPartDone);
 	}
-	// next(){
-	// 	// if(1){
-	// 	// 	let p = this.position + 1;
-	// 	// 	this.readContent(p);
-	// 	// }
-	// 	let contentWindow = epubReader.viewer.contentWindow;
-	// 	contentWindow.scroll(contentWindow.pageXOffset + (contentWindow.innerWidth + 5) * 1, 0);
 
-	// }
-	// back(){
-	// 	// if (this.position > 0 ){
-	// 	// 	let p = this.position - 1;
-	// 	// 	this.readContent(p);
-	// 	// }
-	// 	let contentWindow = epubReader.viewer.contentWindow;
-	// 	contentWindow.scroll(contentWindow.pageXOffset - (contentWindow.innerWidth - 5) * 1, 0);
-
-	// }
 	/**
 	 * We add end of .html files with own '.se' extension, so remove when
 	 * @see static se
@@ -86,15 +77,17 @@ class Epub {
 		return url;
 	}
 
-	readContent(index){
-		if (index < 0){
-			index = 0;
+	readPart(position, onLoadPartDone=undefined){
+		if(!Number.isInteger(position))
+			throw 'Parameter is not a number!';
+		if (position < 0){
+			position = 0;
 		}
-		else if(index >= this.pointsToc.length){
-			index = this.pointsToc.length - 1;
+		else if(position >= this.pointsToc.length){
+			position = this.pointsToc.length - 1;
 		}
-		this.position = index;
-		let point = this.pointsToc[index];
+		this.position = position;
+		let point = this.pointsToc[position];
 
 		let url = this.path +"/" + point.content;
 		
@@ -105,6 +98,14 @@ class Epub {
 		// 
 		// this.setViewerStyle();
 		$(this.viewer).addClass('open'); // show viewer iframe
+
+		// callback when load done
+		if (onLoadPartDone){
+			$(this.viewer).on('load', e=>{
+				onLoadPartDone();
+				$(this.viewer).unbind('load');
+			});
+		}
 	}
 
 
@@ -115,11 +116,18 @@ class Epub {
 	 */
 	_pageToIndex(page){
 		if (page){
-			for(let i in this.pointsToc){
-				if (this.pointsToc[i].content === page){
+			let i = 0;
+			for(const t of this.pointsToc){
+				if(t.content === page)
 					return i;
-				}
+				i++;
 			}
+			return 0;
+			// for(let i in this.pointsToc){
+			// 	if (this.pointsToc[i].content === page){
+			// 		return i;
+			// 	}
+			// }
 		}
 		else
 			return 0; // first page
@@ -136,12 +144,9 @@ class Epub {
 			.then(t => {
 				this.read_tocncx(t, cbLoaddone);    // view mucluc
 				let i = this._pageToIndex(page)
-				this.readContent(i);    // view first page
+				this.readPart(i);    // view first page
 			});
 	}
-
-	
-	
    
 
 	read_tocncx(content, cbLoaddone) {
