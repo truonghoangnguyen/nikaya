@@ -1,4 +1,5 @@
 books/
+booklist.js
 # Logs
 logs
 *.log

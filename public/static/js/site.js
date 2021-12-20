@@ -31,71 +31,25 @@ $(document).ready(function () {
 		
 		window.epubReader = new Epub(viewer);
 		$('#viewNext').on('click', e=>{
-
-			// +----------+ |
-		    // |          | |
-			// +----------+ |scrollTop    |
-			// +----------+               |clientHeight 
-			// |          |
-			// |          | 
-			// +----------+scrollHeight
-			// epubReader.next(); 
-			
-			//var contentFrame = document.getElementById("content_frame");
-			//epubReader.viewer.contentDocument.documentElement.scrollWidth
-			let cw = epubReader.viewer.contentWindow,
-				maxw = epubReader.viewer.contentDocument.documentElement.scrollWidth;
-			// some calc result 0.xyz, so round number to 1 pixel
-			let n = Math.floor(cw.pageXOffset + cw.innerWidth)+1;
-			if (n < maxw){
-				// contentFrame.contentDocument.documentElement.scrollWidth
-				cw.scroll(n, 0);
-			}
-			else{
-				// load next page
-				epubReader.nextPage();
-			}
-		
+			_nextPage();
 		});
 		$('#test').on('click', e=>{
-			console.log($(epubReader.viewer).contents().height());
-			var contentWindow = epubReader.viewer.contentWindow;
-			contentWindow.scroll(contentWindow.pageXOffset + contentWindow.innerWidth, 0);
+			$('.loader').toggleClass('open')
 		});
 		$('#viewBack').on('click', e=>{
-			
-			let cw = epubReader.viewer.contentWindow;
-			if (cw.pageXOffset > 0){
-				cw.scroll(cw.pageXOffset - cw.innerWidth, 0);
-			}
-			else{
-				// load next page
-				epubReader.prevPage(onLoadPartDone);
-
-				function onLoadPartDone() {
-					// then go to end of part
-					let cw = epubReader.viewer.contentWindow,
-						maxw = epubReader.viewer.contentDocument.documentElement.scrollWidth,
-						page = Math.floor(maxw/cw.innerWidth);
-					cw.scroll(page*cw.innerWidth, 0);
-
-				}
-
-				cw.scroll(cw.pageXOffset + cw.innerWidth, 0);
-			}
+			_prevPage();
 		});
 
 		$window.on('resize', function	(){ 
 			setViewHeight();
-		 });
+		});
 
-		 
+		listEBook();
+		onKeyBoard();
+	
 		// Setup view
-		// var decorator = new IframeView();
-		// decorator.setupView(this.viewer);
 		viewer.addEventListener("load", ev => {
 			const new_style_element = document.createElement("style");
-			// new_style_element.textContent =  "body { font-family: 'EB Garamond', serif !important; font-size:22px !important; line-height: 6 !important; }"
 			new_style_element.textContent = `
 			html {
 				overflow: hidden;
@@ -113,7 +67,7 @@ $(document).ready(function () {
 				-moz-column-gap: 0px !important;
 				-webkit-column-gap: 0px !important;
 				column-gap: 0px !important;
-				background-color: transparent !important;
+				background-color: transparent !important; 
 			  }
 			  body {
 				margin-left: 0px !important;
@@ -154,6 +108,11 @@ $(document).ready(function () {
 			  img {
 				max-width: 100% !important;
 			  }
+			  @media (max-device-width: 480px) {
+				html {
+					overflow: scroll !important;
+				}
+			  }
 			`;
 			ev.target.contentDocument.head.appendChild(new_style_element);
 
@@ -162,45 +121,85 @@ $(document).ready(function () {
 			font.rel="stylesheet"
 			ev.target.contentDocument.head.appendChild(font)
 			setViewHeight();
-
-			//let h = epubReader.viewer.contentWindow.innerHeight-100 +'px';
-			// epubReader.viewer.contentDocument.documentElement.style.height  = '200px';
-			//epubReader.viewer.contentDocument.documentElement.style.height = h;
-    		// console.log($(epubReader.viewer).contents().height());
-			// epubReader.viewer.contentWindow.innerHeight
-    		// console.log(h);epubReader.viewer.contentWindow.innerHeight-100 +'px'
-    		// console.log(epubReader.viewer.contentWindow.innerHeight-100 +'px');
 		});
 
 		function setViewHeight() {
+			// iframe viewer heigth
 			let h = epubReader.viewer.contentWindow.innerHeight - 40 +'px';
 			// epubReader.viewer.contentDocument.documentElement.style.height  = '200px';
 			if (epubReader.viewer.contentDocument.documentElement) 
 				epubReader.viewer.contentDocument.documentElement.style.height = h;
 		}
 
-		// var iframeWin = document.getElementById('content_frame').contentWindow;
-		// $(iframeWin).on('resize', function	(){ 
-		// 	let h = epubReader.viewer.contentWindow.innerHeight-100 +'px';
-		// 	// epubReader.viewer.contentDocument.documentElement.style.height  = '200px';
-		// 	if (epubReader.viewer.contentDocument.documentElement) 
-		// 		epubReader.viewer.contentDocument.documentElement.style.height = h;
-		//  });
-
-		// viewer.contentWindow.addEventListener('resize', e=>{
-		// 	let h = epubReader.viewer.contentWindow.innerHeight-100 +'px';
-		// 	// epubReader.viewer.contentDocument.documentElement.style.height  = '200px';
-		// 	epubReader.viewer.contentDocument.documentElement.style.height = h;
-		// });
-		
-		listEBook();
-
-		// test book view
-		// epubReader.viewer.contentDocument.documentElement.style.height = '322px';
-		// console.log($(epubReader.viewer).contents().height());
+		function _nextPage() {
+			// +----------+ |
+			// |          | |
+			// +----------+ |scrollTop    |
+			// +----------+               |clientHeight 
+			// |          |
+			// |          | 
+			// +----------+scrollHeight
+			// epubReader.next(); 
+			
+			//var contentFrame = document.getElementById("content_frame");
+			//epubReader.viewer.contentDocument.documentElement.scrollWidth
+			let cw = epubReader.viewer.contentWindow,
+				maxw = epubReader.viewer.contentDocument.documentElement.scrollWidth;
+			// some calc result 0.xyz, so round number to 1 pixel
+			let n = Math.floor(cw.pageXOffset + cw.innerWidth)+1;
+			if (n < maxw){
+				// contentFrame.contentDocument.documentElement.scrollWidth
+				cw.scroll(n, 0);
+			}
+			else{
+				// load next page
+				$('.loader').toggleClass('open');
+				epubReader.nextPage(()=>{$('.loader').toggleClass('open')});
+			}
+		}
+	
+		function _prevPage() {
+			let cw = epubReader.viewer.contentWindow;
+			if (cw.pageXOffset > 0){
+				cw.scroll(cw.pageXOffset - cw.innerWidth, 0);
+			}
+			else{
+				// load next page
+				$('.loader').toggleClass('open');
+				epubReader.prevPage(onLoadPartDone);
+	
+				function onLoadPartDone() {
+					// then go to end of part
+					let cw = epubReader.viewer.contentWindow,
+						maxw = epubReader.viewer.contentDocument.documentElement.scrollWidth,
+						page = Math.floor(maxw/cw.innerWidth);
+					cw.scroll(page*cw.innerWidth, 0);
+					$('.loader').toggleClass('open');
+				}
+	
+				cw.scroll(cw.pageXOffset + cw.innerWidth, 0);
+			}
+		}
+	
+		function onKeyBoard() {
+			/**
+			 * Keyboard event, next, back
+			 */
+			document.addEventListener('keydown', function (event) {
+				if (!epubReader.isOpen()){
+					return;
+				}
+				if((event.shiftKey && event.key === ' ') || event.key === 'ArrowLeft'){
+					_prevPage();
+				}
+				else if((event.key === ' ') || (event.key === 'ArrowRight')){
+					_nextPage();
+				}
+			});
+		}
 	}
 
-
+	
 	function smoothScroll(e) {
 	    e.preventDefault();
 	    $(document).off("scroll");
@@ -273,23 +272,6 @@ $(document).ready(function () {
 
 	function listEBook() {
 
-		// <div class="one-third column book">
-		// 	<div class="cover">
-		// 		<a href="/books/duc-phat-lich-su/">
-		// 			<img src="/books/kinh-trung-bo/cover.jpeg"/>
-		// 		</a>
-		// 	</div>
-			
-		// 	<a href="/books/duc-phat-lich-su/">
-		// 		<h6 class="example-header">Đức Phật Lịch Sử</h6></a>
-		// 	<p class="book-desc">H. W. Schumann là học giả người Ðức sinh năm 1928. Ông nghiên cứu ngành Ấn Ðộ học, các tôn giáo đối chiếu và nhân chủng xã hội học tại Ðại học Bonn (Ðức). Ông nhận rằng tiến sĩ năm 1957 với luận án Triết học phật giáo. Từ 1960 đến 1963 ông là giảng sư Ðại học Ấn Ðộ ở Benares, Ấn Ðộ. Năm 1963 ông tham gia công tác Bộ Ngoại giao và lãnh sự Cộng hòa liên bang Ðức, phục vụ ngành ngoại giao và lãnh sự của Tây Ðức tại Calcutta (Ấn), Rangoon (Miến), Chicago (Mỹ) và Colombo (Srilanka).
-		// 	</p>
-		// </div>
-		
-		// -row 1
-		// [][][]
-		// -row 2
-		// [][][]
 		let bookDiv = $('#books'),
 			bookRow = $('<div>', {class: 'row'}),
 			count = 0;
@@ -308,7 +290,6 @@ $(document).ready(function () {
 						).append(
 							$('<p>', {text:x.desc})
 						);
-                  
 			bookRow.append(book);
 			count ++;
 
@@ -344,8 +325,11 @@ function router() {
 	if (!rePaths) return;
 	switch(rePaths.length ){
 		case 0:
-			break;
 		case 1:
+			if(epubReader.isOpen()){ 
+				epubReader.close();
+			}
+			showBookList();
 			break;
 		case 2:
 		case 3:
@@ -355,11 +339,21 @@ function router() {
 			if (rePaths[2]) page = rePaths[2];
 			epubReader.setPath(bookpath);
 			epubReader.view(cbViewMucluc, page);
+			hideBookList();
 			return;
 		
 		default:
 			; // 
 	}
+
+	function hideBookList() {
+		$('#books').addClass('hide');
+	
+	}
+	function showBookList() {
+		$('#books').addClass('show');		
+	}
+
 }
 
 /**
@@ -427,18 +421,3 @@ function cbViewMucluc(){
 	$('.book-control').toggleClass('active');
 }
 
-/**
- * Lisf of books
- */
-var booksList = [{
-		name: "Kinh Trung Bộ",
-		path: "/books/kinh-trung-bo",
-		cover: "cover.jpeg",
-		desc: "Kinh Trung Bộ"
-	},{
-		name: "Đức Phật Lịch Sử",
-		path: "/books/duc-phat-lich-su",
-		cover: "index-1_1.jpg",
-		desc: "Kinh Trung Bộ"
-	}
-]

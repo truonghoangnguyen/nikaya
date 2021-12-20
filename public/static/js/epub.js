@@ -29,11 +29,28 @@ class Epub {
 	constructor(viewer){
 		this.viewer = viewer;
 
+		// this.path = null;
+		// this.position = -1;
+		// this.pointsToc = [];
+		// this.bookExt = '' // @see 'se' extension
+		this.close()
+	}
+
+	/**
+	 * close books
+	 */
+	close(){
 		this.path = null;
 		this.position = -1;
 		this.pointsToc = [];
 		this.bookExt = '' // @see 'se' extension
-	
+	}
+
+	/**
+	 * is on view book
+	 */
+	isOpen(){
+		return (this.path != null)
 	}
 
 	/**
@@ -77,6 +94,12 @@ class Epub {
 		return url;
 	}
 
+	/**
+	 * read a html part, 
+	 * TODO: add  sign when event begin-end load load page.
+	 * @param {*} position 
+	 * @param {*} onLoadPartDone 
+	 */
 	readPart(position, onLoadPartDone=undefined){
 		if(!Number.isInteger(position))
 			throw 'Parameter is not a number!';
@@ -123,11 +146,6 @@ class Epub {
 				i++;
 			}
 			return 0;
-			// for(let i in this.pointsToc){
-			// 	if (this.pointsToc[i].content === page){
-			// 		return i;
-			// 	}
-			// }
 		}
 		else
 			return 0; // first page
@@ -144,7 +162,7 @@ class Epub {
 			.then(t => {
 				this.read_tocncx(t, cbLoaddone);    // view mucluc
 				let i = this._pageToIndex(page)
-				this.readPart(i);    // view first page
+				this.readPart(i);    				// view first page
 			});
 	}
    

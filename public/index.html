@@ -31,17 +31,13 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/static/js/booklist.js"></script>
     <script src="/static/js/epub.js"></script>
     <script src="/static/js/site.js"></script>
     
-
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="/static/favicon.ico">
-
-
-    
-
 </head>
 
 <body style="height:100%; width:100%; padding:0px; margin:0px;">
@@ -55,66 +51,55 @@
                 <ul class="navbar-list">
                     <li class="navbar-item"><a class="navbar-link" href="/">Home</a></li>
                     <li class="navbar-item">
-                        <a class="navbar-link book-control" href="#" data-popover="#moreNavPopover">[Mục lục</a>
+                        <a class="navbar-link book-control" href="#" data-popover="#moreNavPopover"><i class='icon'>&plus;</i> <i class='text'>Mục lục</i></a>
                         <div id="moreNavPopover" class="popover" style="min-width: 400px;position:absolute; z-index: 3; overflow-x: hidden; overflow-y: auto; height:calc(100vh - 66px);">
                             <ul class="popover-list" id="muclucItem">
                                 
                             </ul>
                         </div>
                     </li>
-                    <li class="navbar-item"><a class="navbar-link book-control icon" id="viewBack" href="#">&#8249; Prev</a></li>
-                    <li class="navbar-item"><a class="navbar-link book-control icon" id="viewNext" href="#">Next &#8250;]</a></li>
+                    <li class="navbar-item"><a class="navbar-link book-control" id="viewBack" href="#"><i class='icon'>&#8249;</i> <i class='text'>Prev</i></a></li>
+                    <li class="navbar-item"><a class="navbar-link book-control" id="viewNext" href="#"><i class='text'>Next</i> <i class='icon'>&#8250;</i></a></li>
                     <!-- <li class="navbar-item"><a class="navbar-link" id="test" href="#">test</a></li> -->
-
                 </ul>
             </div>
         </nav>
         <!-- -->
-        <div id="books">
+        <div id="books" >
 
         </div>
-        <!-- <div class="row">
-            <div class="row" style="text-align: center;">
-                <div class="one-third column book">
-                    <a href="/books/duc-phat-lich-su/">
-                        <img src="/books/duc-phat-lich-su/index-1_1.jpg" style="max-height: 100%"/>
-                    </a>
-                    <a href="/books/duc-phat-lich-su/">
-                        <h6 class="example-header">Đức Phật Lịch Sử</h6></a>
-                    <p class="book-desc">H. W. Schumann là học giả người Ðức sinh năm 1928. Ông nghiên cứu ngành Ấn Ðộ học, các tôn giáo đối chiếu và nhân chủng xã hội học tại Ðại học Bonn (Ðức). Ông nhận rằng tiến sĩ năm 1957 với luận án Triết học phật giáo. Từ 1960 đến 1963 ông là giảng sư Ðại học Ấn Ðộ ở Benares, Ấn Ðộ. Năm 1963 ông tham gia công tác Bộ Ngoại giao và lãnh sự Cộng hòa liên bang Ðức, phục vụ ngành ngoại giao và lãnh sự của Tây Ðức tại Calcutta (Ấn), Rangoon (Miến), Chicago (Mỹ) và Colombo (Srilanka).
-                    </p>
-                </div>
-                <div class="one-third column book">
-                    <div class="cover">
-                        <a href="/books/duc-phat-lich-su/">
-                            <img src="/books/kinh-trung-bo/cover.jpeg"/>
-                        </a>
-                    </div>
-                    
-                    <a href="/books/duc-phat-lich-su/">
-                        <h6 class="example-header">Đức Phật Lịch Sử</h6></a>
-                    <p class="book-desc">H. W. Schumann là học giả người Ðức sinh năm 1928. Ông nghiên cứu ngành Ấn Ðộ học, các tôn giáo đối chiếu và nhân chủng xã hội học tại Ðại học Bonn (Ðức). Ông nhận rằng tiến sĩ năm 1957 với luận án Triết học phật giáo. Từ 1960 đến 1963 ông là giảng sư Ðại học Ấn Ðộ ở Benares, Ấn Ðộ. Năm 1963 ông tham gia công tác Bộ Ngoại giao và lãnh sự Cộng hòa liên bang Ðức, phục vụ ngành ngoại giao và lãnh sự của Tây Ðức tại Calcutta (Ấn), Rangoon (Miến), Chicago (Mỹ) và Colombo (Srilanka).
-                    </p>
-                </div>
-                <div class="one-third column book">
-                    <div class="cover">
-                        <a href="/books/duc-phat-lich-su/">
-                            <img src="/books/duc-phat-lich-su/index-1_1.jpg"/>
-                        </a>
-                    </div>
-                    
-                    <a href="/books/duc-phat-lich-su/">
-                        <h6 class="example-header">Đức Phật Lịch Sử</h6></a>
-                    <p class="book-desc">H. W. Schumann là học giả người Ðức sinh năm 1928. Ông nghiên cứu ngành Ấn Ðộ học, các tôn giáo đối chiếu và nhân chủng xã hội học tại Ðại học Bonn (Ðức). Ông nhận rằng tiến sĩ năm 1957 với luận án Triết học phật giáo. Từ 1960 đến 1963 ông là giảng sư Ðại học Ấn Ðộ ở Benares, Ấn Ðộ. Năm 1963 ông tham gia công tác Bộ Ngoại giao và lãnh sự Cộng hòa liên bang Ðức, phục vụ ngành ngoại giao và lãnh sự của Tây Ðức tại Calcutta (Ấn), Rangoon (Miến), Chicago (Mỹ) và Colombo (Srilanka).
-                    </p>
-                </div>
-            </div>
-           
-            
-        </div> -->
     </div>
+    <div class="loader"></div>
     <iframe id="content_frame" class="viewer"></iframe>
-    <!-- <style xmlns='' type='text/css' id='content_frame'>html {direction: ltr !important; margin-top:12px !important;-moz-column-width:120mm !important; -webkit-column-width:120mm !important; column-width:120mm !important;-moz-column-count:auto !important; -webkit-column-count:auto !important; column-count:auto !important;-moz-column-fill:auto !important; -webkit-column-fill:auto !important; column-fill:auto !important;-moz-column-gap:0px !important; -webkit-column-gap:0px !important; column-gap:0px !important;background-color:transparent !important;}         body {margin-left:0px !important; margin-right:0px !important; font-size:14pt !important; text-align:justify !important;padding-left:6mm !important; padding-right:6mm !important;background-color:transparent !important;}         div, span, p, ul, li, code, pre, a {-moz-hyphens:auto !important; -webkit-hyphens:auto !important; -ms-hyphens:auto !important; hypens:auto !important; font-size:14pt !important; line-height:normal !important;background-color:transparent !important;}         h1, h2, h3, h4, h5, h6 {background-color:transparent !important;}         img {max-width:100% !important;}</style></head> -->
+   
+    <!-- <style type="text/css">
+        /* default styles here for older browsers. 
+        I tend to go for a 600px - 960px width max but using percentages
+        */
+        @media only screen and (min-width: 960px) {
+            /* styles for browsers larger than 960px; */
+        }
+        @media only screen and (min-width: 1440px) {
+            /* styles for browsers larger than 1440px; */
+        }
+        @media only screen and (min-width: 2000px) {
+            /* for sumo sized (mac) screens */
+        }
+        @media only screen and (max-device-width: 480px) {
+        /* styles for mobile browsers smaller than 480px; (iPhone) */
+        }
+        @media only screen and (device-width: 768px) {
+        /* default iPad screens */
+        }
+        /* different techniques for iPad screening */
+        @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+        /* For portrait layouts only */
+        }
+
+        @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+        /* For landscape layouts only */
+        }
+    </style> -->
 
     <!-- <script type="module">
         // Import the functions you need from the SDKs you need
@@ -138,14 +123,7 @@
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
-    </script> -->
-    <script>
-        document.getElementById('content_frame').onload = function() {
-            console.log("iframe loaded");
-    		console.log($(epubReader.viewer).contents().height());
-
-        };
-    </script>
+      </script> -->
 </body>
 
 </html>
