@@ -31,7 +31,6 @@ class Epub {
 
 		// this.path = null;
 		// this.position = -1;
-		// this.pointsToc = [];
 		// this.bookExt = '' // @see 'se' extension
 		this.close()
 	}
@@ -42,8 +41,8 @@ class Epub {
 	close(){
 		this.path = null;
 		this.position = -1;
-		this.pointsToc = [];
 		this.bookExt = '' // @see 'se' extension
+		this.toc = null; // json of toc.ncx
 	}
 
 	/**
@@ -103,16 +102,17 @@ class Epub {
 	readPart(position, onLoadPartDone=undefined){
 		if(!Number.isInteger(position))
 			throw 'Parameter is not a number!';
+		let pointsToc = this.toc.ncx.navMap.navPoint;
 		if (position < 0){
 			position = 0;
 		}
-		else if(position >= this.pointsToc.length){
-			position = this.pointsToc.length - 1;
+		else if(position >= pointsToc.length){
+			position = pointsToc.length - 1;
 		}
 		this.position = position;
-		let point = this.pointsToc[position];
+		let point = pointsToc[position];
 
-		let url = this.path +"/" + point.content;
+		let url = this.path +"/" + point.content['_src'];
 		
 		url = this.removePlusExt(url);
 		this.viewer.src = url;
@@ -169,76 +169,65 @@ class Epub {
 
 	read_tocncx(content, cbLoaddone) {
 		try {
-			var parser = new DOMParser();
+			//var parser = new DOMParser();
 
-			content = content.replace(/xml version="1\.1"/, 'xml version="1.0"');
-			content = content.replace(/&(?!amp;)([a-z]+;)/gi, "&amp;$1");
-			content = content.replace(/&(?![a-z]+;)/gi, "&amp;");
+			// content = content.replace(/xml version="1\.1"/, 'xml version="1.0"');
+			// content = content.replace(/&(?!amp;)([a-z]+;)/gi, "&amp;$1");
+			// content = content.replace(/&(?![a-z]+;)/gi, "&amp;");
 
-			var nav = parser.parseFromString(content, "text/xml");
-			var navMap = nav.getElementsByTagNameNS("*", "navMap")[0];
-			var navPoints = navMap.getElementsByTagNameNS("*", "navPoint");
+			let x2js = new X2JS();
+            // var jsonObj = x2js.xml_str2json(content);
+			this.toc = x2js.xml_str2json(content);
+			// var nav = parser.parseFromString(content, "text/xml");
+			// var navMap = nav.getElementsByTagNameNS("*", "navMap")[0];
+			// var navPoints = navMap.getElementsByTagNameNS("*", "navPoint");
 		}
 		catch (e) {
 			throw e;
 		}
 
-		this.pointsToc = [];
+		// this.pointsToc = [];
 
-		if (navPoints && navPoints.length > 0) {
-			var pointCounter = 0;
+		// if (navPoints && navPoints.length > 0) {
+		// 	var pointCounter = 0;
 
-			for (var i = 0; i < navPoints.length; i++) {
-				try {
-					var label = navPoints[i].getElementsByTagNameNS("*", "navLabel")[0]
-						.getElementsByTagNameNS("*", "text")[0].textContent;
+		// 	for (var i = 0; i < navPoints.length; i++) {
+		// 		try {
+		// 			var label = navPoints[i].getElementsByTagNameNS("*", "navLabel")[0]
+		// 				.getElementsByTagNameNS("*", "text")[0].textContent;
 
-					var content = navPoints[i].getElementsByTagNameNS("*", "content")[0].getAttribute("src");
-					var navPoint = navPoints[i];
-					var point = [];
+		// 			var content = navPoints[i].getElementsByTagNameNS("*", "content")[0].getAttribute("src");
+		// 			var navPoint = navPoints[i];
+		// 			var point = [];
 
-					for (var j = 1; j < 10; j++) {
-						var parent = navPoint.parentNode;
+		// 			for (var j = 1; j < 10; j++) {
+		// 				var parent = navPoint.parentNode;
 
-						if (!parent.nodeName.match("navPoint")) {
-							point['level'] = j;
-							break;
-						}
-						else {
-							navPoint = parent;
-						}
-					}
+		// 				if (!parent.nodeName.match("navPoint")) {
+		// 					point['level'] = j;
+		// 					break;
+		// 				}
+		// 				else {
+		// 					navPoint = parent;
+		// 				}
+		// 			}
 
-					point['label'] = label;
-					point['content'] = content + Epub.se; // remove .html extension to 
+		// 			point['label'] = label;
+		// 			point['content'] = content + Epub.se; // remove .html extension to 
 
-					this.pointsToc[pointCounter] = point;
-					pointCounter++;
-				}
-				catch (e) {
-				}
-			}
-		}
+		// 			this.pointsToc[pointCounter] = point;
+		// 			pointCounter++;
+		// 		}
+		// 		catch (e) {
+		// 		}
+		// 	}
+		// }
 		// callback when load book done (for UI refresh)
 		cbLoaddone();
 	}
 }
 
-function read_content_opf() {
-	//let parser = new DOMParser();
-	//let xmlDoc = parser.parseFromString(text,"text/xml");
-	// console.log(111);
-	// const url = "/f2/toc.ncx";
-	// fetch(url)
-	//     .then(r => r.text())
-	//     .then(t => console.log(t))
-	const url = "/f2/toc.ncx";
-	fetch(url)
-		.then(r => {
-			return r.text()
-		})
-		.then(t => console.log(t))
-}
+
 
 
 /*

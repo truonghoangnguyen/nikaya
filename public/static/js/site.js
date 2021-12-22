@@ -39,6 +39,9 @@ $(document).ready(function () {
 		$('#viewBack').on('click', e=>{
 			_prevPage();
 		});
+		$('#greyBook').on('click', e=>{
+			$(viewer.contentDocument.body).toggleClass('greyBook');
+		});
 
 		$window.on('resize', function	(){ 
 			setViewHeight();
@@ -47,8 +50,9 @@ $(document).ready(function () {
 		listEBook();
 		onKeyBoard();
 	
-		// Setup view
+		// call after open a book
 		viewer.addEventListener("load", ev => {
+			
 			const new_style_element = document.createElement("style");
 			new_style_element.textContent = `
 			html {
@@ -113,17 +117,44 @@ $(document).ready(function () {
 					overflow: scroll !important;
 				}
 			  }
+			  .greyBook {
+				background-image: url("/static/css/grey.png");
+			  }
+			  .greyBook,
+			  .greyBook p,
+			  .greyBook h1,
+			  .greyBook h2,
+			  .greyBook h3,
+			  .greyBook h4,
+			  .greyBook h5,
+			  .greyBook h6,
+			  .greyBook .h1,
+			  .greyBook .h2,
+			  .greyBook .h3,
+			  .greyBook .h4,
+			  .greyBook .h5,
+			  .greyBook .h6 {
+				color: #ccc !important;
+			  }
+			  .greyBook a {
+				color: #e0e0e0 !important;
+			  }
+			  
 			`;
+
 			ev.target.contentDocument.head.appendChild(new_style_element);
 
 			const font = document.createElement("link");
 			font.href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap";
 			font.rel="stylesheet"
 			ev.target.contentDocument.head.appendChild(font)
-			setViewHeight();
+			
+			//ev.target.contentDocument = html loaded in iframe 
+			$(ev.target.contentDocument.body).addClass('greyBook');
+			_fullHeightOfView();
 		});
 
-		function setViewHeight() {
+		function _fullHeightOfView() {
 			// iframe viewer heigth
 			let h = epubReader.viewer.contentWindow.innerHeight - 40 +'px';
 			// epubReader.viewer.contentDocument.documentElement.style.height  = '200px';
@@ -338,7 +369,7 @@ function router() {
 			let page = undefined;
 			if (rePaths[2]) page = rePaths[2];
 			epubReader.setPath(bookpath);
-			epubReader.view(cbViewMucluc, page);
+			epubReader.view(afterOpenBook, page);
 			hideBookList();
 			return;
 		
@@ -360,7 +391,9 @@ function router() {
  * after open book, UI show mucluc
  * TODO: 
  */
-function cbViewMucluc(){
+function afterOpenBook(){
+
+	document.title = epubReader.toc.ncx.docTitle.text;
 
 	function removeAnchorHtmlPart(part) {
 		if (part.lastIndexOf('#') >= 0){
@@ -370,12 +403,12 @@ function cbViewMucluc(){
 	}
 	
 	var ul = $("#muclucItem"),
-	 	pointsToc = epubReader.pointsToc,
+	 	pointsToc = epubReader.toc.ncx.navMap.navPoint,
 		htmlPartCounter = 0,
-		currHtmlPart = removeAnchorHtmlPart(pointsToc[0]['content']);
+		currHtmlPart = removeAnchorHtmlPart(pointsToc[0]['content']['_src']);
 
 	for (let i = 0; i < pointsToc.length; i++) {
-		let p = removeAnchorHtmlPart(pointsToc[i]['content']);
+		let p = removeAnchorHtmlPart(pointsToc[i]['content']['_src']);
 		if (p !== currHtmlPart){
 			currHtmlPart = p;
 			htmlPartCounter ++;
@@ -384,8 +417,8 @@ function cbViewMucluc(){
 		let li = $('<li>', {class: 'popover-item'})
 			.append($('<a>', { 
 				class   :'popover-link',
-				href	: epubReader.path+'/'+pointsToc[i]['content'],  	
-				text	: pointsToc[i]['label'],
+				href	: epubReader.path+'/'+pointsToc[i]['content']['_src'],  	
+				text	: pointsToc[i]['navLabel']['text'],
 				'book-index': htmlPartCounter,
 				click	: function(ev) {
 					// seek to current part or load new part
