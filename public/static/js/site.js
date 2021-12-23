@@ -42,9 +42,33 @@ $(document).ready(function () {
 		$('#greyBook').on('click', e=>{
 			$(viewer.contentDocument.body).toggleClass('greyBook');
 		});
-
+		$('#fullscreen').on('click', e=>{
+			let elem = document.body;
+			// ## The below if statement seems to work better ## if ((document.fullScreenElement && document.fullScreenElement !== null) || (document.msfullscreenElement && document.msfullscreenElement !== null) || (!document.mozFullScreen && !document.webkitIsFullScreen)) {
+			if ((document.fullScreenElement !== undefined && document.fullScreenElement === null) || (document.msFullscreenElement !== undefined && document.msFullscreenElement === null) || (document.mozFullScreen !== undefined && !document.mozFullScreen) || (document.webkitIsFullScreen !== undefined && !document.webkitIsFullScreen)) {
+				if (elem.requestFullScreen) {
+					elem.requestFullScreen();
+				} else if (elem.mozRequestFullScreen) {
+					elem.mozRequestFullScreen();
+				} else if (elem.webkitRequestFullScreen) {
+					elem.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
+				} else if (elem.msRequestFullscreen) {
+					elem.msRequestFullscreen();
+				}
+			} else {
+				if (document.cancelFullScreen) {
+					document.cancelFullScreen();
+				} else if (document.mozCancelFullScreen) {
+					document.mozCancelFullScreen();
+				} else if (document.webkitCancelFullScreen) {
+					document.webkitCancelFullScreen();
+				} else if (document.msExitFullscreen) {
+					document.msExitFullscreen();
+				}
+			}
+		});
 		$window.on('resize', function	(){ 
-			setViewHeight();
+			_fullHeightOfView();
 		});
 
 		listEBook();
@@ -155,9 +179,11 @@ $(document).ready(function () {
 		});
 
 		function _fullHeightOfView() {
-			// iframe viewer heigth
-			let h = epubReader.viewer.contentWindow.innerHeight - 40 +'px';
-			// epubReader.viewer.contentDocument.documentElement.style.height  = '200px';
+		
+			// iframe innerHeight
+			// for setting iframe heigth 
+			let h = epubReader.viewer.contentWindow.innerHeight - 40 +'px'; //ng1
+			// let h = epubReader.viewer.contentWindow.innerHeight+100+'px'; //ng1
 			if (epubReader.viewer.contentDocument.documentElement) 
 				epubReader.viewer.contentDocument.documentElement.style.height = h;
 		}
@@ -417,7 +443,7 @@ function afterOpenBook(){
 		let li = $('<li>', {class: 'popover-item'})
 			.append($('<a>', { 
 				class   :'popover-link',
-				href	: epubReader.path+'/'+pointsToc[i]['content']['_src'],  	
+				href	: epubReader.path+'/'+pointsToc[i]['content']['_src']+Epub.se,  	
 				text	: pointsToc[i]['navLabel']['text'],
 				'book-index': htmlPartCounter,
 				click	: function(ev) {
@@ -430,13 +456,13 @@ function afterOpenBook(){
 							let href=$(this).attr('href'),
 								anchor = epubReader.getAnchor(href);
 							
-							if (anchor){
+							if (anchor){ // scroll to page
 								let cw = epubReader.viewer.contentWindow,
 									top = cw.document.getElementById(anchor).offsetTop,
 									page = Math.floor(top/cw.innerWidth);
 								cw.scroll(page*cw.innerWidth, 0);
 								// cw.scroll(3*cw.innerWidth, 0);
-								return false; // prevent click 
+								return false; // prevent click action
 							}
 							else;// do nothing
 						}

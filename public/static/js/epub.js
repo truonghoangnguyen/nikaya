@@ -31,8 +31,7 @@ class Epub {
 
 		// this.path = null;
 		// this.position = -1;
-		// this.bookExt = '' // @see 'se' extension
-		this.close()
+		this.close() // reset to zero
 	}
 
 	/**
@@ -41,7 +40,6 @@ class Epub {
 	close(){
 		this.path = null;
 		this.position = -1;
-		this.bookExt = '' // @see 'se' extension
 		this.toc = null; // json of toc.ncx
 	}
 
@@ -139,9 +137,10 @@ class Epub {
 	 */
 	_pageToIndex(page){
 		if (page){
-			let i = 0;
-			for(const t of this.pointsToc){
-				if(t.content === page)
+			let i = 0,
+				nav = this.toc.ncx.navMap.navPoint;
+			for(const t of nav){
+				if(t.content['_src'] === page)
 					return i;
 				i++;
 			}

@@ -41,18 +41,19 @@
     <link rel="icon" type="image/png" href="/static/favicon.ico">
 </head>
 
-<body style="height:100%; width:100%; padding:0px; margin:0px;">
+<body>
+    <!-- style="height:110%; width:100%; padding:0px; margin:0px;"> -->
 
     <!-- Primary Page Layout
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <div class="container">
-        <div class="navbar-spacer"></div>
+        <!-- <div class="navbar-spacer"></div> -->
         <nav class="navbar">
             <div class="container">
                 <ul class="navbar-list">
-                    <li class="navbar-item"><a class="navbar-link" href="/">Home</a></li>
+                    <li class="navbar-item"><a class="navbar-link book-control" href="/"><i class='icon'>&#x210D;</i> <i class='text'>Home</i></a></li>
                     <li class="navbar-item">
-                        <a class="navbar-link book-control" href="#" data-popover="#moreNavPopover"><i class='icon'>&plus;</i> <i class='text'>Mục lục</i></a>
+                        <a class="navbar-link book-control" href="#" data-popover="#moreNavPopover"><i class='icon'>&#x2630;</i> <i class='text'>Mục lục</i></a>
                         <div id="moreNavPopover" class="popover" style="min-width: 400px;position:absolute; z-index: 3; overflow-x: hidden; overflow-y: auto; height:calc(100vh - 66px);">
                             <ul class="popover-list" id="muclucItem">
                                 
@@ -61,8 +62,9 @@
                     </li>
                     <li class="navbar-item"><a class="navbar-link book-control" id="viewBack" href="#"><i class='icon'>&#8249;</i> <i class='text'>Prev</i></a></li>
                     <li class="navbar-item"><a class="navbar-link book-control" id="viewNext" href="#"><i class='text'>Next</i> <i class='icon'>&#8250;</i></a></li>
-                    <li class="navbar-item"><a class="navbar-link book-control" id="greyBook" href="#">&#x262F;</a></li>
-                    <!-- <li class="navbar-item"><a class="navbar-link" id="test" href="#">test</a></li> -->
+                    <li class="navbar-item"><a class="navbar-link book-control" id="greyBook" href="#">&#x263E;</a></li>
+                    <li class="navbar-item"><a class="navbar-link book-control" id="fullscreen" href="#">&#x274F;</a></li>
+                    
                 </ul>
             </div>
         </nav>
@@ -73,7 +75,6 @@
     </div>
     <div class="loader"></div>
     <iframe id="content_frame" class="viewer"></iframe>
-   
     <!-- <style type="text/css">
         /* default styles here for older browsers. 
         I tend to go for a 600px - 960px width max but using percentages
