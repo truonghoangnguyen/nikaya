@@ -1,3 +1,4 @@
+
 $(document).ready(function () {
 
 	// Variables
@@ -19,11 +20,13 @@ $(document).ready(function () {
 		$muclucLink = $('[data-mucluc]');
 
 	function init() {
-		$window.on('scroll', onScroll)
-		$window.on('resize', resize)
-		$popoverLink.on('click', openPopover)
-		$muclucLink.on('click', openMucluc)
-		$document.on('click', closePopover)
+		$window.on('scroll', onScroll);
+		$window.on('resize', resize);
+		$popoverLink.on('click', openPopover);
+		// $muclucLink.on('click', openMucluc);
+		$document.on('click', closePopover);
+		$('.navbar-item').on('click', closePopover);
+		
 		// $('a[href^="#"]').on('click', smoothScroll) ???
 		buildSnippets();
 		// init viewer
@@ -41,6 +44,12 @@ $(document).ready(function () {
 		});
 		$('#greyBook').on('click', e=>{
 			$(viewer.contentDocument.body).toggleClass('greyBook');
+		});
+		$('#incFont').on('click', e=>{
+			zoomBook(4);
+		});
+		$('#decFont').on('click', e=>{
+			zoomBook(-4);
 		});
 		$('#fullscreen').on('click', e=>{
 			let elem = document.body;
@@ -67,126 +76,156 @@ $(document).ready(function () {
 				}
 			}
 		});
-		$window.on('resize', function	(){ 
-			_fullHeightOfView();
+		$window.on('resize', function(){ 
+			if (epubReader.isOpen()){
+				resizeEpubView();
+			}
 		});
 
 		listEBook();
 		onKeyBoard();
-	
-		// call after open a book
-		viewer.addEventListener("load", ev => {
-			
-			const new_style_element = document.createElement("style");
-			new_style_element.textContent = `
-			html {
-				overflow: hidden;
-				direction: ltr !important;
-				margin-top: 12px !important;
-				-moz-column-width: 120mm !important;
-				-webkit-column-width: 120mm !important;
-				column-width: 120mm !important;
-				-moz-column-count: auto !important;
-				-webkit-column-count: auto !important;
-				column-count: auto !important;
-				-moz-column-fill: auto !important;
-				-webkit-column-fill: auto !important;
-				column-fill: auto !important;
-				-moz-column-gap: 0px !important;
-				-webkit-column-gap: 0px !important;
-				column-gap: 0px !important;
-				background-color: transparent !important; 
-			  }
-			  body {
-				margin-left: 0px !important;
-				margin-right: 0px !important;
-				font-size: 14pt !important;
-				text-align: justify !important;
-				padding-left: 6mm !important;
-				padding-right: 6mm !important;
-				background-color: transparent !important;
-				font-family: 'EB Garamond', serif !important; 
-				font-size:22px !important; 
-				line-height: 6 !important; 
-			  }
-			  div,
-			  span,
-			  p,
-			  ul,
-			  li,
-			  code,
-			  pre,
-			  a {
-				-moz-hyphens: auto !important;
-				-webkit-hyphens: auto !important;
-				-ms-hyphens: auto !important;
-				hypens: auto !important;
-				font-size: 14pt !important;
-				line-height: normal !important;
-				background-color: transparent !important;
-			  }
-			  h1,
-			  h2,
-			  h3,
-			  h4,
-			  h5,
-			  h6 {
-				background-color: transparent !important;
-			  }
-			  img {
-				max-width: 100% !important;
-			  }
-			  @media (max-device-width: 480px) {
-				html {
-					overflow: scroll !important;
-				}
-			  }
-			  .greyBook {
-				background-image: url("/static/css/grey.png");
-			  }
-			  .greyBook,
-			  .greyBook p,
-			  .greyBook h1,
-			  .greyBook h2,
-			  .greyBook h3,
-			  .greyBook h4,
-			  .greyBook h5,
-			  .greyBook h6,
-			  .greyBook .h1,
-			  .greyBook .h2,
-			  .greyBook .h3,
-			  .greyBook .h4,
-			  .greyBook .h5,
-			  .greyBook .h6 {
-				color: #ccc !important;
-			  }
-			  .greyBook a {
-				color: #e0e0e0 !important;
-			  }
-			  
-			`;
-
-			ev.target.contentDocument.head.appendChild(new_style_element);
-
-			const font = document.createElement("link");
-			font.href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap";
-			font.rel="stylesheet"
-			ev.target.contentDocument.head.appendChild(font)
-			
-			//ev.target.contentDocument = html loaded in iframe 
-			$(ev.target.contentDocument.body).addClass('greyBook');
-			_fullHeightOfView();
-		});
-
-		function _fullHeightOfView() {
+		viewer.addEventListener("load", ev => {initIframeView(ev)});
 		
-			// iframe innerHeight
-			// for setting iframe heigth 
-			let h = epubReader.viewer.contentWindow.innerHeight - 40 +'px'; //ng1
-			// let h = epubReader.viewer.contentWindow.innerHeight+100+'px'; //ng1
-			if (epubReader.viewer.contentDocument.documentElement) 
-				epubReader.viewer.contentDocument.documentElement.style.height = h;
-		}
+		// Zoom function
+        function _zoom_page(step, trigger)
+        {
+			var zoom_level=100;
+            // Zoom just to steps in or out
+            if(zoom_level>=120 && step>0 || zoom_level<=80 && step<0) return;
+
+            // Set / reset zoom
+            if(step==0) zoom_level=100;
+            else zoom_level=zoom_level+step;
+
+            // Set page zoom via CSS
+            $('body').css({
+                transform: 'scale('+(zoom_level/100)+')', // set zoom
+                transformOrigin: '50% 0' // set transform scale base
+            });
+
+            // Adjust page to zoom width
+            if(zoom_level>100) $('body').css({ width: (zoom_level*1.2)+'%' });
+            else $('body').css({ width: '100%' });
+
+            // Activate / deaktivate trigger (use CSS to make them look different)
+            if(zoom_level>=120 || zoom_level<=80) trigger.addClass('disabled');
+            else trigger.parents('ul').find('.disabled').removeClass('disabled');
+            if(zoom_level!=100) $('#zoom_reset').removeClass('disabled');
+            else $('#zoom_reset').addClass('disabled');
+        }
+
+		// call after open a book
+		// viewer.addEventListener("load", ev => {
+			
+		// 	const new_style_element = document.createElement("style");
+		// 	new_style_element.textContent = `
+		// 	html {
+		// 		overflow: hidden;
+		// 		direction: ltr !important;
+		// 		margin-top: 12px !important;
+		// 		-moz-column-width: 120mm !important;
+		// 		-webkit-column-width: 120mm !important;
+		// 		column-width: 120mm !important;
+		// 		-moz-column-count: auto !important;
+		// 		-webkit-column-count: auto !important;
+		// 		column-count: auto !important;
+		// 		-moz-column-fill: auto !important;
+		// 		-webkit-column-fill: auto !important;
+		// 		column-fill: auto !important;
+		// 		-moz-column-gap: 0px !important;
+		// 		-webkit-column-gap: 0px !important;
+		// 		column-gap: 0px !important;
+		// 		background-color: transparent !important; 
+		// 	  }
+		// 	  body {
+		// 		margin-left: 0px !important;
+		// 		margin-right: 0px !important;
+		// 		font-size: 14pt !important;
+		// 		text-align: justify !important;
+		// 		padding-left: 6mm !important;
+		// 		padding-right: 6mm !important;
+		// 		background-color: transparent !important;
+		// 		font-family: 'EB Garamond', serif !important; 
+		// 		line-height: 6 !important; 
+		// 	  }
+		// 	  div,
+		// 	  span,
+		// 	  p,
+		// 	  ul,
+		// 	  li,
+		// 	  code,
+		// 	  pre,
+		// 	  a {
+		// 		-moz-hyphens: auto !important;
+		// 		-webkit-hyphens: auto !important;
+		// 		-ms-hyphens: auto !important;
+		// 		hypens: auto !important;
+		// 		font-size: 14pt !important;
+		// 		line-height: normal !important;
+		// 		background-color: transparent !important;
+		// 	  }
+		// 	  h1,
+		// 	  h2,
+		// 	  h3,
+		// 	  h4,
+		// 	  h5,
+		// 	  h6 {
+		// 		background-color: transparent !important;
+		// 	  }
+		// 	  img {
+		// 		max-width: 100% !important;
+		// 	  }
+		// 	  @media (max-device-width: 480px) {
+		// 		html {
+		// 			overflow: scroll !important;
+		// 		}
+		// 	  }
+		// 	  .greyBook {
+		// 		background-image: url("/static/css/grey.png");
+		// 	  }
+		// 	  .greyBook,
+		// 	  .greyBook p,
+		// 	  .greyBook h1,
+		// 	  .greyBook h2,
+		// 	  .greyBook h3,
+		// 	  .greyBook h4,
+		// 	  .greyBook h5,
+		// 	  .greyBook h6,
+		// 	  .greyBook .h1,
+		// 	  .greyBook .h2,
+		// 	  .greyBook .h3,
+		// 	  .greyBook .h4,
+		// 	  .greyBook .h5,
+		// 	  .greyBook .h6 {
+		// 		color: #ccc !important;
+		// 	  }
+		// 	  .greyBook a {
+		// 		color: #e0e0e0 !important;
+		// 	  }
+			  
+		// 	`;
+
+		// 	ev.target.contentDocument.head.appendChild(new_style_element);
+
+		// 	const font = document.createElement("link");
+		// 	font.href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap";
+		// 	font.rel="stylesheet"
+		// 	ev.target.contentDocument.head.appendChild(font)
+			
+		// 	//ev.target.contentDocument = html loaded in iframe 
+		// 	$(ev.target.contentDocument.body).addClass('greyBook');
+		// 	_fullHeightOfView();
+		// });
+
+		// function _fullHeightOfView() {
+		
+		// 	// iframe innerHeight
+		// 	// for setting iframe heigth 
+		// 	let h = epubReader.viewer.contentWindow.innerHeight - 40 +'px'; //ng1
+		// 	// let h = epubReader.viewer.contentWindow.innerHeight+100+'px'; //ng1
+		// 	if (epubReader.viewer.contentDocument.documentElement) 
+		// 		epubReader.viewer.contentDocument.documentElement.style.height = h;
+		// }
 
 		function _nextPage() {
 			// +----------+ |
@@ -271,13 +310,13 @@ $(document).ready(function () {
 	    });
 	}
 
-	function openMucluc(e) {
-		e.preventDefault()
-		closePopover();
-		var popover = $($(this).data('popover'));
-		popover.toggleClass('open')
-		e.stopImmediatePropagation();
-	}
+	// function openMucluc(e) {
+	// 	e.preventDefault()
+	// 	closePopover();
+	// 	var popover = $($(this).data('popover'));
+	// 	popover.toggleClass('open')
+	// 	e.stopImmediatePropagation();
+	// }
 
 	function openPopover(e) {
 		e.preventDefault()
@@ -395,7 +434,9 @@ function router() {
 			let page = undefined;
 			if (rePaths[2]) page = rePaths[2];
 			epubReader.setPath(bookpath);
-			epubReader.view(afterOpenBook, page);
+			// epubReader.view(afterOpenBook, page);
+			epubReader.openBook().then(()=>{afterOpenBook(page);});
+			// epubReader.open_content_opf(afterOpenBook, page);
 			hideBookList();
 			return;
 		
@@ -414,14 +455,23 @@ function router() {
 }
 
 /**
- * after open book, UI show mucluc
- * TODO: 
+ * callback after open a book, view mucluc and control
+ * @param {*} page 
  */
-function afterOpenBook(){
-
+function afterOpenBook(page){
+	// update title
 	document.title = epubReader.toc.ncx.docTitle.text;
+	// read first page
+	epubReader.readItem(page, function(){
+		// close menu
+		$(epubReader.viewer.contentWindow.document).on('click', function(event){
+			if ($('.popover.open').length > 0) {
+				$('.popover').removeClass('open')
+			}
+		});
+	});	
 
-	function removeAnchorHtmlPart(part) {
+	function _removeAnchorHtmlPart(part) {
 		if (part.lastIndexOf('#') >= 0){
 			return part.substr(0, part.lastIndexOf('#'));
 		}
@@ -431,10 +481,10 @@ function afterOpenBook(){
 	var ul = $("#muclucItem"),
 	 	pointsToc = epubReader.toc.ncx.navMap.navPoint,
 		htmlPartCounter = 0,
-		currHtmlPart = removeAnchorHtmlPart(pointsToc[0]['content']['_src']);
+		currHtmlPart = _removeAnchorHtmlPart(pointsToc[0]['content']['_src']);
 
 	for (let i = 0; i < pointsToc.length; i++) {
-		let p = removeAnchorHtmlPart(pointsToc[i]['content']['_src']);
+		let p = _removeAnchorHtmlPart(pointsToc[i]['content']['_src']);
 		if (p !== currHtmlPart){
 			currHtmlPart = p;
 			htmlPartCounter ++;

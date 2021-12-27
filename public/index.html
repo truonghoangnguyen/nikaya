@@ -33,6 +33,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="/static/js/xml2json.js"></script>
     <script src="/static/js/booklist.js"></script>
+    <script src="/static/js/epubview.js"></script>
     <script src="/static/js/epub.js"></script>
     <script src="/static/js/site.js"></script>
     
@@ -51,19 +52,28 @@
         <nav class="navbar">
             <div class="container">
                 <ul class="navbar-list">
-                    <li class="navbar-item"><a class="navbar-link book-control" href="/"><i class='icon'>&#x210D;</i> <i class='text'>Home</i></a></li>
+                    <li class="navbar-item"><a class="navbar-link " href="/"><i class='icon'>&#x210D;</i> <i class='text'>Home</i></a></li>
                     <li class="navbar-item">
+                      <a class="navbar-link book-control" href="#" data-popover="#codeNavPopover"><i class='icon'>&#x2630;</i></a>
+                      <div id="codeNavPopover" class="popover muclucDiv">
+                        <ul class="popover-list" id="muclucItem">
+                                
+                        </ul>
+
+                    <!-- <li class="navbar-item">
                         <a class="navbar-link book-control" href="#" data-popover="#moreNavPopover"><i class='icon'>&#x2630;</i> <i class='text'>Mục lục</i></a>
-                        <div id="moreNavPopover" class="popover" style="min-width: 400px;position:absolute; z-index: 3; overflow-x: hidden; overflow-y: auto; height:calc(100vh - 66px);">
+                        <div id="moreNavPopover" class="popover muclucDiv">
                             <ul class="popover-list" id="muclucItem">
                                 
                             </ul>
                         </div>
-                    </li>
-                    <li class="navbar-item"><a class="navbar-link book-control" id="viewBack" href="#"><i class='icon'>&#8249;</i> <i class='text'>Prev</i></a></li>
-                    <li class="navbar-item"><a class="navbar-link book-control" id="viewNext" href="#"><i class='text'>Next</i> <i class='icon'>&#8250;</i></a></li>
-                    <li class="navbar-item"><a class="navbar-link book-control" id="greyBook" href="#">&#x263E;</a></li>
-                    <li class="navbar-item"><a class="navbar-link book-control" id="fullscreen" href="#">&#x274F;</a></li>
+                    </li> -->
+                    <li class="navbar-item"><a class="navbar-link book-control" id="viewBack" href="#"><i class='icon'>&#x3c;</i></a></li>
+                    <li class="navbar-item"><a class="navbar-link book-control" id="viewNext" href="#"><i class='icon'>&#x3e;</i></a></li>
+                    <li class="navbar-item"><a class="navbar-link book-control" id="greyBook" href="#"><i class='icon'>&#x2600;</i></a></li>
+                    <li class="navbar-item"><a class="navbar-link book-control" id="fullscreen" href="#"><i class='icon'>&#x274F;</i></a></li>
+                    <li class="navbar-item"><a class="navbar-link book-control" id="incFont" href="#"><i class='icon'>&#x2b;</i></a></li>
+                    <li class="navbar-item"><a class="navbar-link book-control" id="decFont" href="#"><i class='icon'>&#x2212;</i></a></li>
                     
                 </ul>
             </div>

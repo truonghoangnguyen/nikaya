@@ -23,14 +23,12 @@
 //  <content src="index_split_000.html#p2"/>
 // </navPoint>
 class Epub {
+	//http://idpf.org/epub/linking/cfi/
 	// firebase call html page directly so we must change html to something else (se)
 	static se = '.se';
 
 	constructor(viewer){
 		this.viewer = viewer;
-
-		// this.path = null;
-		// this.position = -1;
 		this.close() // reset to zero
 	}
 
@@ -41,13 +39,14 @@ class Epub {
 		this.path = null;
 		this.position = -1;
 		this.toc = null; // json of toc.ncx
+		this.contentOpf = null;
 	}
 
 	/**
 	 * is on view book
 	 */
 	isOpen(){
-		return (this.path != null)
+		return (this.path != null);
 	}
 
 	/**
@@ -71,12 +70,15 @@ class Epub {
 
 	nextPage(onLoadPartDone=undefined){
 		let i = this.position+1;
-		this.readPart(i, onLoadPartDone);
+		this._readItem(i, onLoadPartDone);
+		// this.readPart(i, onLoadPartDone);
 	}
 
 	prevPage(onLoadPartDone=undefined){
 		let i = this.position-1;
-		this.readPart(i, onLoadPartDone);
+		this._readItem(i, onLoadPartDone);
+
+		// this.readPart(i, onLoadPartDone);
 	}
 
 	/**
@@ -85,6 +87,7 @@ class Epub {
 	 * @param {*} url 
 	 */
 	removePlusExt(url){
+		if (!url) return url;
 		if(url.match(/.*\.se$/)){
 			return url.substring(0, url.length - 3);
 		}
@@ -129,7 +132,6 @@ class Epub {
 		}
 	}
 
-
 	/**
 	 * page-name from url to index in toc
 	 * @param {string} page in format part-1.html
@@ -154,99 +156,163 @@ class Epub {
 	 * @param {callback function} cbLoaddone call when load done
 	 * @param page = page to view
 	 */
-	view(cbLoaddone, page=undefined) {
+	// view(cbLoaddone, page=undefined) {
+	// 	const p = this.path+"/toc.ncx";
+	// 	fetch(p)
+	// 		.then(r => r.text())
+	// 		.then(t => {
+	// 			this.read_tocncx(t, cbLoaddone);    // view mucluc
+	// 			let i = this._pageToIndex(page)
+	// 			this.readPart(i);    				// view first page
+	// 		});
+	// }
+   
+	openBook(page){
+		return Promise.all([
+			this._read_content_opf(),
+			this._read_toc_ncx()
+		]);
+	}
+
+	async _read_toc_ncx() {
 		const p = this.path+"/toc.ncx";
-		fetch(p)
+		return fetch(p)
 			.then(r => r.text())
 			.then(t => {
-				this.read_tocncx(t, cbLoaddone);    // view mucluc
-				let i = this._pageToIndex(page)
-				this.readPart(i);    				// view first page
+				try {
+					let x2js = new X2JS();
+					this.toc = x2js.xml_str2json(t);
+					console.log("toc.ncx");
+				}
+				catch (e) {
+					throw e;
+				}  				// view first page
 			});
 	}
-   
 
-	read_tocncx(content, cbLoaddone) {
+	
+	/**
+	 * Open a book
+	 * @param {callback function} cbLoaddone call when load done
+	 * @param page = page to view
+	 * async function hello() { return "Hello" };
+	hello().then((value) => console.log(value))
+
+	 */
+	async _read_content_opf(page=undefined) {
+		const p = this.path+"/content.opf";
+		return fetch(p)
+			.then(r => r.text())
+			.then(t => {
+				try {
+					let x2js = new X2JS();
+					this.contentOpf = x2js.xml_str2json(t);
+
+					console.log("content.opf");
+				}
+				catch (e) {
+					throw e;
+				}  				// view first page
+
+			});
+
+
+		// const p = this.path+"/content.opf";
+		// fetch(p)
+		// 	.then(r => r.text())
+		// 	.then(t => {
+		// 		//this._contentOpf(t);   			// view mucluc
+		// 		//this._loadToc();
+		// 		let i = this._hrefToIndex(page)
+		// 		this._readItem(i);    				// view first page
+		// 		return this;						// oh old friend, return nightmare *this* again
+		// 	});
+	}
+
+	/**
+	 * read content 
+	 * @param {*} content 
+	 */
+	 _contentOpf(content, afterLoaddone=undefined){
 		try {
-			//var parser = new DOMParser();
-
-			// content = content.replace(/xml version="1\.1"/, 'xml version="1.0"');
-			// content = content.replace(/&(?!amp;)([a-z]+;)/gi, "&amp;$1");
-			// content = content.replace(/&(?![a-z]+;)/gi, "&amp;");
-
 			let x2js = new X2JS();
             // var jsonObj = x2js.xml_str2json(content);
-			this.toc = x2js.xml_str2json(content);
-			// var nav = parser.parseFromString(content, "text/xml");
-			// var navMap = nav.getElementsByTagNameNS("*", "navMap")[0];
-			// var navPoints = navMap.getElementsByTagNameNS("*", "navPoint");
+			this.contentOpf = x2js.xml_str2json(content);
+			this._read_tocncx();
+			if (afterLoaddone) afterLoaddone()
 		}
 		catch (e) {
 			throw e;
 		}
-
-		// this.pointsToc = [];
-
-		// if (navPoints && navPoints.length > 0) {
-		// 	var pointCounter = 0;
-
-		// 	for (var i = 0; i < navPoints.length; i++) {
-		// 		try {
-		// 			var label = navPoints[i].getElementsByTagNameNS("*", "navLabel")[0]
-		// 				.getElementsByTagNameNS("*", "text")[0].textContent;
-
-		// 			var content = navPoints[i].getElementsByTagNameNS("*", "content")[0].getAttribute("src");
-		// 			var navPoint = navPoints[i];
-		// 			var point = [];
-
-		// 			for (var j = 1; j < 10; j++) {
-		// 				var parent = navPoint.parentNode;
-
-		// 				if (!parent.nodeName.match("navPoint")) {
-		// 					point['level'] = j;
-		// 					break;
-		// 				}
-		// 				else {
-		// 					navPoint = parent;
-		// 				}
-		// 			}
-
-		// 			point['label'] = label;
-		// 			point['content'] = content + Epub.se; // remove .html extension to 
-
-		// 			this.pointsToc[pointCounter] = point;
-		// 			pointCounter++;
-		// 		}
-		// 		catch (e) {
-		// 		}
-		// 	}
-		// }
-		// callback when load book done (for UI refresh)
-		cbLoaddone();
 	}
+	
+
+	/**
+	 * page = index_split_002.html
+	 * <item id="id254" href="index_split_002.html" media-type="application/xhtml+xml"/>
+	 * @param {string} page in format part-1.html
+	 * return index to Toc 
+	 */
+	_hrefToIndex(page){
+		if (page){
+			let i = 0,
+				nav = this.contentOpf.package.manifest.item;
+			for(const t of nav){
+				if(t['_href'] === page)
+					return i;
+				i++;
+			}
+			return 0;
+		}
+		else
+			return 0; // first page
+	}
+
+	/**
+	 * <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
+	 * @param {page name} page 
+	 */
+	readItem(page, onLoadPartDone){
+		page = this.removePlusExt(page); 
+		let i = this._hrefToIndex(page)
+		this._readItem(i, onLoadPartDone);
+	}
+	/**
+	 * read a html part, from content.opf
+	 * TODO: add  sign when event begin-end load load page.
+      <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
+	 * 
+	 * @param {*} position 
+	 * @param {*} onLoadPartDone 
+	 */
+	_readItem(position, onLoadPartDone=undefined){
+		if(!Number.isInteger(position))
+			throw 'Parameter is not a number!';
+		let pointsToc = this.contentOpf.package.manifest.item;
+		if (position < 0){
+			position = 0;
+		}
+		else if(position >= pointsToc.length){
+			position = pointsToc.length - 1;
+		}
+		this.position = position;
+		let point = pointsToc[position];
+
+		let url = this.path +"/" + point['_href'];
+		url = this.removePlusExt(url);
+		this.viewer.src = url;
+
+		// setup viewer, after load done, update View
+		$(this.viewer).addClass('open'); // show viewer iframe
+
+		// callback when load done
+		if (onLoadPartDone){
+			$(this.viewer).on('load', e=>{
+				onLoadPartDone();
+				$(this.viewer).unbind('load');
+			});
+		}
+	}
+	
 }
 
-
-
-
-/*
-<script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  const firebaseConfig = {
-	apiKey: "AIzaSyA7xgfdWa0XDlTh1E9GoROcLClCZIfAQuI",
-	authDomain: "singlepage-717c0.firebaseapp.com",
-	projectId: "singlepage-717c0",
-	storageBucket: "singlepage-717c0.appspot.com",
-	messagingSenderId: "426864728301",
-	appId: "1:426864728301:web:1282f117094e98b392d4e4"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-</script>
-*/
