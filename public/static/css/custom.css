@@ -346,6 +346,9 @@
 
 @media only screen and (max-device-width: 480px) {
   /* styles for mobile browsers smaller than 480px; (iPhone) */
+  .navbar-link i.text {
+    display: none;
+  }
   .book-control i.icon {
     display: block;
   }
@@ -440,4 +443,8 @@
 }
 .loader.open {
   display: block;
+}
+
+#books .title {
+  font-size: x-large;
 }

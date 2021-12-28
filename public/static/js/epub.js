@@ -49,21 +49,6 @@ class Epub {
 		return (this.path != null);
 	}
 
-	/**
-	 * get html anchor
-	 * @param {string} part 
-	 * return undefined if not found
-	 */
-	getAnchor(part){
-		if(part.lastIndexOf('#') == -1)
-			return undefined;
-
-		let x = part.substring (part.lastIndexOf('#')+1);
-		if (x.lastIndexOf('.se') == -1)
-			return x;
-		return x.substring (0, x.lastIndexOf('.se'))
-	}
-
 	setPath(path){
 		this.path = path;
 	}
@@ -82,17 +67,66 @@ class Epub {
 	}
 
 	/**
+	 * get html anchor
+	 * @param {string} part 
+	 * return undefined if not found
+	 */
+	getAnchor(part){
+		if(part.lastIndexOf('#') == -1)
+			return undefined;
+
+		let x = part.substring (part.lastIndexOf('#')+1);
+		if (x.lastIndexOf('.se') == -1)
+			return x;
+		return x.substring (0, x.lastIndexOf('.se'))
+	}
+
+		
+	/**
+	 * a.html -> a.html.se
+	 * a.html#anchor ->a.html.se#anchor
+	 * @param {string} url 
+	 */
+	addPlusExt(url){
+		if (!url) return url;
+		// if no anchor
+		if(url.lastIndexOf('#') == -1)
+			return url + Epub.se;
+	  	// else, get anchor and 
+		let noanchor = url.substring (0, url.lastIndexOf('#'));
+		let anchor = url.substring (url.lastIndexOf('#'), url.length);
+		return noanchor + Epub.se + anchor;
+	}
+
+	/**
 	 * We add end of .html files with own '.se' extension, so remove when
+	 * a.html.se -> a.html
+	 * a.html.se#anchor -> a.html#anchor
 	 * @see static se
 	 * @param {*} url 
 	 */
 	removePlusExt(url){
 		if (!url) return url;
-		if(url.match(/.*\.se$/)){
-			return url.substring(0, url.length - 3);
+		if(!url.match(/.*\.se/)) return url;
+		// no anchor
+		if(url.lastIndexOf('#') == -1){
+			// if end of url is .se
+			if(url.match(/.*\.se$/)){
+				return url.substring(0, url.length - 3);
+			}
+			return url;
 		}
-		return url;
+		else{
+			let noanchor = url.substring (0, url.lastIndexOf('#'));
+			let anchor = url.substring (url.lastIndexOf('#'), url.length);
+			if(noanchor.match(/.*\.se$/)){
+				return noanchor.substring(0, noanchor.length - 3)+anchor;
+			}
+			return noanchor + anchor;
+		}
 	}
+
+	
 
 	/**
 	 * read a html part, 
