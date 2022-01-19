@@ -20,7 +20,6 @@ $(document).ready(function () {
 		$muclucLink = $('[data-mucluc]');
 
 	$(window).on("beforeunload", function () {
-		localStorage.setItem("nguyen", "a");
 		if (epubView.epub.isOpen()) {
 			epubView.saveLastView();
 		}

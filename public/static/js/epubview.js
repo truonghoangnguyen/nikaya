@@ -138,7 +138,8 @@ class EpubView {
 		// for page control
 		this.pageXOffset = 0; // top-left of view
 		this.lastPart = null; // last part of book viewed
-		this.epub = new Epub()
+		this.epub = new Epub();
+		this.allowMove = true;
 	}
 	setPath(path) {
 		this.epub.setPath(path);
@@ -177,11 +178,16 @@ class EpubView {
 	}
 
 	_showItem(item, onLoadPartDone = undefined, scroll = -1) {
+		this.allowMove = false;
 		//this.viewItem(point, onLoadPartDone);
 		// begin view item
-		let url = this.epub.path + "/" + item['_href'];
-		url = Epub.removePlusExt(url);
+		let uraw = this.epub.path + "/" + item['_href'];
+		console.log(uraw);
+		history.pushState({}, '', Epub.addPlusExt(uraw));
+		let url = Epub.removePlusExt(uraw);
+		$('.loader').addClass('open');
 		this.iframe.src = url;
+
 
 		// setup viewer, after load done, update View
 		$(this.iframe).addClass('open'); // show viewer iframe
@@ -193,34 +199,16 @@ class EpubView {
 				onLoadPartDone();
 			}
 			$(this.iframe).unbind('load');
+
 			// scrool if required
 			if (scroll != -1) {
 				me._scroll(scroll);
 			}
+			me.allowMove = true;
+			$('.loader').removeClass('open');
 		});
 		this.lastPart = item;
 	}
-	// /**
-	//  * display url in iframe
-	//  * @param {*} url 
-	//  */
-	// viewItem_(item, onLoadPartDone = undefined) {
-	// 	let url = this.epub.path + "/" + item['_href'];
-	// 	url = Epub.removePlusExt(url);
-	// 	this.iframe.src = url;
-
-	// 	// setup viewer, after load done, update View
-	// 	$(this.iframe).addClass('open'); // show viewer iframe
-
-	// 	// callback when load done
-	// 	if (onLoadPartDone) {
-	// 		$(this.iframe).on('load', e => {
-	// 			onLoadPartDone();
-	// 			$(this.iframe).unbind('load');
-	// 		});
-	// 	}
-	// 	this.lastPart = item;
-	// }
 
 
 	/**
@@ -270,6 +258,8 @@ class EpubView {
 	 * save last view of a book
 	 */
 	saveLastView() {
+		if (!this.lastPart) return;
+
 		let booksLastView = JSON.parse(localStorage.getItem("booksLastView")) || [];
 		let isnew = true;
 		for (const e of booksLastView) {
@@ -290,7 +280,6 @@ class EpubView {
 		}
 
 		localStorage.setItem("booksLastView", JSON.stringify(booksLastView))
-		console.log(JSON.stringify(booksLastView));
 	}
 
 	/**
@@ -317,13 +306,14 @@ class EpubView {
 
 
 	prevPage() {
+		if (!this.allowMove) return;
+
 		let cw = this.iframe.contentWindow;
 		if (cw.pageXOffset > 0) {
 			this._scroll(cw.pageXOffset - cw.innerWidth);
 		}
 		else {
-			// load next page
-			$('.loader').toggleClass('open');
+
 			this.goItem(-1, onLoadPartDone);
 			var me = this;
 			function onLoadPartDone() {
@@ -332,8 +322,7 @@ class EpubView {
 					maxw = me.iframe.contentDocument.documentElement.scrollWidth,
 					page = Math.floor(maxw / cw.innerWidth);
 
-				this._scroll(Math.floor(page * cw.innerWidth));
-				$('.loader').toggleClass('open');
+				me._scroll(Math.floor(page * cw.innerWidth));
 			}
 			this._scroll(cw.pageXOffset + cw.innerWidth);
 		}
@@ -341,6 +330,8 @@ class EpubView {
 
 
 	nextPage() {
+		if (!this.allowMove) return;
+
 		let cw = this.iframe.contentWindow,
 			maxw = this.iframe.contentDocument.documentElement.scrollWidth;
 		// some calc result 0.xyz, so round number to 1 pixel
@@ -351,10 +342,9 @@ class EpubView {
 		}
 		else {
 			// load next page
-			$('.loader').toggleClass('open');
 
 			//this.epub.nextPage(() => { $('.loader').toggleClass('open') });
-			this.goItem(1, () => { $('.loader').toggleClass('open') });
+			this.goItem(1, () => { });
 		}
 	}
 }
