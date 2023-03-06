@@ -1,0 +1,1125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta name="dtb:uid" content="4324c47d-c7f4-49d3-b2e1-01ecbae110f9"/>
+    <meta name="dtb:depth" content="3"/>
+    <meta name="dtb:generator" content="calibre (5.32.0)"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>kinh-tang-chi-bo-ht-minh-chau-dich</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1" class="chapter">
+      <navLabel>
+        <text>Giới thiệu</text>
+      </navLabel>
+      <content src="index_split_000.html#p6"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="2" class="chapter">
+      <navLabel>
+        <text>Chương I - Một Pháp</text>
+      </navLabel>
+      <content src="index_split_000.html#p7"/>
+      <navPoint id="num_3" playOrder="2" class="chapter">
+        <navLabel>
+          <text>I. Phẩm Sắc</text>
+        </navLabel>
+        <content src="index_split_000.html#p7"/>
+      </navPoint>
+      <navPoint id="num_4" playOrder="3" class="chapter">
+        <navLabel>
+          <text>II. Phẩm Ðoạn Triền Cái</text>
+        </navLabel>
+        <content src="index_split_000.html#p8"/>
+      </navPoint>
+      <navPoint id="num_5" playOrder="4" class="chapter">
+        <navLabel>
+          <text>III. Phẩm Khó Sử Dụng</text>
+        </navLabel>
+        <content src="index_split_000.html#p9"/>
+      </navPoint>
+      <navPoint id="num_6" playOrder="5" class="chapter">
+        <navLabel>
+          <text>IV. Phẩm Không Ðiều Phục</text>
+        </navLabel>
+        <content src="index_split_000.html#p10"/>
+      </navPoint>
+      <navPoint id="num_7" playOrder="6" class="chapter">
+        <navLabel>
+          <text>V. Phẩm Ðặt Hướng và Trong Sáng</text>
+        </navLabel>
+        <content src="index_split_000.html#p11"/>
+      </navPoint>
+      <navPoint id="num_8" playOrder="7" class="chapter">
+        <navLabel>
+          <text>VI. Phẩm Búng Ngón Tay</text>
+        </navLabel>
+        <content src="index_split_000.html#p13"/>
+      </navPoint>
+      <navPoint id="num_9" playOrder="8" class="chapter">
+        <navLabel>
+          <text>VII. Phẩm Tinh Tấn</text>
+        </navLabel>
+        <content src="index_split_000.html#p15"/>
+      </navPoint>
+      <navPoint id="num_10" playOrder="9" class="chapter">
+        <navLabel>
+          <text>VIII. Phẩm Làm Bạn Với Thiện</text>
+        </navLabel>
+        <content src="index_split_000.html#p16"/>
+      </navPoint>
+      <navPoint id="num_11" playOrder="10" class="chapter">
+        <navLabel>
+          <text>IX. Phẩm Phóng Dật</text>
+        </navLabel>
+        <content src="index_split_000.html#p17"/>
+      </navPoint>
+      <navPoint id="num_12" playOrder="11" class="chapter">
+        <navLabel>
+          <text>X. Phẩm Phi Pháp (1)</text>
+        </navLabel>
+        <content src="index_split_000.html#p18"/>
+      </navPoint>
+      <navPoint id="num_13" playOrder="12" class="chapter">
+        <navLabel>
+          <text>XI. Phẩm Thứ Mười Một</text>
+        </navLabel>
+        <content src="index_split_000.html#p20"/>
+      </navPoint>
+      <navPoint id="num_14" playOrder="13" class="chapter">
+        <navLabel>
+          <text>XII. Phẩm Vô Phạm</text>
+        </navLabel>
+        <content src="index_split_000.html#p21"/>
+      </navPoint>
+      <navPoint id="num_15" playOrder="14" class="chapter">
+        <navLabel>
+          <text>XIII. Phẩm Một Người</text>
+        </navLabel>
+        <content src="index_split_000.html#p22"/>
+      </navPoint>
+      <navPoint id="num_16" playOrder="15" class="chapter">
+        <navLabel>
+          <text>XIV. Phẩm Người Tối Thắng</text>
+        </navLabel>
+        <content src="index_split_000.html#p23"/>
+      </navPoint>
+      <navPoint id="num_17" playOrder="16" class="chapter">
+        <navLabel>
+          <text>XV. Phẩm Không Thể Có Ðược</text>
+        </navLabel>
+        <content src="index_split_000.html#p28"/>
+      </navPoint>
+      <navPoint id="num_18" playOrder="17" class="chapter">
+        <navLabel>
+          <text>XVI. Phẩm Một Pháp</text>
+        </navLabel>
+        <content src="index_split_000.html#p31"/>
+      </navPoint>
+      <navPoint id="num_19" playOrder="17" class="chapter">
+        <navLabel>
+          <text>XVII. Phẩm Chủng Tử</text>
+        </navLabel>
+        <content src="index_split_000.html#p31"/>
+      </navPoint>
+      <navPoint id="num_20" playOrder="18" class="chapter">
+        <navLabel>
+          <text>XVIII. Phẩm Makkhali</text>
+        </navLabel>
+        <content src="index_split_000.html#p33"/>
+      </navPoint>
+      <navPoint id="num_21" playOrder="19" class="chapter">
+        <navLabel>
+          <text>XIX. Phẩm Không Phóng Dật</text>
+        </navLabel>
+        <content src="index_split_000.html#p35"/>
+      </navPoint>
+      <navPoint id="num_22" playOrder="20" class="chapter">
+        <navLabel>
+          <text>XX. Phẩm Thiền Ðịnh</text>
+        </navLabel>
+        <content src="index_split_000.html#p38"/>
+      </navPoint>
+      <navPoint id="num_23" playOrder="21" class="chapter">
+        <navLabel>
+          <text>XXI. Phẩm Thiền Ðịnh (2)</text>
+        </navLabel>
+        <content src="index_split_001.html#p42"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_24" playOrder="22" class="chapter">
+      <navLabel>
+        <text>Chương II - Hai Pháp</text>
+      </navLabel>
+      <content src="index_split_001.html#p45"/>
+      <navPoint id="num_25" playOrder="22" class="chapter">
+        <navLabel>
+          <text>I. Phẩm Hình Phạt</text>
+        </navLabel>
+        <content src="index_split_001.html#p45"/>
+      </navPoint>
+      <navPoint id="num_26" playOrder="23" class="chapter">
+        <navLabel>
+          <text>II. Phẩm Tranh Luận</text>
+        </navLabel>
+        <content src="index_split_001.html#p48"/>
+      </navPoint>
+      <navPoint id="num_27" playOrder="24" class="chapter">
+        <navLabel>
+          <text>III. Phẩm Người Ngu</text>
+        </navLabel>
+        <content src="index_split_001.html#p54"/>
+      </navPoint>
+      <navPoint id="num_28" playOrder="25" class="chapter">
+        <navLabel>
+          <text>IV. Phẩm Tâm Thăng Bằng</text>
+        </navLabel>
+        <content src="index_split_001.html#p56"/>
+      </navPoint>
+      <navPoint id="num_29" playOrder="26" class="chapter">
+        <navLabel>
+          <text>V. Phẩm Hội Chúng</text>
+        </navLabel>
+        <content src="index_split_001.html#p63"/>
+      </navPoint>
+      <navPoint id="num_30" playOrder="27" class="chapter">
+        <navLabel>
+          <text>VI. Phẩm Người</text>
+        </navLabel>
+        <content src="index_split_001.html#p69"/>
+      </navPoint>
+      <navPoint id="num_31" playOrder="28" class="chapter">
+        <navLabel>
+          <text>VII. Phẩm Lạc</text>
+        </navLabel>
+        <content src="index_split_001.html#p71"/>
+      </navPoint>
+      <navPoint id="num_32" playOrder="29" class="chapter">
+        <navLabel>
+          <text>VIII. Phẩm Tướng</text>
+        </navLabel>
+        <content src="index_split_001.html#p72"/>
+      </navPoint>
+      <navPoint id="num_33" playOrder="30" class="chapter">
+        <navLabel>
+          <text>IX. Phẩm Các Pháp</text>
+        </navLabel>
+        <content src="index_split_001.html#p73"/>
+      </navPoint>
+      <navPoint id="num_34" playOrder="30" class="chapter">
+        <navLabel>
+          <text>X. Phảm Kẻ Ngu</text>
+        </navLabel>
+        <content src="index_split_001.html#p73"/>
+      </navPoint>
+      <navPoint id="num_35" playOrder="31" class="chapter">
+        <navLabel>
+          <text>XI. Phẩm Các Hy Vọng</text>
+        </navLabel>
+        <content src="index_split_001.html#p76"/>
+      </navPoint>
+      <navPoint id="num_36" playOrder="32" class="chapter">
+        <navLabel>
+          <text>XII. Phẩm Hy Cầu</text>
+        </navLabel>
+        <content src="index_split_001.html#p77"/>
+      </navPoint>
+      <navPoint id="num_37" playOrder="33" class="chapter">
+        <navLabel>
+          <text>XIII. Phẩm Bố Thí</text>
+        </navLabel>
+        <content src="index_split_001.html#p79"/>
+      </navPoint>
+      <navPoint id="num_38" playOrder="34" class="chapter">
+        <navLabel>
+          <text>XIV. Phẩm Ðón Chào</text>
+        </navLabel>
+        <content src="index_split_001.html#p80"/>
+      </navPoint>
+      <navPoint id="num_39" playOrder="34" class="chapter">
+        <navLabel>
+          <text>XV. Phẩm Nhập Ðịnh</text>
+        </navLabel>
+        <content src="index_split_001.html#p80"/>
+      </navPoint>
+      <navPoint id="num_40" playOrder="35" class="chapter">
+        <navLabel>
+          <text>XVII. Phẩm Thứ Mười Bảy</text>
+        </navLabel>
+        <content src="index_split_001.html#p84"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_41" playOrder="36" class="chapter">
+      <navLabel>
+        <text>Chương III - Ba Pháp</text>
+      </navLabel>
+      <content src="index_split_001.html#p85"/>
+      <navPoint id="num_42" playOrder="36" class="chapter">
+        <navLabel>
+          <text>I. Phẩm Người Ngu</text>
+        </navLabel>
+        <content src="index_split_001.html#p85"/>
+      </navPoint>
+      <navPoint id="num_43" playOrder="37" class="chapter">
+        <navLabel>
+          <text>II. Phẩm Người Ðóng Xe</text>
+        </navLabel>
+        <content src="index_split_001.html#p89"/>
+      </navPoint>
+      <navPoint id="num_44" playOrder="38" class="chapter">
+        <navLabel>
+          <text>III. Phẩm Người</text>
+        </navLabel>
+        <content src="index_split_002.html#p100"/>
+      </navPoint>
+      <navPoint id="num_45" playOrder="39" class="chapter">
+        <navLabel>
+          <text>IV. Phẩm Sứ Giả Của Trời</text>
+        </navLabel>
+        <content src="index_split_002.html#p113"/>
+      </navPoint>
+      <navPoint id="num_46" playOrder="40" class="chapter">
+        <navLabel>
+          <text>V. Phẩm Nhỏ</text>
+        </navLabel>
+        <content src="index_split_002.html#p131"/>
+      </navPoint>
+      <navPoint id="num_47" playOrder="41" class="chapter">
+        <navLabel>
+          <text>VI. Phẩm Các Bà La Môn</text>
+        </navLabel>
+        <content src="index_split_002.html#p136"/>
+      </navPoint>
+      <navPoint id="num_48" playOrder="42" class="chapter">
+        <navLabel>
+          <text>VII. Phẩm Lớn</text>
+        </navLabel>
+        <content src="index_split_002.html#p154"/>
+      </navPoint>
+      <navPoint id="num_49" playOrder="43" class="chapter">
+        <navLabel>
+          <text>VIII. Phẩm Ananda</text>
+        </navLabel>
+        <content src="index_split_003.html#p195"/>
+      </navPoint>
+      <navPoint id="num_50" playOrder="44" class="chapter">
+        <navLabel>
+          <text>IX. Phẩm Sa-Môn</text>
+        </navLabel>
+        <content src="index_split_003.html#p208"/>
+      </navPoint>
+      <navPoint id="num_51" playOrder="45" class="chapter">
+        <navLabel>
+          <text>X. Phẩm Hạt Muối</text>
+        </navLabel>
+        <content src="index_split_004.html#p217"/>
+      </navPoint>
+      <navPoint id="num_52" playOrder="46" class="chapter">
+        <navLabel>
+          <text>XI. Phẩm Chánh Giác</text>
+        </navLabel>
+        <content src="index_split_004.html#p233"/>
+      </navPoint>
+      <navPoint id="num_53" playOrder="47" class="chapter">
+        <navLabel>
+          <text>XII. Phẩm Ðọa Xứ</text>
+        </navLabel>
+        <content src="index_split_004.html#p240"/>
+      </navPoint>
+      <navPoint id="num_54" playOrder="48" class="chapter">
+        <navLabel>
+          <text>XIII. Phẩm Kusinàra</text>
+        </navLabel>
+        <content src="index_split_004.html#p248"/>
+      </navPoint>
+      <navPoint id="num_55" playOrder="49" class="chapter">
+        <navLabel>
+          <text>XIV. Phẩm Kẻ Chiến Sĩ</text>
+        </navLabel>
+        <content src="index_split_004.html#p258"/>
+      </navPoint>
+      <navPoint id="num_56" playOrder="50" class="chapter">
+        <navLabel>
+          <text>XV. Phẩm Cát Tường</text>
+        </navLabel>
+        <content src="index_split_005.html#p267"/>
+      </navPoint>
+      <navPoint id="num_57" playOrder="51" class="chapter">
+        <navLabel>
+          <text>XVI. Phẩm Lõa Thể</text>
+        </navLabel>
+        <content src="index_split_005.html#p270"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_58" playOrder="52" class="chapter">
+      <navLabel>
+        <text>Chương IV - Bốn Pháp</text>
+      </navLabel>
+      <content src="index_split_005.html#p273"/>
+      <navPoint id="num_59" playOrder="52" class="chapter">
+        <navLabel>
+          <text>I. Phẩm Bhandagana</text>
+        </navLabel>
+        <content src="index_split_005.html#p273"/>
+      </navPoint>
+      <navPoint id="num_60" playOrder="53" class="chapter">
+        <navLabel>
+          <text>II. Phẩm Hành</text>
+        </navLabel>
+        <content src="index_split_005.html#p286"/>
+      </navPoint>
+      <navPoint id="num_61" playOrder="54" class="chapter">
+        <navLabel>
+          <text>III. Phẩm Uruvelà</text>
+        </navLabel>
+        <content src="index_split_005.html#p293"/>
+      </navPoint>
+      <navPoint id="num_62" playOrder="55" class="chapter">
+        <navLabel>
+          <text>IV. Phẩm Bánh Xe</text>
+        </navLabel>
+        <content src="index_split_005.html#p306"/>
+      </navPoint>
+      <navPoint id="num_63" playOrder="56" class="chapter">
+        <navLabel>
+          <text>V. Phẩm Rohitassa</text>
+        </navLabel>
+        <content src="index_split_005.html#p320"/>
+      </navPoint>
+      <navPoint id="num_64" playOrder="57" class="chapter">
+        <navLabel>
+          <text>VI. Phẩm Nguồn Sanh Phước</text>
+        </navLabel>
+        <content src="index_split_006.html#p332"/>
+      </navPoint>
+      <navPoint id="num_65" playOrder="58" class="chapter">
+        <navLabel>
+          <text>VII. Phẩm Nghiệp Công Ðức</text>
+        </navLabel>
+        <content src="index_split_006.html#p343"/>
+      </navPoint>
+      <navPoint id="num_66" playOrder="59" class="chapter">
+        <navLabel>
+          <text>VIII. Phẩm Không Hý Luận</text>
+        </navLabel>
+        <content src="index_split_006.html#p355"/>
+      </navPoint>
+      <navPoint id="num_67" playOrder="60" class="chapter">
+        <navLabel>
+          <text>IX. Phẩm Không Có Rung Ðộng</text>
+        </navLabel>
+        <content src="index_split_006.html#p362"/>
+      </navPoint>
+      <navPoint id="num_68" playOrder="61" class="chapter">
+        <navLabel>
+          <text>X.- Phẩm Asura (A-tu-la)</text>
+        </navLabel>
+        <content src="index_split_006.html#p369"/>
+      </navPoint>
+      <navPoint id="num_69" playOrder="62" class="chapter">
+        <navLabel>
+          <text>XI. Phẩm Mây Mưa</text>
+        </navLabel>
+        <content src="index_split_006.html#p379"/>
+      </navPoint>
+      <navPoint id="num_70" playOrder="63" class="chapter">
+        <navLabel>
+          <text>XII. Phẩm Kesi</text>
+        </navLabel>
+        <content src="index_split_006.html#p389"/>
+      </navPoint>
+      <navPoint id="num_71" playOrder="64" class="chapter">
+        <navLabel>
+          <text>XIII. Phẩm Sợ Hãi</text>
+        </navLabel>
+        <content src="index_split_006.html#p398"/>
+      </navPoint>
+      <navPoint id="num_72" playOrder="65" class="chapter">
+        <navLabel>
+          <text>XIV. Phẩm Loài Người</text>
+        </navLabel>
+        <content src="index_split_006.html#p409"/>
+      </navPoint>
+      <navPoint id="num_73" playOrder="66" class="chapter">
+        <navLabel>
+          <text>XV. Phẩm Ánh Sáng</text>
+        </navLabel>
+        <content src="index_split_007.html#p415"/>
+      </navPoint>
+      <navPoint id="num_74" playOrder="67" class="chapter">
+        <navLabel>
+          <text>XVI. Phẩm Các Căn</text>
+        </navLabel>
+        <content src="index_split_007.html#p417"/>
+      </navPoint>
+      <navPoint id="num_75" playOrder="68" class="chapter">
+        <navLabel>
+          <text>XVII. Phẩm Ðạo Hạnh</text>
+        </navLabel>
+        <content src="index_split_007.html#p425"/>
+      </navPoint>
+      <navPoint id="num_76" playOrder="69" class="chapter">
+        <navLabel>
+          <text>XVIII. Phẩm Tư Tâm Sở</text>
+        </navLabel>
+        <content src="index_split_007.html#p433"/>
+      </navPoint>
+      <navPoint id="num_77" playOrder="70" class="chapter">
+        <navLabel>
+          <text>XIX. Phẩm Chiến Sĩ</text>
+        </navLabel>
+        <content src="index_split_007.html#p446"/>
+      </navPoint>
+      <navPoint id="num_78" playOrder="71" class="chapter">
+        <navLabel>
+          <text>XX. Ðại Phẩm</text>
+        </navLabel>
+        <content src="index_split_008.html#p461"/>
+      </navPoint>
+      <navPoint id="num_79" playOrder="72" class="chapter">
+        <navLabel>
+          <text>XXI. Phẩm Bậc Chân Nhân</text>
+        </navLabel>
+        <content src="index_split_008.html#p493"/>
+      </navPoint>
+      <navPoint id="num_80" playOrder="73" class="chapter">
+        <navLabel>
+          <text>XXII. Phẩm Ô Uế</text>
+        </navLabel>
+        <content src="index_split_008.html#p500"/>
+      </navPoint>
+      <navPoint id="num_81" playOrder="74" class="chapter">
+        <navLabel>
+          <text>XXIII. Phẩm Diệu Hạnh</text>
+        </navLabel>
+        <content src="index_split_008.html#p502"/>
+      </navPoint>
+      <navPoint id="num_82" playOrder="75" class="chapter">
+        <navLabel>
+          <text>XXIV. Phẩm Nghiệp</text>
+        </navLabel>
+        <content src="index_split_008.html#p505"/>
+      </navPoint>
+      <navPoint id="num_83" playOrder="76" class="chapter">
+        <navLabel>
+          <text>XXV. Phẩm Sợ Hãi Phạm Tội</text>
+        </navLabel>
+        <content src="index_split_009.html#p512"/>
+      </navPoint>
+      <navPoint id="num_84" playOrder="77" class="chapter">
+        <navLabel>
+          <text>XXVI. Phẩm Thắng Trí</text>
+        </navLabel>
+        <content src="index_split_009.html#p519"/>
+      </navPoint>
+      <navPoint id="num_85" playOrder="78" class="chapter">
+        <navLabel>
+          <text>XXVII. Phẩm Nghiệp Ðạo</text>
+        </navLabel>
+        <content src="index_split_009.html#p525"/>
+      </navPoint>
+      <navPoint id="num_86" playOrder="79" class="chapter">
+        <navLabel>
+          <text>XXVIII. Phẩm Tham</text>
+        </navLabel>
+        <content src="index_split_009.html#p527"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_87" playOrder="80" class="chapter">
+      <navLabel>
+        <text>Chương V - Năm Pháp</text>
+      </navLabel>
+      <content src="index_split_009.html#p528"/>
+      <navPoint id="num_88" playOrder="80" class="chapter">
+        <navLabel>
+          <text>I. Phẩm Sức Mạnh Hữu Học</text>
+        </navLabel>
+        <content src="index_split_009.html#p528"/>
+      </navPoint>
+      <navPoint id="num_89" playOrder="81" class="chapter">
+        <navLabel>
+          <text>II. Phẩm Sức Mạnh</text>
+        </navLabel>
+        <content src="index_split_009.html#p534"/>
+      </navPoint>
+      <navPoint id="num_90" playOrder="82" class="chapter">
+        <navLabel>
+          <text>III. Phẩm Năm Phần</text>
+        </navLabel>
+        <content src="index_split_009.html#p538"/>
+      </navPoint>
+      <navPoint id="num_91" playOrder="83" class="chapter">
+        <navLabel>
+          <text>IV. Phẩm Sumanà</text>
+        </navLabel>
+        <content src="index_split_009.html#p550"/>
+      </navPoint>
+      <navPoint id="num_92" playOrder="84" class="chapter">
+        <navLabel>
+          <text>V. Phẩm Vua Munda</text>
+        </navLabel>
+        <content src="index_split_009.html#p563"/>
+      </navPoint>
+      <navPoint id="num_93" playOrder="85" class="chapter">
+        <navLabel>
+          <text>VI. Phẩm Triền Cái</text>
+        </navLabel>
+        <content src="index_split_009.html#p580"/>
+      </navPoint>
+      <navPoint id="num_94" playOrder="86" class="chapter">
+        <navLabel>
+          <text>VII. Phẩm Tưởng</text>
+        </navLabel>
+        <content src="index_split_010.html#p594"/>
+      </navPoint>
+      <navPoint id="num_95" playOrder="87" class="chapter">
+        <navLabel>
+          <text>VIII. Phẩm Chiến Sĩ</text>
+        </navLabel>
+        <content src="index_split_010.html#p598"/>
+      </navPoint>
+      <navPoint id="num_96" playOrder="88" class="chapter">
+        <navLabel>
+          <text>IX. Phẩm Trưởng Lão</text>
+        </navLabel>
+        <content src="index_split_010.html#p620"/>
+      </navPoint>
+      <navPoint id="num_97" playOrder="89" class="chapter">
+        <navLabel>
+          <text>X. Phẩm Kakudha</text>
+        </navLabel>
+        <content src="index_split_010.html#p627"/>
+      </navPoint>
+      <navPoint id="num_98" playOrder="90" class="chapter">
+        <navLabel>
+          <text>XI. Phẩm An Ổn Trú</text>
+        </navLabel>
+        <content src="index_split_010.html#p633"/>
+      </navPoint>
+      <navPoint id="num_99" playOrder="91" class="chapter">
+        <navLabel>
+          <text>XII. Phẩm Andhakavinda</text>
+        </navLabel>
+        <content src="index_split_011.html#p641"/>
+      </navPoint>
+      <navPoint id="num_100" playOrder="92" class="chapter">
+        <navLabel>
+          <text>XIII. Phẩm Bệnh</text>
+        </navLabel>
+        <content src="index_split_011.html#p646"/>
+      </navPoint>
+      <navPoint id="num_101" playOrder="93" class="chapter">
+        <navLabel>
+          <text>XIV. Phẩm Vua</text>
+        </navLabel>
+        <content src="index_split_011.html#p651"/>
+      </navPoint>
+      <navPoint id="num_102" playOrder="94" class="chapter">
+        <navLabel>
+          <text>XV. Phẫm Tikandaki</text>
+        </navLabel>
+        <content src="index_split_011.html#p665"/>
+      </navPoint>
+      <navPoint id="num_103" playOrder="95" class="chapter">
+        <navLabel>
+          <text>XVI. Phẩm Diệu Pháp</text>
+        </navLabel>
+        <content src="index_split_011.html#p674"/>
+      </navPoint>
+      <navPoint id="num_104" playOrder="96" class="chapter">
+        <navLabel>
+          <text>XVII. Phẩm Hiềm Hận</text>
+        </navLabel>
+        <content src="index_split_011.html#p683"/>
+      </navPoint>
+      <navPoint id="num_105" playOrder="97" class="chapter">
+        <navLabel>
+          <text>XVIII. Phẩm Nam Cư Sĩ</text>
+        </navLabel>
+        <content src="index_split_012.html#p695"/>
+      </navPoint>
+      <navPoint id="num_106" playOrder="98" class="chapter">
+        <navLabel>
+          <text>XIX. Phẩm Rừng</text>
+        </navLabel>
+        <content src="index_split_012.html#p709"/>
+      </navPoint>
+      <navPoint id="num_107" playOrder="99" class="chapter">
+        <navLabel>
+          <text>XX. Phẩm Bà-La-Môn</text>
+        </navLabel>
+        <content src="index_split_012.html#p711"/>
+      </navPoint>
+      <navPoint id="num_108" playOrder="100" class="chapter">
+        <navLabel>
+          <text>XXI. Phẩm Kimbila</text>
+        </navLabel>
+        <content src="index_split_012.html#p729"/>
+      </navPoint>
+      <navPoint id="num_109" playOrder="101" class="chapter">
+        <navLabel>
+          <text>XXII. Phẩm Mắng Nhiếc</text>
+        </navLabel>
+        <content src="index_split_012.html#p733"/>
+      </navPoint>
+      <navPoint id="num_110" playOrder="102" class="chapter">
+        <navLabel>
+          <text>XXIII. Phẩm Du Hành Dài</text>
+        </navLabel>
+        <content src="index_split_013.html#p738"/>
+      </navPoint>
+      <navPoint id="num_111" playOrder="103" class="chapter">
+        <navLabel>
+          <text>XXIV. Phẩm Trú Tại Chỗ</text>
+        </navLabel>
+        <content src="index_split_013.html#p742"/>
+      </navPoint>
+      <navPoint id="num_112" playOrder="104" class="chapter">
+        <navLabel>
+          <text>XXV. Phẩm Ác Hành</text>
+        </navLabel>
+        <content src="index_split_013.html#p747"/>
+      </navPoint>
+      <navPoint id="num_113" playOrder="105" class="chapter">
+        <navLabel>
+          <text>XXVI. Phẩm Cụ Túc Giới</text>
+        </navLabel>
+        <content src="index_split_013.html#p749"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_114" playOrder="106" class="chapter">
+      <navLabel>
+        <text>Chương VI - Sáu Pháp</text>
+      </navLabel>
+      <content src="index_split_013.html#p755"/>
+      <navPoint id="num_115" playOrder="106" class="chapter">
+        <navLabel>
+          <text>I. Phẩm Ðáng Ðược Cung Kính</text>
+        </navLabel>
+        <content src="index_split_013.html#p755"/>
+      </navPoint>
+      <navPoint id="num_116" playOrder="107" class="chapter">
+        <navLabel>
+          <text>II. Phẩm Cần Phải Nhớ</text>
+        </navLabel>
+        <content src="index_split_013.html#p762"/>
+      </navPoint>
+      <navPoint id="num_117" playOrder="108" class="chapter">
+        <navLabel>
+          <text>III. Phẩm Trên Tất Cả</text>
+        </navLabel>
+        <content src="index_split_014.html"/>
+      </navPoint>
+      <navPoint id="num_118" playOrder="109" class="chapter">
+        <navLabel>
+          <text>IV. Phẩm Chư Thiên</text>
+        </navLabel>
+        <content src="index_split_014.html#p790"/>
+      </navPoint>
+      <navPoint id="num_119" playOrder="110" class="chapter">
+        <navLabel>
+          <text>V. Phẩm Dhammika</text>
+        </navLabel>
+        <content src="index_split_014.html#p802"/>
+      </navPoint>
+      <navPoint id="num_120" playOrder="111" class="chapter">
+        <navLabel>
+          <text>VI. Ðại Phẩm</text>
+        </navLabel>
+        <content src="index_split_015.html#p828"/>
+      </navPoint>
+      <navPoint id="num_121" playOrder="112" class="chapter">
+        <navLabel>
+          <text>VII. Phẩm Chư Thiên</text>
+        </navLabel>
+        <content src="index_split_015.html#p863"/>
+      </navPoint>
+      <navPoint id="num_122" playOrder="113" class="chapter">
+        <navLabel>
+          <text>VIII. Phẩm A-La-Hán</text>
+        </navLabel>
+        <content src="index_split_015.html#p869"/>
+      </navPoint>
+      <navPoint id="num_123" playOrder="114" class="chapter">
+        <navLabel>
+          <text>IX. Phẩm Mát Lạnh</text>
+        </navLabel>
+        <content src="index_split_016.html#p873"/>
+      </navPoint>
+      <navPoint id="num_124" playOrder="115" class="chapter">
+        <navLabel>
+          <text>X. Phẩm Lợi Ích</text>
+        </navLabel>
+        <content src="index_split_016.html#p878"/>
+      </navPoint>
+      <navPoint id="num_125" playOrder="116" class="chapter">
+        <navLabel>
+          <text>XI. Phẩm Ba Pháp</text>
+        </navLabel>
+        <content src="index_split_016.html#p881"/>
+      </navPoint>
+      <navPoint id="num_126" playOrder="117" class="chapter">
+        <navLabel>
+          <text>XII. Phẩm Các Kinh Không Nhiếp Trong Phẩm</text>
+        </navLabel>
+        <content src="index_split_016.html#p884"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_127" playOrder="118" class="chapter">
+      <navLabel>
+        <text>Chương VII Bẩy Pháp</text>
+      </navLabel>
+      <content src="index_split_016.html#p887"/>
+      <navPoint id="num_128" playOrder="118" class="chapter">
+        <navLabel>
+          <text>I. Phẩm Tài Sản</text>
+        </navLabel>
+        <content src="index_split_016.html#p887"/>
+      </navPoint>
+      <navPoint id="num_129" playOrder="119" class="chapter">
+        <navLabel>
+          <text>II. Phẩm Tùy Miên</text>
+        </navLabel>
+        <content src="index_split_016.html#p893"/>
+      </navPoint>
+      <navPoint id="num_130" playOrder="120" class="chapter">
+        <navLabel>
+          <text>III. Phẩm Vajjì ( Bạt Kỳ)</text>
+        </navLabel>
+        <content src="index_split_016.html#p898"/>
+      </navPoint>
+      <navPoint id="num_131" playOrder="121" class="chapter">
+        <navLabel>
+          <text>IV. Phẩm Chư Thiên</text>
+        </navLabel>
+        <content src="index_split_016.html#p909"/>
+      </navPoint>
+      <navPoint id="num_132" playOrder="122" class="chapter">
+        <navLabel>
+          <text>V. Phẩm Ðại Tế Ðàn</text>
+        </navLabel>
+        <content src="index_split_016.html#p917"/>
+      </navPoint>
+      <navPoint id="num_133" playOrder="123" class="chapter">
+        <navLabel>
+          <text>VI. Phẩm Không Tuyên Bố</text>
+        </navLabel>
+        <content src="index_split_016.html#p934"/>
+      </navPoint>
+      <navPoint id="num_134" playOrder="124" class="chapter">
+        <navLabel>
+          <text>VII. Ðại Phẩm</text>
+        </navLabel>
+        <content src="index_split_017.html#p958"/>
+      </navPoint>
+      <navPoint id="num_135" playOrder="125" class="chapter">
+        <navLabel>
+          <text>VIII. Phẩm Về Luật</text>
+        </navLabel>
+        <content src="index_split_017.html#p985"/>
+      </navPoint>
+      <navPoint id="num_136" playOrder="126" class="chapter">
+        <navLabel>
+          <text>IX. Phẩm Các Kinh Không Nhiếp</text>
+        </navLabel>
+        <content src="index_split_017.html#p987"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_137" playOrder="127" class="chapter">
+      <navLabel>
+        <text>Chương VIII - Tám Pháp</text>
+      </navLabel>
+      <content src="index_split_017.html#p991"/>
+      <navPoint id="num_138" playOrder="127" class="chapter">
+        <navLabel>
+          <text>I. Phẩm Từ</text>
+        </navLabel>
+        <content src="index_split_017.html#p991"/>
+      </navPoint>
+      <navPoint id="num_139" playOrder="128" class="chapter">
+        <navLabel>
+          <text>II. Phẩm Lớn</text>
+        </navLabel>
+        <content src="index_split_018.html#p1007"/>
+      </navPoint>
+      <navPoint id="num_140" playOrder="129" class="chapter">
+        <navLabel>
+          <text>III. Phẩm Gia Chủ</text>
+        </navLabel>
+        <content src="index_split_018.html#p1032"/>
+      </navPoint>
+      <navPoint id="num_141" playOrder="130" class="chapter">
+        <navLabel>
+          <text>IV. Phẩm Bố Thí</text>
+        </navLabel>
+        <content src="index_split_019.html#p1051"/>
+      </navPoint>
+      <navPoint id="num_142" playOrder="131" class="chapter">
+        <navLabel>
+          <text>V. Phẩm Ngày Trai Giới</text>
+        </navLabel>
+        <content src="index_split_019.html#p1060"/>
+      </navPoint>
+      <navPoint id="num_143" playOrder="132" class="chapter">
+        <navLabel>
+          <text>VI. Phẩm Gotamì</text>
+        </navLabel>
+        <content src="index_split_019.html#p1072"/>
+      </navPoint>
+      <navPoint id="num_144" playOrder="133" class="chapter">
+        <navLabel>
+          <text>VII. Phẩm Ðất Rung Ðộng</text>
+        </navLabel>
+        <content src="index_split_019.html#p1084"/>
+      </navPoint>
+      <navPoint id="num_145" playOrder="134" class="chapter">
+        <navLabel>
+          <text>VIII. Phẩm Song Ðôi</text>
+        </navLabel>
+        <content src="index_split_020.html#p1101"/>
+      </navPoint>
+      <navPoint id="num_146" playOrder="135" class="chapter">
+        <navLabel>
+          <text>IX. Phẩm Niệm</text>
+        </navLabel>
+        <content src="index_split_020.html#p1118"/>
+      </navPoint>
+      <navPoint id="num_147" playOrder="136" class="chapter">
+        <navLabel>
+          <text>X. Tham Ái</text>
+        </navLabel>
+        <content src="index_split_020.html#p1126"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_148" playOrder="137" class="chapter">
+      <navLabel>
+        <text>Chương IX Chín Pháp</text>
+      </navLabel>
+      <content src="index_split_020.html#p1128"/>
+      <navPoint id="num_149" playOrder="137" class="chapter">
+        <navLabel>
+          <text>I. Phẩm Chánh Giác</text>
+        </navLabel>
+        <content src="index_split_020.html#p1128"/>
+      </navPoint>
+      <navPoint id="num_150" playOrder="138" class="chapter">
+        <navLabel>
+          <text>II. Phẩm Tiếng Rống Con Sư Tử</text>
+        </navLabel>
+        <content src="index_split_021.html#p1144"/>
+      </navPoint>
+      <navPoint id="num_151" playOrder="139" class="chapter">
+        <navLabel>
+          <text>III. Phẩm Chỗ Cư Trú Của Hữu Tình</text>
+        </navLabel>
+        <content src="index_split_021.html#p1162"/>
+      </navPoint>
+      <navPoint id="num_152" playOrder="140" class="chapter">
+        <navLabel>
+          <text>IV. Ðại Phẩm</text>
+        </navLabel>
+        <content src="index_split_021.html#p1173"/>
+      </navPoint>
+      <navPoint id="num_153" playOrder="141" class="chapter">
+        <navLabel>
+          <text>V. Phẩm Pancala</text>
+        </navLabel>
+        <content src="index_split_022.html#p1201"/>
+      </navPoint>
+      <navPoint id="num_154" playOrder="142" class="chapter">
+        <navLabel>
+          <text>VI. Phẩm An Ổn</text>
+        </navLabel>
+        <content src="index_split_022.html#p1205"/>
+      </navPoint>
+      <navPoint id="num_155" playOrder="143" class="chapter">
+        <navLabel>
+          <text>VII. Phẩm Niệm Xứ</text>
+        </navLabel>
+        <content src="index_split_022.html#p1207"/>
+      </navPoint>
+      <navPoint id="num_156" playOrder="144" class="chapter">
+        <navLabel>
+          <text>VIII. Phẩm Chánh Cần</text>
+        </navLabel>
+        <content src="index_split_022.html#p1211"/>
+      </navPoint>
+      <navPoint id="num_157" playOrder="144" class="chapter">
+        <navLabel>
+          <text>IX. Phẩm Bốn Như Ý Túc</text>
+        </navLabel>
+        <content src="index_split_022.html#p1211"/>
+      </navPoint>
+      <navPoint id="num_158" playOrder="144" class="chapter">
+        <navLabel>
+          <text>X. Phẩm Tham</text>
+        </navLabel>
+        <content src="index_split_022.html#p1211"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_159" playOrder="145" class="chapter">
+      <navLabel>
+        <text>Chương X - Mười Pháp</text>
+      </navLabel>
+      <content src="index_split_022.html#p1212"/>
+      <navPoint id="num_160" playOrder="145" class="chapter">
+        <navLabel>
+          <text>I. Phẩm Lợi Ích</text>
+        </navLabel>
+        <content src="index_split_022.html#p1212"/>
+      </navPoint>
+      <navPoint id="num_161" playOrder="146" class="chapter">
+        <navLabel>
+          <text>II. Phẩm Hộ Trì</text>
+        </navLabel>
+        <content src="index_split_022.html#p1220"/>
+      </navPoint>
+      <navPoint id="num_162" playOrder="147" class="chapter">
+        <navLabel>
+          <text>III. Phẩm Lớn</text>
+        </navLabel>
+        <content src="index_split_022.html#p1233"/>
+      </navPoint>
+      <navPoint id="num_163" playOrder="148" class="chapter">
+        <navLabel>
+          <text>IV. Phẩm Upàli Và Ananda</text>
+        </navLabel>
+        <content src="index_split_023.html#p1259"/>
+      </navPoint>
+      <navPoint id="num_164" playOrder="149" class="chapter">
+        <navLabel>
+          <text>V. Phẩm Mắng Nhiếc</text>
+        </navLabel>
+        <content src="index_split_023.html#p1264"/>
+      </navPoint>
+      <navPoint id="num_165" playOrder="150" class="chapter">
+        <navLabel>
+          <text>VI. Phẩm Tâm Của Mình</text>
+        </navLabel>
+        <content src="index_split_023.html#p1274"/>
+      </navPoint>
+      <navPoint id="num_166" playOrder="151" class="chapter">
+        <navLabel>
+          <text>VII. Phẩm Song Ðôi</text>
+        </navLabel>
+        <content src="index_split_023.html#p1288"/>
+      </navPoint>
+      <navPoint id="num_167" playOrder="152" class="chapter">
+        <navLabel>
+          <text>VII. Phẩm Ước Nguyện</text>
+        </navLabel>
+        <content src="index_split_024.html#p1297"/>
+      </navPoint>
+      <navPoint id="num_168" playOrder="153" class="chapter">
+        <navLabel>
+          <text>IX. Phẩm Trưởng Lão</text>
+        </navLabel>
+        <content src="index_split_024.html#p1312"/>
+      </navPoint>
+      <navPoint id="num_169" playOrder="154" class="chapter">
+        <navLabel>
+          <text>X. Phẩm Nam Cư Sĩ</text>
+        </navLabel>
+        <content src="index_split_024.html#p1329"/>
+      </navPoint>
+      <navPoint id="num_170" playOrder="155" class="chapter">
+        <navLabel>
+          <text>XI. Phẩm Sa Môn Tưởng</text>
+        </navLabel>
+        <content src="index_split_025.html#p1353"/>
+      </navPoint>
+      <navPoint id="num_171" playOrder="156" class="chapter">
+        <navLabel>
+          <text>XII. Phẩm Ði Xuống</text>
+        </navLabel>
+        <content src="index_split_025.html#p1360"/>
+      </navPoint>
+      <navPoint id="num_172" playOrder="157" class="chapter">
+        <navLabel>
+          <text>XIII. Phẩm Thanh Tịnh</text>
+        </navLabel>
+        <content src="index_split_025.html#p1371"/>
+      </navPoint>
+      <navPoint id="num_173" playOrder="158" class="chapter">
+        <navLabel>
+          <text>XIV. Phẩm Thiện Lương</text>
+        </navLabel>
+        <content src="index_split_025.html#p1374"/>
+      </navPoint>
+      <navPoint id="num_174" playOrder="159" class="chapter">
+        <navLabel>
+          <text>XV. Phẩm Thánh Ðạo</text>
+        </navLabel>
+        <content src="index_split_025.html#p1375"/>
+      </navPoint>
+      <navPoint id="num_175" playOrder="160" class="chapter">
+        <navLabel>
+          <text>XVI. Phẩm Người</text>
+        </navLabel>
+        <content src="index_split_025.html#p1376"/>
+      </navPoint>
+      <navPoint id="num_176" playOrder="161" class="chapter">
+        <navLabel>
+          <text>XVII. Phẩm Jànussoni</text>
+        </navLabel>
+        <content src="index_split_025.html#p1377"/>
+      </navPoint>
+      <navPoint id="num_177" playOrder="162" class="chapter">
+        <navLabel>
+          <text>XVIII. Phẩm Thiện Lương</text>
+        </navLabel>
+        <content src="index_split_026.html#p1390"/>
+      </navPoint>
+      <navPoint id="num_178" playOrder="162" class="chapter">
+        <navLabel>
+          <text>XIX. Phẩm Thánh Ðạo</text>
+        </navLabel>
+        <content src="index_split_026.html#p1390"/>
+      </navPoint>
+      <navPoint id="num_179" playOrder="163" class="chapter">
+        <navLabel>
+          <text>XX. Phẩm Các Hạng Người</text>
+        </navLabel>
+        <content src="index_split_026.html#p1391"/>
+      </navPoint>
+      <navPoint id="num_180" playOrder="163" class="chapter">
+        <navLabel>
+          <text>XXI. Phẩm Thân Do Nghiệp Sanh</text>
+        </navLabel>
+        <content src="index_split_026.html#p1391"/>
+      </navPoint>
+      <navPoint id="num_181" playOrder="164" class="chapter">
+        <navLabel>
+          <text>XXII. Không Có Ðầu Ðề</text>
+        </navLabel>
+        <content src="index_split_026.html#p1404"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_182" playOrder="165" class="chapter">
+      <navLabel>
+        <text>Chương XI - 11 Pháp</text>
+      </navLabel>
+      <content src="index_split_026.html#p1410"/>
+      <navPoint id="num_183" playOrder="165" class="chapter">
+        <navLabel>
+          <text>I. Phẩm Y Chỉ</text>
+        </navLabel>
+        <content src="index_split_026.html#p1410"/>
+      </navPoint>
+      <navPoint id="num_184" playOrder="166" class="chapter">
+        <navLabel>
+          <text>II. Phẩm Tùy Niệm</text>
+        </navLabel>
+        <content src="index_split_026.html#p1419"/>
+      </navPoint>
+      <navPoint id="num_185" playOrder="167" class="chapter">
+        <navLabel>
+          <text>III. Phẩm Ba : Tổng Kết</text>
+        </navLabel>
+        <content src="index_split_026.html#p1439"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

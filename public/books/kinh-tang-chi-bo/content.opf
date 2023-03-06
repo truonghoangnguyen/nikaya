@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="2.0" unique-identifier="uuid_id">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata">
+    <dc:language>en</dc:language>
+    <dc:title>kinh-tang-chi-bo-ht-minh-chau-dich</dc:title>
+    <dc:contributor opf:role="bkp">calibre (5.32.0) [https://calibre-ebook.com]</dc:contributor>
+    <meta name="calibre:timestamp" content="2021-12-28T03:03:35.384487+00:00"/>
+    <dc:identifier id="uuid_id" opf:scheme="uuid">4324c47d-c7f4-49d3-b2e1-01ecbae110f9</dc:identifier>
+    <dc:identifier opf:scheme="calibre">4324c47d-c7f4-49d3-b2e1-01ecbae110f9</dc:identifier>
+    <dc:creator opf:file-as="Châu, Hòa Thượng Thích Minh &amp; Unknown" opf:role="aut">Hòa Thượng Thích Minh Châu</dc:creator>
+    <dc:creator opf:file-as="Châu, Hòa Thượng Thích Minh &amp; Unknown" opf:role="aut">Unknown</dc:creator>
+    <meta name="calibre:title_sort" content="kinh-tang-chi-bo-ht-minh-chau-dich"/>
+    <meta name="calibre:series" content="Kinh Nikaya"/>
+    <meta name="calibre:series_index" content="1"/>
+    <dc:date>0101-01-01T00:00:00+00:00</dc:date>
+    <meta name="cover" content="cover"/>
+  </metadata>
+  <manifest>
+    <item id="cover" href="cover.jpeg" media-type="image/jpeg"/>
+    <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="id128" href="index_split_000.html" media-type="application/xhtml+xml"/>
+    <item id="id127" href="index_split_001.html" media-type="application/xhtml+xml"/>
+    <item id="id126" href="index_split_002.html" media-type="application/xhtml+xml"/>
+    <item id="id125" href="index_split_003.html" media-type="application/xhtml+xml"/>
+    <item id="id124" href="index_split_004.html" media-type="application/xhtml+xml"/>
+    <item id="id123" href="index_split_005.html" media-type="application/xhtml+xml"/>
+    <item id="id122" href="index_split_006.html" media-type="application/xhtml+xml"/>
+    <item id="id121" href="index_split_007.html" media-type="application/xhtml+xml"/>
+    <item id="id120" href="index_split_008.html" media-type="application/xhtml+xml"/>
+    <item id="id119" href="index_split_009.html" media-type="application/xhtml+xml"/>
+    <item id="id118" href="index_split_010.html" media-type="application/xhtml+xml"/>
+    <item id="id117" href="index_split_011.html" media-type="application/xhtml+xml"/>
+    <item id="id116" href="index_split_012.html" media-type="application/xhtml+xml"/>
+    <item id="id115" href="index_split_013.html" media-type="application/xhtml+xml"/>
+    <item id="id114" href="index_split_014.html" media-type="application/xhtml+xml"/>
+    <item id="id113" href="index_split_015.html" media-type="application/xhtml+xml"/>
+    <item id="id112" href="index_split_016.html" media-type="application/xhtml+xml"/>
+    <item id="id111" href="index_split_017.html" media-type="application/xhtml+xml"/>
+    <item id="id110" href="index_split_018.html" media-type="application/xhtml+xml"/>
+    <item id="id19" href="index_split_019.html" media-type="application/xhtml+xml"/>
+    <item id="id18" href="index_split_020.html" media-type="application/xhtml+xml"/>
+    <item id="id17" href="index_split_021.html" media-type="application/xhtml+xml"/>
+    <item id="id16" href="index_split_022.html" media-type="application/xhtml+xml"/>
+    <item id="id15" href="index_split_023.html" media-type="application/xhtml+xml"/>
+    <item id="id14" href="index_split_024.html" media-type="application/xhtml+xml"/>
+    <item id="id13" href="index_split_025.html" media-type="application/xhtml+xml"/>
+    <item id="id12" href="index_split_026.html" media-type="application/xhtml+xml"/>
+    <item id="id11" href="index_split_027.html" media-type="application/xhtml+xml"/>
+    <item id="id2" href="index-1_1.jpg" media-type="image/jpeg"/>
+    <item id="id3" href="index-1_2.jpg" media-type="image/jpeg"/>
+    <item id="page_css" href="page_styles.css" media-type="text/css"/>
+    <item id="css" href="stylesheet.css" media-type="text/css"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="titlepage"/>
+    <itemref idref="id128"/>
+    <itemref idref="id127"/>
+    <itemref idref="id126"/>
+    <itemref idref="id125"/>
+    <itemref idref="id124"/>
+    <itemref idref="id123"/>
+    <itemref idref="id122"/>
+    <itemref idref="id121"/>
+    <itemref idref="id120"/>
+    <itemref idref="id119"/>
+    <itemref idref="id118"/>
+    <itemref idref="id117"/>
+    <itemref idref="id116"/>
+    <itemref idref="id115"/>
+    <itemref idref="id114"/>
+    <itemref idref="id113"/>
+    <itemref idref="id112"/>
+    <itemref idref="id111"/>
+    <itemref idref="id110"/>
+    <itemref idref="id19"/>
+    <itemref idref="id18"/>
+    <itemref idref="id17"/>
+    <itemref idref="id16"/>
+    <itemref idref="id15"/>
+    <itemref idref="id14"/>
+    <itemref idref="id13"/>
+    <itemref idref="id12"/>
+    <itemref idref="id11"/>
+  </spine>
+  <guide>
+    <reference type="cover" href="titlepage.xhtml" title="Cover"/>
+  </guide>
+</package>

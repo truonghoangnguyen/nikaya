@@ -1,0 +1,819 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta name="dtb:uid" content="94a5f3b5-9245-4a24-841e-7e46655c4bb6"/>
+    <meta name="dtb:depth" content="4"/>
+    <meta name="dtb:generator" content="calibre (5.32.0)"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Kinh Tiểu Bộ Tập 4</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1" class="chapter">
+      <navLabel>
+        <text>(Untitled)</text>
+      </navLabel>
+      <content src="index_split_003.html"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="1" class="chapter">
+      <navLabel>
+        <text>Lời Giới thiệu</text>
+      </navLabel>
+      <content src="index_split_003.html"/>
+      <navPoint id="num_3" playOrder="2" class="chapter">
+        <navLabel>
+          <text>CHƯƠNG MỘT - PHẨM APANNAKA</text>
+        </navLabel>
+        <content src="index_split_005.html"/>
+        <navPoint id="num_4" playOrder="3" class="chapter">
+          <navLabel>
+            <text>1. CHUYỆN PHÁP TỐI THƯỢNG (Tiền thân Apannaka)</text>
+          </navLabel>
+          <content src="index_split_005.html#id_Toc3984446"/>
+        </navPoint>
+        <navPoint id="num_5" playOrder="4" class="chapter">
+          <navLabel>
+            <text>2. CHUYỆN BÃI SA MẠC (Tiền thân Vannupatha)</text>
+          </navLabel>
+          <content src="index_split_005.html#id_Toc3984447"/>
+        </navPoint>
+        <navPoint id="num_6" playOrder="5" class="chapter">
+          <navLabel>
+            <text>3. CHUYỆN NGƯỜI BUÔN CHÈ (Tiền thân Serivànija)</text>
+          </navLabel>
+          <content src="index_split_005.html#id_Toc3984448"/>
+        </navPoint>
+        <navPoint id="num_7" playOrder="6" class="chapter">
+          <navLabel>
+            <text>4. CHUYỆN TIỂU TRIỆU PHÚ (Tiền thân Cullakasetthì)</text>
+          </navLabel>
+          <content src="index_split_005.html#id_Toc3984449"/>
+        </navPoint>
+        <navPoint id="num_8" playOrder="7" class="chapter">
+          <navLabel>
+            <text>5. CHUYỆN ÐẤU GẠO. (Tiền thân Tandulanàli)</text>
+          </navLabel>
+          <content src="index_split_005.html#id_Toc3984450"/>
+        </navPoint>
+        <navPoint id="num_9" playOrder="8" class="chapter">
+          <navLabel>
+            <text>6. CHUYỆN THIÊN PHÁP (Tiền thân Devadhamma)</text>
+          </navLabel>
+          <content src="index_split_005.html#id_Toc3984451"/>
+        </navPoint>
+        <navPoint id="num_10" playOrder="9" class="chapter">
+          <navLabel>
+            <text>7. CHUYỆN NÀNG LƯỢM CỦI (Tiền thân Katthahàri)</text>
+          </navLabel>
+          <content src="index_split_005.html#id_Toc3984452"/>
+        </navPoint>
+        <navPoint id="num_11" playOrder="10" class="chapter">
+          <navLabel>
+            <text>8. CHUYỆN VUA GÀMANI (Tiền thân Gàmani)</text>
+          </navLabel>
+          <content src="index_split_005.html#id_Toc3984453"/>
+        </navPoint>
+        <navPoint id="num_12" playOrder="11" class="chapter">
+          <navLabel>
+            <text>9. CHUYỆN VUA MAKHÀDEVA (Tiền thân Makhàdeva)</text>
+          </navLabel>
+          <content src="index_split_005.html#id_Toc3984454"/>
+        </navPoint>
+        <navPoint id="num_13" playOrder="12" class="chapter">
+          <navLabel>
+            <text>10. CHUYỆN TRƯỞNG LÃO SUKHAVIHÀRI (Tiền thân Sukhavihàri)</text>
+          </navLabel>
+          <content src="index_split_005.html#id_Toc3984455"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_14" playOrder="13" class="chapter">
+        <navLabel>
+          <text>PHẨM GIỚI.</text>
+        </navLabel>
+        <content src="index_split_006.html"/>
+        <navPoint id="num_15" playOrder="14" class="chapter">
+          <navLabel>
+            <text>11. CHUYỆN CON NAI ÐIỀM LÀNH (Tiền thân Lakkhana)</text>
+          </navLabel>
+          <content src="index_split_006.html#id_Toc3984457"/>
+        </navPoint>
+        <navPoint id="num_16" playOrder="15" class="chapter">
+          <navLabel>
+            <text>12. CHUYỆN CON NAI CÂY ÐA (Tiền thân Nigrodhamiga)</text>
+          </navLabel>
+          <content src="index_split_006.html#id_Toc3984458"/>
+        </navPoint>
+        <navPoint id="num_17" playOrder="16" class="chapter">
+          <navLabel>
+            <text>13. CHUYỆN MŨI TÊN (Tiền thân Kandina)</text>
+          </navLabel>
+          <content src="index_split_006.html#id_Toc3984459"/>
+        </navPoint>
+        <navPoint id="num_18" playOrder="17" class="chapter">
+          <navLabel>
+            <text>14. CHUYỆN CON NAI GIÓ (Tiền thân Vàtamiga)</text>
+          </navLabel>
+          <content src="index_split_006.html#id_Toc3984460"/>
+        </navPoint>
+        <navPoint id="num_19" playOrder="18" class="chapter">
+          <navLabel>
+            <text>15. CHUYỆN CON NAI KHARÀDIYA (Tiền thân Kharàdiya)</text>
+          </navLabel>
+          <content src="index_split_006.html#id_Toc3984461"/>
+        </navPoint>
+        <navPoint id="num_20" playOrder="19" class="chapter">
+          <navLabel>
+            <text>16. CHUYỆN CON NAI CÓ BA CỬ CHỈ. (Tiền thân Tipallatthamiga)</text>
+          </navLabel>
+          <content src="index_split_006.html#id_Toc3984462"/>
+        </navPoint>
+        <navPoint id="num_21" playOrder="20" class="chapter">
+          <navLabel>
+            <text>17. CHUYỆN GIÓ THỔI (Tiền thân Màluta)</text>
+          </navLabel>
+          <content src="index_split_006.html#id_Toc3984463"/>
+        </navPoint>
+        <navPoint id="num_22" playOrder="21" class="chapter">
+          <navLabel>
+            <text>18. CHUYỆN ÐỒ ĂN CÚNG NGƯỜI CHẾT (Tiền thân Matakabhatta)</text>
+          </navLabel>
+          <content src="index_split_006.html#id_Toc3984464"/>
+        </navPoint>
+        <navPoint id="num_23" playOrder="22" class="chapter">
+          <navLabel>
+            <text>19. CHUYỆN LỄ CÚNG DO CÓ LỢI (Tiền thân Àyàcitabhatta)</text>
+          </navLabel>
+          <content src="index_split_006.html#id_Toc3984465"/>
+        </navPoint>
+        <navPoint id="num_24" playOrder="23" class="chapter">
+          <navLabel>
+            <text>20. CHUYỆN HỒ NALAKAPÀNA (Tiền thân Nalakapàna)</text>
+          </navLabel>
+          <content src="index_split_006.html#id_Toc3984466"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_25" playOrder="24" class="chapter">
+        <navLabel>
+          <text>PHẨM KURUNGA</text>
+        </navLabel>
+        <content src="index_split_007.html"/>
+        <navPoint id="num_26" playOrder="25" class="chapter">
+          <navLabel>
+            <text>21. CHUYỆN CON NAI SƠN DƯƠNG (Tiền thân Kurunga)</text>
+          </navLabel>
+          <content src="index_split_007.html#id_Toc3984468"/>
+        </navPoint>
+        <navPoint id="num_27" playOrder="26" class="chapter">
+          <navLabel>
+            <text>22. CHUYỆN CON CHÓ (Tiền thân Kukkura)</text>
+          </navLabel>
+          <content src="index_split_007.html#id_Toc3984469"/>
+        </navPoint>
+        <navPoint id="num_28" playOrder="27" class="chapter">
+          <navLabel>
+            <text>23. CHUYỆN CON NGỰA THUẦN CHỦNG (Tiền thân Bhojanìya)</text>
+          </navLabel>
+          <content src="index_split_007.html#id_Toc3984470"/>
+        </navPoint>
+        <navPoint id="num_29" playOrder="28" class="chapter">
+          <navLabel>
+            <text>24. CHUYỆN ÐÔI NGỰA NÒI TỐT (Tiền thân Àjanna)</text>
+          </navLabel>
+          <content src="index_split_007.html#id_Toc3984471"/>
+        </navPoint>
+        <navPoint id="num_30" playOrder="29" class="chapter">
+          <navLabel>
+            <text>25. CHUYỆN BẾN TẮM (Tiền thân Tittha)</text>
+          </navLabel>
+          <content src="index_split_007.html#id_Toc3984472"/>
+        </navPoint>
+        <navPoint id="num_31" playOrder="30" class="chapter">
+          <navLabel>
+            <text>26. CHUYỆN CON VOI MAHILÀMUKHA (Tiền thân Mahilàmukha)</text>
+          </navLabel>
+          <content src="index_split_007.html#id_Toc3984473"/>
+        </navPoint>
+        <navPoint id="num_32" playOrder="31" class="chapter">
+          <navLabel>
+            <text>27. CHUYỆN ÐÔI BẠN THÂN THIẾT (Tiền thân Abhinha)</text>
+          </navLabel>
+          <content src="index_split_007.html#id_Toc3984474"/>
+        </navPoint>
+        <navPoint id="num_33" playOrder="32" class="chapter">
+          <navLabel>
+            <text>28. CHUYỆN CON BÒ ÐẠI HỶ (Tiền thân Nandivisàla)</text>
+          </navLabel>
+          <content src="index_split_007.html#id_Toc3984475"/>
+        </navPoint>
+        <navPoint id="num_34" playOrder="33" class="chapter">
+          <navLabel>
+            <text>29. CHUYỆN CON BÒ ÐEN (Tiền thân Kanha)</text>
+          </navLabel>
+          <content src="index_split_007.html#id_Toc3984476"/>
+        </navPoint>
+        <navPoint id="num_35" playOrder="34" class="chapter">
+          <navLabel>
+            <text>30. CHUYỆN CON HEO MUNIKA (Tiền thân Munika)</text>
+          </navLabel>
+          <content src="index_split_007.html#id_Toc3984477"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_36" playOrder="35" class="chapter">
+        <navLabel>
+          <text>PHẨM KULAVAKA</text>
+        </navLabel>
+        <content src="index_split_008.html"/>
+        <navPoint id="num_37" playOrder="36" class="chapter">
+          <navLabel>
+            <text>31. CHUYỆN TỔ CHIM CON (Tiền thân Kulàvaka)</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc3984479"/>
+        </navPoint>
+        <navPoint id="num_38" playOrder="37" class="chapter">
+          <navLabel>
+            <text>32. CHUYỆN MÚA CA (Tiền thân Nacca)</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc3984480"/>
+        </navPoint>
+        <navPoint id="num_39" playOrder="38" class="chapter">
+          <navLabel>
+            <text>33. CHUYỆN SỐNG HÒA HỢP (Tiền thân Sammodamàna)</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc3984481"/>
+        </navPoint>
+        <navPoint id="num_40" playOrder="39" class="chapter">
+          <navLabel>
+            <text>34. CHUYỆN CON CÁ (Tiền thân Maccha)</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc3984482"/>
+        </navPoint>
+        <navPoint id="num_41" playOrder="40" class="chapter">
+          <navLabel>
+            <text>35. CHUYỆN CON CHIM CÚT (Tiền thân Vattaka)</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc3984483"/>
+        </navPoint>
+        <navPoint id="num_42" playOrder="41" class="chapter">
+          <navLabel>
+            <text>36. CHUYỆN CON CHIM (Tiền thân Sakuna)</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc3984484"/>
+        </navPoint>
+        <navPoint id="num_43" playOrder="42" class="chapter">
+          <navLabel>
+            <text>37. CHUYỆN CON CHIM TRĨ (Tiền thân Tittira)</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc3984485"/>
+        </navPoint>
+        <navPoint id="num_44" playOrder="43" class="chapter">
+          <navLabel>
+            <text>38. CHUYỆN CON CÒ (Tiền thân Baka)</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc3984486"/>
+        </navPoint>
+        <navPoint id="num_45" playOrder="44" class="chapter">
+          <navLabel>
+            <text>39. CHUYỆN NGƯỜI NÔ LỆ NANDA (Tiền thân Nanda)</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc3984487"/>
+        </navPoint>
+        <navPoint id="num_46" playOrder="45" class="chapter">
+          <navLabel>
+            <text>40. CHUYỆN HỐ THAN LỬA CÂY KEO (Tiền thân Khadirangara)</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc3984488"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_47" playOrder="46" class="chapter">
+        <navLabel>
+          <text>PHẨM LỢI ÁI</text>
+        </navLabel>
+        <content src="index_split_009.html"/>
+        <navPoint id="num_48" playOrder="47" class="chapter">
+          <navLabel>
+            <text>41. CHUYỆN TRƯỞNG LÃO LOSAKA (Tiền thân Losaka)</text>
+          </navLabel>
+          <content src="index_split_009.html#id_Toc3984490"/>
+        </navPoint>
+        <navPoint id="num_49" playOrder="48" class="chapter">
+          <navLabel>
+            <text>42. CHUYỆN CHIM BỒ CÂU (Tiền thân Kopata)</text>
+          </navLabel>
+          <content src="index_split_009.html#id_Toc3984491"/>
+        </navPoint>
+        <navPoint id="num_50" playOrder="49" class="chapter">
+          <navLabel>
+            <text>43. CHUYỆN CON RẮN TRE (Tiền thân Veluka)</text>
+          </navLabel>
+          <content src="index_split_009.html#id_Toc3984492"/>
+        </navPoint>
+        <navPoint id="num_51" playOrder="50" class="chapter">
+          <navLabel>
+            <text>44. CHUYỆN CON MUỖI (Tiền thân Makasa)</text>
+          </navLabel>
+          <content src="index_split_009.html#id_Toc3984493"/>
+        </navPoint>
+        <navPoint id="num_52" playOrder="51" class="chapter">
+          <navLabel>
+            <text>45. CHUYỆN NỮ TỲ ROHINI (Tiền thân Rohini)</text>
+          </navLabel>
+          <content src="index_split_009.html#id_Toc3984494"/>
+        </navPoint>
+        <navPoint id="num_53" playOrder="52" class="chapter">
+          <navLabel>
+            <text>46. CHUYỆN KẺ LÀM HẠI VƯỜN (Tiền thân Àràmadùsaka)</text>
+          </navLabel>
+          <content src="index_split_009.html#id_Toc3984495"/>
+        </navPoint>
+        <navPoint id="num_54" playOrder="53" class="chapter">
+          <navLabel>
+            <text>47. CHUYỆN RƯỢU MẠNH (Tiền thân Vàruni)</text>
+          </navLabel>
+          <content src="index_split_009.html#id_Toc3984496"/>
+        </navPoint>
+        <navPoint id="num_55" playOrder="54" class="chapter">
+          <navLabel>
+            <text>48. CHUYỆN BÀ-LA-MÔN VEDABBHA (Tiền thân Vedabbha)</text>
+          </navLabel>
+          <content src="index_split_009.html#id_Toc3984497"/>
+        </navPoint>
+        <navPoint id="num_56" playOrder="55" class="chapter">
+          <navLabel>
+            <text>49. CHUYỆN CÁC VÌ SAO (Tiền thân Nakkhatta)</text>
+          </navLabel>
+          <content src="index_split_009.html#id_Toc3984498"/>
+        </navPoint>
+        <navPoint id="num_57" playOrder="56" class="chapter">
+          <navLabel>
+            <text>50. CHUYỆN NHỮNG KẺ VÔ TRÍ (Tiền thân Dummedha)</text>
+          </navLabel>
+          <content src="index_split_009.html#id_Toc3984499"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_58" playOrder="57" class="chapter">
+        <navLabel>
+          <text>PHẨM ÀSIMSA</text>
+        </navLabel>
+        <content src="index_split_010.html"/>
+        <navPoint id="num_59" playOrder="58" class="chapter">
+          <navLabel>
+            <text>51. CHUYỆN VUA ÐẠI GIỚI ÐỨC (Tiền thân Mahàsìlavà)</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc3984501"/>
+        </navPoint>
+        <navPoint id="num_60" playOrder="59" class="chapter">
+          <navLabel>
+            <text>52. CHUYỆN TIỂU JANAKA (Tiền thân Cùla Janaka)</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc3984502"/>
+        </navPoint>
+        <navPoint id="num_61" playOrder="60" class="chapter">
+          <navLabel>
+            <text>53. CHUYỆN BÌNH RƯỢU ÐẦY (Tiền thân Punnapàti)</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc3984503"/>
+        </navPoint>
+        <navPoint id="num_62" playOrder="61" class="chapter">
+          <navLabel>
+            <text>54. CHUYỆN TRÁI CÂY (Tiền thân Phala)</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc3984504"/>
+        </navPoint>
+        <navPoint id="num_63" playOrder="62" class="chapter">
+          <navLabel>
+            <text>55. CHUYỆN NĂM VŨ KHÍ (Tiền thân Pãncàyudha)</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc3984505"/>
+        </navPoint>
+        <navPoint id="num_64" playOrder="63" class="chapter">
+          <navLabel>
+            <text>56. CHUYỆN KHỐI VÀNG (Tiền thân Kancanakkhandha)</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc3984506"/>
+        </navPoint>
+        <navPoint id="num_65" playOrder="64" class="chapter">
+          <navLabel>
+            <text>57. CHUYỆN KHỈ CHÚA (Tiền thân Vànarinda)</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc3984507"/>
+        </navPoint>
+        <navPoint id="num_66" playOrder="65" class="chapter">
+          <navLabel>
+            <text>58. CHUYỆN BA PHÁP (Tiền thân Tayodhammà)</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc3984508"/>
+        </navPoint>
+        <navPoint id="num_67" playOrder="66" class="chapter">
+          <navLabel>
+            <text>59. CHUYỆN TIẾNG TRỐNG (Tiền thân Bherivàda)</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc3984509"/>
+        </navPoint>
+        <navPoint id="num_68" playOrder="67" class="chapter">
+          <navLabel>
+            <text>60. CHUYỆN THỔI TÙ VÀ (Tiền thân Sankhadhama)</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc3984510"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_69" playOrder="68" class="chapter">
+        <navLabel>
+          <text>PHẨM NỮ NHÂN</text>
+        </navLabel>
+        <content src="index_split_011.html"/>
+        <navPoint id="num_70" playOrder="69" class="chapter">
+          <navLabel>
+            <text>61. CHUYỆN BÀI KINH KHỔ ÐAU (Tiền thân Asàtamanta)</text>
+          </navLabel>
+          <content src="index_split_011.html#id_Toc3984512"/>
+        </navPoint>
+        <navPoint id="num_71" playOrder="70" class="chapter">
+          <navLabel>
+            <text>62. CHUYỆN CÔ GÁI TRÊN LẦU BẢY TẦNG. (Tiền thân Andabhuta)</text>
+          </navLabel>
+          <content src="index_split_011.html#id_Toc3984513"/>
+        </navPoint>
+        <navPoint id="num_72" playOrder="71" class="chapter">
+          <navLabel>
+            <text>63. CHUYỆN HIỀN SĨ CHÀ LÀ (Tiền thân Takka)</text>
+          </navLabel>
+          <content src="index_split_011.html#id_Toc3984514"/>
+        </navPoint>
+        <navPoint id="num_73" playOrder="72" class="chapter">
+          <navLabel>
+            <text>64. CHUYỆN NGƯỜI VỢ KHÓ HIỂU (Tiền thân Duràjàna)</text>
+          </navLabel>
+          <content src="index_split_011.html#id_Toc3984515"/>
+        </navPoint>
+        <navPoint id="num_74" playOrder="73" class="chapter">
+          <navLabel>
+            <text>65. CHUYỆN NỖI BẤT MÃN. (Tiền thân Anabhirati)</text>
+          </navLabel>
+          <content src="index_split_011.html#id_Toc3984516"/>
+        </navPoint>
+        <navPoint id="num_75" playOrder="74" class="chapter">
+          <navLabel>
+            <text>66. CHUYỆN HOÀNG HẬU TỪ TÂM (Tiền thân Mudulakkhana)</text>
+          </navLabel>
+          <content src="index_split_011.html#id_Toc3984517"/>
+        </navPoint>
+        <navPoint id="num_76" playOrder="75" class="chapter">
+          <navLabel>
+            <text>67. CHUYỆN NGƯỜI ÐÀN BÀ THÔN QUÊ (Tiền thân Ucchanga)</text>
+          </navLabel>
+          <content src="index_split_011.html#id_Toc3984518"/>
+        </navPoint>
+        <navPoint id="num_77" playOrder="76" class="chapter">
+          <navLabel>
+            <text>68. CHUYỆN THÀNH SAKETA (Tiền thân Saketa)</text>
+          </navLabel>
+          <content src="index_split_011.html#id_Toc3984519"/>
+        </navPoint>
+        <navPoint id="num_78" playOrder="77" class="chapter">
+          <navLabel>
+            <text>69. CHUYỆN CON RẮN PHUN NỌC ÐỘC (Tiền thân Visavanta)</text>
+          </navLabel>
+          <content src="index_split_011.html#id_Toc3984520"/>
+        </navPoint>
+        <navPoint id="num_79" playOrder="78" class="chapter">
+          <navLabel>
+            <text>70. CHUYỆN HIỀN GIẢ CÁI CUỐC (Tiền thân Kuddàla)</text>
+          </navLabel>
+          <content src="index_split_011.html#id_Toc3984521"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_80" playOrder="79" class="chapter">
+        <navLabel>
+          <text>PHẨM VARANA</text>
+        </navLabel>
+        <content src="index_split_012.html"/>
+        <navPoint id="num_81" playOrder="80" class="chapter">
+          <navLabel>
+            <text>71. CHUYỆN CÂY VARANA (Tiền thân Vanara)</text>
+          </navLabel>
+          <content src="index_split_012.html#id_Toc3984523"/>
+        </navPoint>
+        <navPoint id="num_82" playOrder="81" class="chapter">
+          <navLabel>
+            <text>72. CHUYỆN TƯỢNG VƯƠNG ÐỨC HẠNH (Tiền thân Sìlavanàga)</text>
+          </navLabel>
+          <content src="index_split_012.html#id_Toc3984524"/>
+        </navPoint>
+        <navPoint id="num_83" playOrder="82" class="chapter">
+          <navLabel>
+            <text>73. CHUYỆN ÐÚNG VẬY CHĂNG? (Tiền thân Saccankira)</text>
+          </navLabel>
+          <content src="index_split_012.html#id_Toc3984525"/>
+        </navPoint>
+        <navPoint id="num_84" playOrder="83" class="chapter">
+          <navLabel>
+            <text>74. CHUYỆN LUẬT CÂY RỪNG (Tiền thân Rukkadhamma)</text>
+          </navLabel>
+          <content src="index_split_012.html#id_Toc3984526"/>
+        </navPoint>
+        <navPoint id="num_85" playOrder="84" class="chapter">
+          <navLabel>
+            <text>75. CHUYỆN CON CÁ (Tiền thân Maccha)</text>
+          </navLabel>
+          <content src="index_split_012.html#id_Toc3984527"/>
+        </navPoint>
+        <navPoint id="num_86" playOrder="85" class="chapter">
+          <navLabel>
+            <text>76. CHUYỆN NGƯỜI KHÔNG SỢ HÃI (Tiền thân Asankiya)</text>
+          </navLabel>
+          <content src="index_split_012.html#id_Toc3984528"/>
+        </navPoint>
+        <navPoint id="num_87" playOrder="86" class="chapter">
+          <navLabel>
+            <text>77. CHUYỆN GIẤC MỘNG LỚN (Tiền thân Mahàsupina)</text>
+          </navLabel>
+          <content src="index_split_012.html#id_Toc3984529"/>
+        </navPoint>
+        <navPoint id="num_88" playOrder="87" class="chapter">
+          <navLabel>
+            <text>78. CHUYỆN VỊ TRIỆU PHÚ ILLÌSA (Tiền thân Illìsa).</text>
+          </navLabel>
+          <content src="index_split_012.html#id_Toc3984530"/>
+        </navPoint>
+        <navPoint id="num_89" playOrder="88" class="chapter">
+          <navLabel>
+            <text>79. CHUYỆN TIẾNG TRỐNG ỒN ÀO (Tiền thân Kharasara)</text>
+          </navLabel>
+          <content src="index_split_012.html#id_Toc3984531"/>
+        </navPoint>
+        <navPoint id="num_90" playOrder="89" class="chapter">
+          <navLabel>
+            <text>80. CHUYỆN NGƯỜI THỢ DỆT BHIMASENA (Tiền thân Bhimasena)</text>
+          </navLabel>
+          <content src="index_split_012.html#id_Toc3984532"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_91" playOrder="90" class="chapter">
+        <navLabel>
+          <text>PHẨM APAYIMHA</text>
+        </navLabel>
+        <content src="index_split_013.html"/>
+        <navPoint id="num_92" playOrder="91" class="chapter">
+          <navLabel>
+            <text>81. CHUYỆN UỐNG RƯỢU (Tiền thân Suràpàna)</text>
+          </navLabel>
+          <content src="index_split_013.html#id_Toc3984534"/>
+        </navPoint>
+        <navPoint id="num_93" playOrder="92" class="chapter">
+          <navLabel>
+            <text>82. CHUYỆN NAM TỬ MITTAVINDA (Tiền thân Mittavinda)</text>
+          </navLabel>
+          <content src="index_split_013.html#id_Toc3984535"/>
+        </navPoint>
+        <navPoint id="num_94" playOrder="93" class="chapter">
+          <navLabel>
+            <text>83. CHUYỆN ÐIỀM XUI XẺO (Tiền thân Kàlakanni)</text>
+          </navLabel>
+          <content src="index_split_013.html#id_Toc3984536"/>
+        </navPoint>
+        <navPoint id="num_95" playOrder="94" class="chapter">
+          <navLabel>
+            <text>84. CHUYỆN CỬA NGÕ HẠNH PHÚC (Tiền thân Atthassadvàra)</text>
+          </navLabel>
+          <content src="index_split_013.html#id_Toc3984537"/>
+        </navPoint>
+        <navPoint id="num_96" playOrder="95" class="chapter">
+          <navLabel>
+            <text>85. CHUYỆN CÂY CÓ TRÁI LẠ (Tiền thân Kimpakka)</text>
+          </navLabel>
+          <content src="index_split_013.html#id_Toc3984538"/>
+        </navPoint>
+        <navPoint id="num_97" playOrder="96" class="chapter">
+          <navLabel>
+            <text>86. CHUYỆN THỬ THÁCH GIỚI ÐỨC (Tiền thân Sìlavìmamsana)</text>
+          </navLabel>
+          <content src="index_split_013.html#id_Toc3984539"/>
+        </navPoint>
+        <navPoint id="num_98" playOrder="97" class="chapter">
+          <navLabel>
+            <text>87. CHUYỆN ÐIỀM LÀNH DỮ (Tiền thân Mangala)</text>
+          </navLabel>
+          <content src="index_split_013.html#id_Toc3984540"/>
+        </navPoint>
+        <navPoint id="num_99" playOrder="98" class="chapter">
+          <navLabel>
+            <text>88. CHUYỆN CON BÒ SÀRAMBHA (Tiền thân Sàrambha)</text>
+          </navLabel>
+          <content src="index_split_013.html#id_Toc3984541"/>
+        </navPoint>
+        <navPoint id="num_100" playOrder="99" class="chapter">
+          <navLabel>
+            <text>89. CHUYỆN KẺ LỪA ÐẢO (Tiền thân Kuhaka)</text>
+          </navLabel>
+          <content src="index_split_013.html#id_Toc3984542"/>
+        </navPoint>
+        <navPoint id="num_101" playOrder="100" class="chapter">
+          <navLabel>
+            <text>90. CHUYỆN KẺ VONG ÂN (Tiền thân Akatannu)</text>
+          </navLabel>
+          <content src="index_split_013.html#id_Toc3984543"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_102" playOrder="101" class="chapter">
+        <navLabel>
+          <text>PHẨM LITTA</text>
+        </navLabel>
+        <content src="index_split_014.html"/>
+        <navPoint id="num_103" playOrder="102" class="chapter">
+          <navLabel>
+            <text>91. CHUYỆN CHƠI SÚC SẮC NGỘ ÐỘC (Tiền thân Litta)</text>
+          </navLabel>
+          <content src="index_split_014.html#id_Toc3984545"/>
+        </navPoint>
+        <navPoint id="num_104" playOrder="103" class="chapter">
+          <navLabel>
+            <text>92. CHUYỆN ÐẠI BẢO VẬT (Tiền thân Mahàsàra)</text>
+          </navLabel>
+          <content src="index_split_014.html#id_Toc3984546"/>
+        </navPoint>
+        <navPoint id="num_105" playOrder="104" class="chapter">
+          <navLabel>
+            <text>93. CHUYỆN NGỘ ÐỘC DO LUYẾN ÁI (Tiền thân Vissàsabhojana)</text>
+          </navLabel>
+          <content src="index_split_014.html#id_Toc3984547"/>
+        </navPoint>
+        <navPoint id="num_106" playOrder="105" class="chapter">
+          <navLabel>
+            <text>94. CHUYỆN NỖI KINH HOÀNG (Tiền thân Lomahamsa)</text>
+          </navLabel>
+          <content src="index_split_014.html#id_Toc3984548"/>
+        </navPoint>
+        <navPoint id="num_107" playOrder="106" class="chapter">
+          <navLabel>
+            <text>95. CHUYỆN VUA ÐẠI THIỆN KIẾN (Tiền thân Mahàsudassana)</text>
+          </navLabel>
+          <content src="index_split_014.html#id_Toc3984549"/>
+        </navPoint>
+        <navPoint id="num_108" playOrder="107" class="chapter">
+          <navLabel>
+            <text>96. CHUYỆN BÁT DẦU (Tiền thân Telapatta)</text>
+          </navLabel>
+          <content src="index_split_014.html#id_Toc3984550"/>
+        </navPoint>
+        <navPoint id="num_109" playOrder="108" class="chapter">
+          <navLabel>
+            <text>97. CHUYỆN ÐIỀM LÀNH CỦA TÊN (Tiền thân Nàmasiddhi)</text>
+          </navLabel>
+          <content src="index_split_014.html#id_Toc3984551"/>
+        </navPoint>
+        <navPoint id="num_110" playOrder="109" class="chapter">
+          <navLabel>
+            <text>98. CHUYỆN NGƯỜI LÁI BUÔN LỪA ÐẢO (Tiền thân Kùtavànija)</text>
+          </navLabel>
+          <content src="index_split_014.html#id_Toc3984552"/>
+        </navPoint>
+        <navPoint id="num_111" playOrder="110" class="chapter">
+          <navLabel>
+            <text>99. CHUYỆN HƠN MỘT NGÀN KẺ NGU (Tiền thân Parosahassa)</text>
+          </navLabel>
+          <content src="index_split_014.html#id_Toc3984553"/>
+        </navPoint>
+        <navPoint id="num_112" playOrder="111" class="chapter">
+          <navLabel>
+            <text>100. CHUYỆN SẮC THÂN BẤT LẠC. (Tiền thân Asàtarùpa)</text>
+          </navLabel>
+          <content src="index_split_014.html#id_Toc3984554"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_113" playOrder="112" class="chapter">
+        <navLabel>
+          <text>PHẨM PAROSATA</text>
+        </navLabel>
+        <content src="index_split_015.html"/>
+        <navPoint id="num_114" playOrder="113" class="chapter">
+          <navLabel>
+            <text>101. CHUYỆN HƠN MỘT TRĂM KẺ NGU (Tiền thân Parosata)</text>
+          </navLabel>
+          <content src="index_split_015.html#id_Toc3984556"/>
+        </navPoint>
+        <navPoint id="num_115" playOrder="114" class="chapter">
+          <navLabel>
+            <text>102. CHUYỆN NGƯỜI BÁN RAU (Tiền thân Pannika)</text>
+          </navLabel>
+          <content src="index_split_015.html#id_Toc3984557"/>
+        </navPoint>
+        <navPoint id="num_116" playOrder="115" class="chapter">
+          <navLabel>
+            <text>103. CHUYỆN KẺ THÙ (Tiền thân Veri)</text>
+          </navLabel>
+          <content src="index_split_015.html#id_Toc3984558"/>
+        </navPoint>
+        <navPoint id="num_117" playOrder="116" class="chapter">
+          <navLabel>
+            <text>104. CHUYỆN CHÀNG TRAI MITTAVIDA ( Tiền thân Mittavinda)</text>
+          </navLabel>
+          <content src="index_split_015.html#id_Toc3984559"/>
+        </navPoint>
+        <navPoint id="num_118" playOrder="117" class="chapter">
+          <navLabel>
+            <text>105. CHUYỆN CON VOI SỢ CHẾT (Tiền thân Dubbalakattha)</text>
+          </navLabel>
+          <content src="index_split_015.html#id_Toc3984560"/>
+        </navPoint>
+        <navPoint id="num_119" playOrder="118" class="chapter">
+          <navLabel>
+            <text>106. CHUYỆN MÚC NƯỚC (Tiền thân Udancani)</text>
+          </navLabel>
+          <content src="index_split_015.html#id_Toc3984561"/>
+        </navPoint>
+        <navPoint id="num_120" playOrder="119" class="chapter">
+          <navLabel>
+            <text>107. CHUYỆN NGHỀ NÉM ÐÁ (Tiền thân Sàlittaka)</text>
+          </navLabel>
+          <content src="index_split_015.html#id_Toc3984562"/>
+        </navPoint>
+        <navPoint id="num_121" playOrder="120" class="chapter">
+          <navLabel>
+            <text>108. CHUYỆN LẠ KỲ (Tiền thân Bàhiya)</text>
+          </navLabel>
+          <content src="index_split_015.html#id_Toc3984563"/>
+        </navPoint>
+        <navPoint id="num_122" playOrder="121" class="chapter">
+          <navLabel>
+            <text>109. CHUYỆN BÁNH BỘT TRẤU ÐỎ (Tiền thân Kundakapùva)</text>
+          </navLabel>
+          <content src="index_split_015.html#id_Toc3984564"/>
+        </navPoint>
+        <navPoint id="num_123" playOrder="122" class="chapter">
+          <navLabel>
+            <text>110. CHUYỆN CÂU HỎI BAO QUÁT TẤT CẢ. (Tiền thân Sabbasabhàraka-Panha)</text>
+          </navLabel>
+          <content src="index_split_015.html#id_Toc3984565"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_124" playOrder="123" class="chapter">
+        <navLabel>
+          <text>PHẨM HAMSA</text>
+        </navLabel>
+        <content src="index_split_016.html"/>
+        <navPoint id="num_125" playOrder="124" class="chapter">
+          <navLabel>
+            <text>111. CHUYỆN CÂU HỎI CỦA CON LỪA (Tiền thân Gadrabha-Panha)</text>
+          </navLabel>
+          <content src="index_split_016.html#id_Toc3984567"/>
+        </navPoint>
+        <navPoint id="num_126" playOrder="125" class="chapter">
+          <navLabel>
+            <text>112. CHUYỆN CÂU HỎI CỦA HOÀNG HẬU BẤT TỬ (Tiền thân Amaràdevi-Panha)</text>
+          </navLabel>
+          <content src="index_split_016.html#id_Toc3984568"/>
+        </navPoint>
+        <navPoint id="num_127" playOrder="126" class="chapter">
+          <navLabel>
+            <text>113. CHUYỆN CON CHÓ RỪNG (Tiền thân Sigàla)</text>
+          </navLabel>
+          <content src="index_split_016.html#id_Toc3984569"/>
+        </navPoint>
+        <navPoint id="num_128" playOrder="127" class="chapter">
+          <navLabel>
+            <text>114. CHUYỆN CON CÁ NGHĨ VỪA (Tiền thân Mitacinti)</text>
+          </navLabel>
+          <content src="index_split_016.html#id_Toc3984570"/>
+        </navPoint>
+        <navPoint id="num_129" playOrder="128" class="chapter">
+          <navLabel>
+            <text>115. CHUYỆN NGƯỜI GIÁO GIỚI (Tiền thân Anusàsika)</text>
+          </navLabel>
+          <content src="index_split_016.html#id_Toc3984571"/>
+        </navPoint>
+        <navPoint id="num_130" playOrder="129" class="chapter">
+          <navLabel>
+            <text>116. CHUYỆN NGƯỜI MÚA GIÁO (Tiền thân Dubbaca)</text>
+          </navLabel>
+          <content src="index_split_016.html#id_Toc3984572"/>
+        </navPoint>
+        <navPoint id="num_131" playOrder="130" class="chapter">
+          <navLabel>
+            <text>117. CHUYỆN CHIM ÐA ÐA (Tiền thân Tittira)</text>
+          </navLabel>
+          <content src="index_split_016.html#id_Toc3984573"/>
+        </navPoint>
+        <navPoint id="num_132" playOrder="131" class="chapter">
+          <navLabel>
+            <text>118. CHUYỆN CHIM CUN CÚT (Tiền thân Vattaka)</text>
+          </navLabel>
+          <content src="index_split_016.html#id_Toc3984574"/>
+        </navPoint>
+        <navPoint id="num_133" playOrder="132" class="chapter">
+          <navLabel>
+            <text>119. CHUYỆN CON GÀ GÁY PHI THỜI (Tiền thân Akàlaràvi)</text>
+          </navLabel>
+          <content src="index_split_016.html#id_Toc3984575"/>
+        </navPoint>
+        <navPoint id="num_134" playOrder="133" class="chapter">
+          <navLabel>
+            <text>120. CHUYỆN GIẢI THOÁT SỰ TRÓI BUỘC (Tiền thân Bandhanamokkha)</text>
+          </navLabel>
+          <content src="index_split_016.html#id_Toc3984576"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

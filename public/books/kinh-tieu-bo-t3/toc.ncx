@@ -1,0 +1,2373 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta name="dtb:uid" content="ec7f7e9a-350d-427d-8e9b-d1c03d0bad3a"/>
+    <meta name="dtb:depth" content="4"/>
+    <meta name="dtb:generator" content="calibre (5.32.0)"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Kinh Tieu Bo Tap 3</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1" class="chapter">
+      <navLabel>
+        <text>Giới thiệu Trưởng Lão Tăng Kệ &amp; Trưởng Lão Ni Kệ</text>
+      </navLabel>
+      <content src="index_split_003.html"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="2" class="chapter">
+      <navLabel>
+        <text>Tập III - Trưởng Lão Tăng Kệ</text>
+      </navLabel>
+      <content src="index_split_004.html"/>
+      <navPoint id="num_3" playOrder="3" class="chapter">
+        <navLabel>
+          <text>Chương I - Một Kệ</text>
+        </navLabel>
+        <content src="index_split_005.html"/>
+      </navPoint>
+      <navPoint id="num_4" playOrder="4" class="chapter">
+        <navLabel>
+          <text>Phẩm Một</text>
+        </navLabel>
+        <content src="index_split_005.html#id_Toc3815184"/>
+        <navPoint id="num_5" playOrder="5" class="chapter">
+          <navLabel>
+            <text>(I) Subhùti (Thera. 1)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_2"/>
+        </navPoint>
+        <navPoint id="num_6" playOrder="6" class="chapter">
+          <navLabel>
+            <text>(II) Mahàkotthita (Thera. 1)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_3"/>
+        </navPoint>
+        <navPoint id="num_7" playOrder="7" class="chapter">
+          <navLabel>
+            <text>(III) Kankha-revata (Thera. 2)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_4"/>
+        </navPoint>
+        <navPoint id="num_8" playOrder="8" class="chapter">
+          <navLabel>
+            <text>(IV) Punna Mamtàniputta (Thera. 2)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_5"/>
+        </navPoint>
+        <navPoint id="num_9" playOrder="9" class="chapter">
+          <navLabel>
+            <text>(V) Dabba (Thera. 2)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_6"/>
+        </navPoint>
+        <navPoint id="num_10" playOrder="10" class="chapter">
+          <navLabel>
+            <text>(VI) Sìla- Vaniya (Thera. 2)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_7"/>
+        </navPoint>
+        <navPoint id="num_11" playOrder="11" class="chapter">
+          <navLabel>
+            <text>(VII) Bhalliya (Thera. 2)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_8"/>
+        </navPoint>
+        <navPoint id="num_12" playOrder="12" class="chapter">
+          <navLabel>
+            <text>(VIII) Vìra (Thera. 2)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_9"/>
+        </navPoint>
+        <navPoint id="num_13" playOrder="13" class="chapter">
+          <navLabel>
+            <text>IX. Pilinda-Vaccha (Thera. 2)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_10"/>
+        </navPoint>
+        <navPoint id="num_14" playOrder="14" class="chapter">
+          <navLabel>
+            <text>(X) Punnamàsa (Thera. 3)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_11"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_15" playOrder="15" class="chapter">
+        <navLabel>
+          <text>Phẩm Hai</text>
+        </navLabel>
+        <content src="index_split_006.html"/>
+        <navPoint id="num_16" playOrder="16" class="chapter">
+          <navLabel>
+            <text>(XI) Cùlagavaccha (Thera. 3)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_12"/>
+        </navPoint>
+        <navPoint id="num_17" playOrder="17" class="chapter">
+          <navLabel>
+            <text>(XII) Mahàgavaccha (Thera. 3)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_13"/>
+        </navPoint>
+        <navPoint id="num_18" playOrder="18" class="chapter">
+          <navLabel>
+            <text>(XIII) Vanvaccha (Thera. 3)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_14"/>
+        </navPoint>
+        <navPoint id="num_19" playOrder="19" class="chapter">
+          <navLabel>
+            <text>(XIV) Sìvaka (Thera. 3) (Một Sa-di phục vụ cho Vanavaccha).</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_15"/>
+        </navPoint>
+        <navPoint id="num_20" playOrder="20" class="chapter">
+          <navLabel>
+            <text>(XV) Kunda Dhàna (Thera. 3)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_16"/>
+        </navPoint>
+        <navPoint id="num_21" playOrder="21" class="chapter">
+          <navLabel>
+            <text>(XVI) Belatthasìsa (Thera. 3)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_17"/>
+        </navPoint>
+        <navPoint id="num_22" playOrder="22" class="chapter">
+          <navLabel>
+            <text>(XVII) Dàsaka (Thera. 4)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_18"/>
+        </navPoint>
+        <navPoint id="num_23" playOrder="23" class="chapter">
+          <navLabel>
+            <text>(XVIII) Singàlar-Pitar (Thera. 5)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_19"/>
+        </navPoint>
+        <navPoint id="num_24" playOrder="24" class="chapter">
+          <navLabel>
+            <text>(XIX) Kula (Thera. 4)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_20"/>
+        </navPoint>
+        <navPoint id="num_25" playOrder="25" class="chapter">
+          <navLabel>
+            <text>(XX) Ajita (Thera. 4)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_21"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_26" playOrder="26" class="chapter">
+        <navLabel>
+          <text>Phẩm Ba</text>
+        </navLabel>
+        <content src="index_split_007.html"/>
+        <navPoint id="num_27" playOrder="27" class="chapter">
+          <navLabel>
+            <text>(XXI) Nigrodha (Thera. 4)</text>
+          </navLabel>
+          <content src="index_split_007.html#toc_id_22"/>
+        </navPoint>
+        <navPoint id="num_28" playOrder="28" class="chapter">
+          <navLabel>
+            <text>(XXII) Cittaka (Thera. 4)</text>
+          </navLabel>
+          <content src="index_split_007.html#toc_id_23"/>
+        </navPoint>
+        <navPoint id="num_29" playOrder="29" class="chapter">
+          <navLabel>
+            <text>(XXIII) Gosàla (Thera. 5)</text>
+          </navLabel>
+          <content src="index_split_007.html#toc_id_24"/>
+        </navPoint>
+        <navPoint id="num_30" playOrder="30" class="chapter">
+          <navLabel>
+            <text>(XXIV) Sugandha (Thera. 5)</text>
+          </navLabel>
+          <content src="index_split_007.html#toc_id_25"/>
+        </navPoint>
+        <navPoint id="num_31" playOrder="31" class="chapter">
+          <navLabel>
+            <text>(XXV) Nandiya (Thera. 5)</text>
+          </navLabel>
+          <content src="index_split_007.html#toc_id_26"/>
+        </navPoint>
+        <navPoint id="num_32" playOrder="32" class="chapter">
+          <navLabel>
+            <text>(XXVI) Abhaya (Thera. 5)</text>
+          </navLabel>
+          <content src="index_split_007.html#toc_id_27"/>
+        </navPoint>
+        <navPoint id="num_33" playOrder="33" class="chapter">
+          <navLabel>
+            <text>(XXVII) Lomasakangìya (Thera. 5)</text>
+          </navLabel>
+          <content src="index_split_007.html#toc_id_28"/>
+        </navPoint>
+        <navPoint id="num_34" playOrder="34" class="chapter">
+          <navLabel>
+            <text>(XXVIII) Con Trai Của Jambugàmika (Thera. 5)</text>
+          </navLabel>
+          <content src="index_split_007.html#toc_id_29"/>
+        </navPoint>
+        <navPoint id="num_35" playOrder="35" class="chapter">
+          <navLabel>
+            <text>(XXIX) Hàrita (Thera. 5)</text>
+          </navLabel>
+          <content src="index_split_007.html#toc_id_30"/>
+        </navPoint>
+        <navPoint id="num_36" playOrder="36" class="chapter">
+          <navLabel>
+            <text>(XXX) Ittiya (Thera. 5)</text>
+          </navLabel>
+          <content src="index_split_007.html#toc_id_31"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_37" playOrder="37" class="chapter">
+        <navLabel>
+          <text>Phẩm Bốn</text>
+        </navLabel>
+        <content src="index_split_008.html"/>
+        <navPoint id="num_38" playOrder="38" class="chapter">
+          <navLabel>
+            <text>(XXXI) Gahvaratìrya (Thera. 6)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_32"/>
+        </navPoint>
+        <navPoint id="num_39" playOrder="39" class="chapter">
+          <navLabel>
+            <text>(XXXII) Suppiya (Thera. 6)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_33"/>
+        </navPoint>
+        <navPoint id="num_40" playOrder="40" class="chapter">
+          <navLabel>
+            <text>(XXXIII) Soopaka, Một Tỷ-Kheo Trẻ Con (Thera. 6)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_34"/>
+        </navPoint>
+        <navPoint id="num_41" playOrder="41" class="chapter">
+          <navLabel>
+            <text>(XXXIV) Posiya (Thera. 6)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_35"/>
+        </navPoint>
+        <navPoint id="num_42" playOrder="42" class="chapter">
+          <navLabel>
+            <text>(XXXV) Sàmannakàni (Thera. 6)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_36"/>
+        </navPoint>
+        <navPoint id="num_43" playOrder="43" class="chapter">
+          <navLabel>
+            <text>(XXXVI) Con Của Kunmà (Thera. 6)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_37"/>
+        </navPoint>
+        <navPoint id="num_44" playOrder="44" class="chapter">
+          <navLabel>
+            <text>(XXXVII) Bạn Của Con Kumà (Thera. 6)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_38"/>
+        </navPoint>
+        <navPoint id="num_45" playOrder="45" class="chapter">
+          <navLabel>
+            <text>(XXXVIII) Gavampati (Thera. 6)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_39"/>
+        </navPoint>
+        <navPoint id="num_46" playOrder="46" class="chapter">
+          <navLabel>
+            <text>(XXXIX) Tissa (Thera. 6)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_40"/>
+        </navPoint>
+        <navPoint id="num_47" playOrder="47" class="chapter">
+          <navLabel>
+            <text>(XL) Vaddhamàna (Thera. 7)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_41"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_48" playOrder="48" class="chapter">
+        <navLabel>
+          <text>Phẩm Năm</text>
+        </navLabel>
+        <content src="index_split_009.html"/>
+        <navPoint id="num_49" playOrder="49" class="chapter">
+          <navLabel>
+            <text>(XLI) Sirivaddka (Thera. 7)</text>
+          </navLabel>
+          <content src="index_split_009.html#toc_id_42"/>
+        </navPoint>
+        <navPoint id="num_50" playOrder="50" class="chapter">
+          <navLabel>
+            <text>(XLII) Khadira - Vaniya (Thera. 7)</text>
+          </navLabel>
+          <content src="index_split_009.html#toc_id_43"/>
+        </navPoint>
+        <navPoint id="num_51" playOrder="51" class="chapter">
+          <navLabel>
+            <text>(XLIII) Sumangala (Thera. 7)</text>
+          </navLabel>
+          <content src="index_split_009.html#toc_id_44"/>
+        </navPoint>
+        <navPoint id="num_52" playOrder="52" class="chapter">
+          <navLabel>
+            <text>(XLIV) Sànu (Thera. 7)</text>
+          </navLabel>
+          <content src="index_split_009.html#toc_id_45"/>
+        </navPoint>
+        <navPoint id="num_53" playOrder="53" class="chapter">
+          <navLabel>
+            <text>(XLV) Ramnìyavihàrim (Thera. 7)</text>
+          </navLabel>
+          <content src="index_split_009.html#toc_id_46"/>
+        </navPoint>
+        <navPoint id="num_54" playOrder="54" class="chapter">
+          <navLabel>
+            <text>(XLVI) Samiddhi (Thera. 7)</text>
+          </navLabel>
+          <content src="index_split_009.html#toc_id_47"/>
+        </navPoint>
+        <navPoint id="num_55" playOrder="55" class="chapter">
+          <navLabel>
+            <text>(XLVII) Ujiaya (Thera. 8)</text>
+          </navLabel>
+          <content src="index_split_009.html#toc_id_48"/>
+        </navPoint>
+        <navPoint id="num_56" playOrder="56" class="chapter">
+          <navLabel>
+            <text>(XLVIII) Sanjaya (Thera. 8)</text>
+          </navLabel>
+          <content src="index_split_009.html#toc_id_49"/>
+        </navPoint>
+        <navPoint id="num_57" playOrder="57" class="chapter">
+          <navLabel>
+            <text>(XLIX) Ràmaneyyaka (Thera. 8)</text>
+          </navLabel>
+          <content src="index_split_009.html#toc_id_50"/>
+        </navPoint>
+        <navPoint id="num_58" playOrder="58" class="chapter">
+          <navLabel>
+            <text>(L) Vimala (Thera. 8)</text>
+          </navLabel>
+          <content src="index_split_009.html#toc_id_51"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_59" playOrder="59" class="chapter">
+        <navLabel>
+          <text>Chương I - Một Kệ (tiếp theo)</text>
+        </navLabel>
+        <content src="index_split_010.html"/>
+      </navPoint>
+      <navPoint id="num_60" playOrder="60" class="chapter">
+        <navLabel>
+          <text>Phẩm Sáu</text>
+        </navLabel>
+        <content src="index_split_010.html#id_Toc3815190"/>
+        <navPoint id="num_61" playOrder="61" class="chapter">
+          <navLabel>
+            <text>(LI-LIV) Ghodhika, Subàhu, Valliya, Uttiya (Thera. 8)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_52"/>
+        </navPoint>
+        <navPoint id="num_62" playOrder="62" class="chapter">
+          <navLabel>
+            <text>(LV) Anjana -Vaniya (Thera. 9)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_53"/>
+        </navPoint>
+        <navPoint id="num_63" playOrder="63" class="chapter">
+          <navLabel>
+            <text>(LVI) Kutivihàrim (Thera. 9)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_54"/>
+        </navPoint>
+        <navPoint id="num_64" playOrder="64" class="chapter">
+          <navLabel>
+            <text>(LVII) Kutivihàrim (Thera. 9)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_55"/>
+        </navPoint>
+        <navPoint id="num_65" playOrder="65" class="chapter">
+          <navLabel>
+            <text>(LVIII) Ramaniyakutika (Thera. 9)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_56"/>
+        </navPoint>
+        <navPoint id="num_66" playOrder="66" class="chapter">
+          <navLabel>
+            <text>(LIX) Kosalavihàrim (Thera. 9)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_57"/>
+        </navPoint>
+        <navPoint id="num_67" playOrder="67" class="chapter">
+          <navLabel>
+            <text>(LX) Sivàli (Thera. 9)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_58"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_68" playOrder="68" class="chapter">
+        <navLabel>
+          <text>Phẩm Bảy</text>
+        </navLabel>
+        <content src="index_split_011.html"/>
+        <navPoint id="num_69" playOrder="69" class="chapter">
+          <navLabel>
+            <text>(LXI) Vappa (Thera. 9)</text>
+          </navLabel>
+          <content src="index_split_011.html#toc_id_59"/>
+        </navPoint>
+        <navPoint id="num_70" playOrder="70" class="chapter">
+          <navLabel>
+            <text>(LXII) Vajji-Putta (Thera. 10)</text>
+          </navLabel>
+          <content src="index_split_011.html#toc_id_60"/>
+        </navPoint>
+        <navPoint id="num_71" playOrder="71" class="chapter">
+          <navLabel>
+            <text>(LXIII) Pakkha (Thera. 10)</text>
+          </navLabel>
+          <content src="index_split_011.html#toc_id_61"/>
+        </navPoint>
+        <navPoint id="num_72" playOrder="72" class="chapter">
+          <navLabel>
+            <text>(LXIV) Vimala- Kondanna (Thera. 10)</text>
+          </navLabel>
+          <content src="index_split_011.html#toc_id_62"/>
+        </navPoint>
+        <navPoint id="num_73" playOrder="73" class="chapter">
+          <navLabel>
+            <text>(LXV) Ukkhepakàta vaccha (Thera. 10)</text>
+          </navLabel>
+          <content src="index_split_011.html#toc_id_63"/>
+        </navPoint>
+        <navPoint id="num_74" playOrder="74" class="chapter">
+          <navLabel>
+            <text>(LXVI) Meghiya (Thera. 10)</text>
+          </navLabel>
+          <content src="index_split_011.html#toc_id_64"/>
+        </navPoint>
+        <navPoint id="num_75" playOrder="75" class="chapter">
+          <navLabel>
+            <text>(LXVII) Ekadhamma Savannìya (Thera. 10)</text>
+          </navLabel>
+          <content src="index_split_011.html#toc_id_65"/>
+        </navPoint>
+        <navPoint id="num_76" playOrder="76" class="chapter">
+          <navLabel>
+            <text>(LXVIII) Ekudàniya (Thera. 10)</text>
+          </navLabel>
+          <content src="index_split_011.html#toc_id_66"/>
+        </navPoint>
+        <navPoint id="num_77" playOrder="77" class="chapter">
+          <navLabel>
+            <text>(LXIX) Channa (Thera. 10)</text>
+          </navLabel>
+          <content src="index_split_011.html#toc_id_67"/>
+        </navPoint>
+        <navPoint id="num_78" playOrder="78" class="chapter">
+          <navLabel>
+            <text>(LXX) Punna (Thera. 11)</text>
+          </navLabel>
+          <content src="index_split_011.html#toc_id_68"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_79" playOrder="79" class="chapter">
+        <navLabel>
+          <text>Phẩm Tám</text>
+        </navLabel>
+        <content src="index_split_012.html"/>
+        <navPoint id="num_80" playOrder="80" class="chapter">
+          <navLabel>
+            <text>(LXXI) Vacchapàla (Thera. 11)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_69"/>
+        </navPoint>
+        <navPoint id="num_81" playOrder="81" class="chapter">
+          <navLabel>
+            <text>(LXXII) Atuma (Thera. 11)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_70"/>
+        </navPoint>
+        <navPoint id="num_82" playOrder="82" class="chapter">
+          <navLabel>
+            <text>(LXXIII) Mànava (Thera. 11)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_71"/>
+        </navPoint>
+        <navPoint id="num_83" playOrder="83" class="chapter">
+          <navLabel>
+            <text>(LXXIV) Suyàman (Thera. 11)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_72"/>
+        </navPoint>
+        <navPoint id="num_84" playOrder="84" class="chapter">
+          <navLabel>
+            <text>(LXXV) Susàrada (Thera. 11)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_73"/>
+        </navPoint>
+        <navPoint id="num_85" playOrder="85" class="chapter">
+          <navLabel>
+            <text>(LXXVI) Piyanjaha (Thera. 11)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_74"/>
+        </navPoint>
+        <navPoint id="num_86" playOrder="86" class="chapter">
+          <navLabel>
+            <text>(LXXVII) Hatthàroha- Putta (Thera. 12)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_75"/>
+        </navPoint>
+        <navPoint id="num_87" playOrder="87" class="chapter">
+          <navLabel>
+            <text>(LXXVIII) Mendasira (Thera. 12)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_76"/>
+        </navPoint>
+        <navPoint id="num_88" playOrder="88" class="chapter">
+          <navLabel>
+            <text>(LXXIX) Rakkhita (Thera. 12)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_77"/>
+        </navPoint>
+        <navPoint id="num_89" playOrder="89" class="chapter">
+          <navLabel>
+            <text>(LXXX) Ugga (Thera. 12)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_78"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_90" playOrder="90" class="chapter">
+        <navLabel>
+          <text>Phẩm Chín</text>
+        </navLabel>
+        <content src="index_split_013.html"/>
+        <navPoint id="num_91" playOrder="91" class="chapter">
+          <navLabel>
+            <text>(LXXXI) Samitigutta (Thera. 12)</text>
+          </navLabel>
+          <content src="index_split_013.html#toc_id_79"/>
+        </navPoint>
+        <navPoint id="num_92" playOrder="92" class="chapter">
+          <navLabel>
+            <text>(LXXXII) Kassapa (Thera. 12)</text>
+          </navLabel>
+          <content src="index_split_013.html#toc_id_80"/>
+        </navPoint>
+        <navPoint id="num_93" playOrder="93" class="chapter">
+          <navLabel>
+            <text>(LXXXIII) Sìha (Thera. 12)</text>
+          </navLabel>
+          <content src="index_split_013.html#toc_id_81"/>
+        </navPoint>
+        <navPoint id="num_94" playOrder="94" class="chapter">
+          <navLabel>
+            <text>(LXXXIV) Nita (Thera. 13)</text>
+          </navLabel>
+          <content src="index_split_013.html#toc_id_82"/>
+        </navPoint>
+        <navPoint id="num_95" playOrder="95" class="chapter">
+          <navLabel>
+            <text>(LXXXV) Sunàga (Thera. 13)</text>
+          </navLabel>
+          <content src="index_split_013.html#toc_id_83"/>
+        </navPoint>
+        <navPoint id="num_96" playOrder="96" class="chapter">
+          <navLabel>
+            <text>(LXXXVI) Nàgita (Thera. 13)</text>
+          </navLabel>
+          <content src="index_split_013.html#toc_id_84"/>
+        </navPoint>
+        <navPoint id="num_97" playOrder="97" class="chapter">
+          <navLabel>
+            <text>(LXXXVII) Pavittha (Thera. 13)</text>
+          </navLabel>
+          <content src="index_split_013.html#toc_id_85"/>
+        </navPoint>
+        <navPoint id="num_98" playOrder="98" class="chapter">
+          <navLabel>
+            <text>(LXXXVIII) Ajjuna (Thera. 13)</text>
+          </navLabel>
+          <content src="index_split_013.html#toc_id_86"/>
+        </navPoint>
+        <navPoint id="num_99" playOrder="99" class="chapter">
+          <navLabel>
+            <text>(LXXXIX) Devasabha (Thera. 13)</text>
+          </navLabel>
+          <content src="index_split_013.html#toc_id_87"/>
+        </navPoint>
+        <navPoint id="num_100" playOrder="100" class="chapter">
+          <navLabel>
+            <text>(XC) Sàmidatta (Thera. 13)</text>
+          </navLabel>
+          <content src="index_split_013.html#toc_id_88"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_101" playOrder="101" class="chapter">
+        <navLabel>
+          <text>Phẩm Mười</text>
+        </navLabel>
+        <content src="index_split_014.html"/>
+        <navPoint id="num_102" playOrder="102" class="chapter">
+          <navLabel>
+            <text>(XCI) Paripunnaka (Thera. 13)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_89"/>
+        </navPoint>
+        <navPoint id="num_103" playOrder="103" class="chapter">
+          <navLabel>
+            <text>(XCII) Vijaya (Thera. 13)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_90"/>
+        </navPoint>
+        <navPoint id="num_104" playOrder="104" class="chapter">
+          <navLabel>
+            <text>(XCIII) Eraka (Thera. 14)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_91"/>
+        </navPoint>
+        <navPoint id="num_105" playOrder="105" class="chapter">
+          <navLabel>
+            <text>(XCIV) Mettajì (Thera. 14)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_92"/>
+        </navPoint>
+        <navPoint id="num_106" playOrder="106" class="chapter">
+          <navLabel>
+            <text>(XCV) Cakkupàla (Thera. 14)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_93"/>
+        </navPoint>
+        <navPoint id="num_107" playOrder="107" class="chapter">
+          <navLabel>
+            <text>(XCVI) Khandasumana (Thera. 14)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_94"/>
+        </navPoint>
+        <navPoint id="num_108" playOrder="108" class="chapter">
+          <navLabel>
+            <text>(XCVII) Tissa (Thera. 14)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_95"/>
+        </navPoint>
+        <navPoint id="num_109" playOrder="109" class="chapter">
+          <navLabel>
+            <text>(XCVIII) Abhaya (2) (Thera. 14)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_96"/>
+        </navPoint>
+        <navPoint id="num_110" playOrder="110" class="chapter">
+          <navLabel>
+            <text>(XCIX) Uttiya (Thera. 14)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_97"/>
+        </navPoint>
+        <navPoint id="num_111" playOrder="111" class="chapter">
+          <navLabel>
+            <text>(C) Devasabha (II) (Thera. 14)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_98"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_112" playOrder="112" class="chapter">
+        <navLabel>
+          <text>Phẩm Mười Một</text>
+        </navLabel>
+        <content src="index_split_015.html"/>
+        <navPoint id="num_113" playOrder="113" class="chapter">
+          <navLabel>
+            <text>(CI) Belatthakàni (Thera. 15)</text>
+          </navLabel>
+          <content src="index_split_015.html#toc_id_99"/>
+        </navPoint>
+        <navPoint id="num_114" playOrder="114" class="chapter">
+          <navLabel>
+            <text>(CII) Setuccha (Thera. 15)</text>
+          </navLabel>
+          <content src="index_split_015.html#toc_id_100"/>
+        </navPoint>
+        <navPoint id="num_115" playOrder="115" class="chapter">
+          <navLabel>
+            <text>(CIII) Bandhura (Thera. 15)</text>
+          </navLabel>
+          <content src="index_split_015.html#toc_id_101"/>
+        </navPoint>
+        <navPoint id="num_116" playOrder="116" class="chapter">
+          <navLabel>
+            <text>(CIV) Khitaka (Thera. 15)</text>
+          </navLabel>
+          <content src="index_split_015.html#toc_id_102"/>
+        </navPoint>
+        <navPoint id="num_117" playOrder="117" class="chapter">
+          <navLabel>
+            <text>(CV) Malytavambha (Thera. 15)</text>
+          </navLabel>
+          <content src="index_split_015.html#toc_id_103"/>
+        </navPoint>
+        <navPoint id="num_118" playOrder="118" class="chapter">
+          <navLabel>
+            <text>(CVI) Suhemanta (Thera. 15)</text>
+          </navLabel>
+          <content src="index_split_015.html#toc_id_104"/>
+        </navPoint>
+        <navPoint id="num_119" playOrder="119" class="chapter">
+          <navLabel>
+            <text>(CVII) Dhammasava (Thera. 15)</text>
+          </navLabel>
+          <content src="index_split_015.html#toc_id_105"/>
+        </navPoint>
+        <navPoint id="num_120" playOrder="120" class="chapter">
+          <navLabel>
+            <text>(CVIII) Phụ Thân Của Dhammasava (Thera. 15)</text>
+          </navLabel>
+          <content src="index_split_015.html#toc_id_106"/>
+        </navPoint>
+        <navPoint id="num_121" playOrder="121" class="chapter">
+          <navLabel>
+            <text>(CIX) Langha Rakkhita (Thera. 16)</text>
+          </navLabel>
+          <content src="index_split_015.html#toc_id_107"/>
+        </navPoint>
+        <navPoint id="num_122" playOrder="122" class="chapter">
+          <navLabel>
+            <text>(CX) Usabha (Thera. 16)</text>
+          </navLabel>
+          <content src="index_split_015.html#toc_id_108"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_123" playOrder="123" class="chapter">
+        <navLabel>
+          <text>Phẩm Mười Hai</text>
+        </navLabel>
+        <content src="index_split_016.html"/>
+        <navPoint id="num_124" playOrder="124" class="chapter">
+          <navLabel>
+            <text>(CXI) Jenta (Thera. 16)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_109"/>
+        </navPoint>
+        <navPoint id="num_125" playOrder="125" class="chapter">
+          <navLabel>
+            <text>(CXII) Vacchagotta (Thera. 16)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_110"/>
+        </navPoint>
+        <navPoint id="num_126" playOrder="126" class="chapter">
+          <navLabel>
+            <text>(CXIII) Vanavaccha (Thera. 16)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_111"/>
+        </navPoint>
+        <navPoint id="num_127" playOrder="127" class="chapter">
+          <navLabel>
+            <text>(XIV) Adhimutta (Thera. 16)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_112"/>
+        </navPoint>
+        <navPoint id="num_128" playOrder="128" class="chapter">
+          <navLabel>
+            <text>(CXV) Mahànàma (Thera. 16)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_113"/>
+        </navPoint>
+        <navPoint id="num_129" playOrder="129" class="chapter">
+          <navLabel>
+            <text>(CXVI) Pàràpariya (Thera. 17)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_114"/>
+        </navPoint>
+        <navPoint id="num_130" playOrder="130" class="chapter">
+          <navLabel>
+            <text>(CXVII) Yasa (Thera. 17)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_115"/>
+        </navPoint>
+        <navPoint id="num_131" playOrder="131" class="chapter">
+          <navLabel>
+            <text>(CXVIII) Kimliba (Thera. 17)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_116"/>
+        </navPoint>
+        <navPoint id="num_132" playOrder="132" class="chapter">
+          <navLabel>
+            <text>(CXIX) Vajji-Putta (Thera. 17)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_117"/>
+        </navPoint>
+        <navPoint id="num_133" playOrder="133" class="chapter">
+          <navLabel>
+            <text>(CXX) Isidatta (Thera. 17)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_118"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_134" playOrder="134" class="chapter">
+        <navLabel>
+          <text>Chương II - Hai Kệ</text>
+        </navLabel>
+        <content src="index_split_017.html"/>
+      </navPoint>
+      <navPoint id="num_135" playOrder="135" class="chapter">
+        <navLabel>
+          <text>Phẩm Một</text>
+        </navLabel>
+        <content src="index_split_017.html#id_Toc3815198"/>
+        <navPoint id="num_136" playOrder="136" class="chapter">
+          <navLabel>
+            <text>(CXXI) Utara (Thera. 18)</text>
+          </navLabel>
+          <content src="index_split_017.html#toc_id_119"/>
+        </navPoint>
+        <navPoint id="num_137" playOrder="137" class="chapter">
+          <navLabel>
+            <text>(CXXII) Pindola-Bhàradvàja (Thera. 18)</text>
+          </navLabel>
+          <content src="index_split_017.html#toc_id_120"/>
+        </navPoint>
+        <navPoint id="num_138" playOrder="138" class="chapter">
+          <navLabel>
+            <text>(CXXIII) Valliya (Thera. 18)</text>
+          </navLabel>
+          <content src="index_split_017.html#toc_id_121"/>
+        </navPoint>
+        <navPoint id="num_139" playOrder="139" class="chapter">
+          <navLabel>
+            <text>(CXXIV) Gangàtiriya (Thera. 18)</text>
+          </navLabel>
+          <content src="index_split_017.html#toc_id_122"/>
+        </navPoint>
+        <navPoint id="num_140" playOrder="140" class="chapter">
+          <navLabel>
+            <text>(CXXV) Ajina (Thera. 18)</text>
+          </navLabel>
+          <content src="index_split_017.html#toc_id_123"/>
+        </navPoint>
+        <navPoint id="num_141" playOrder="141" class="chapter">
+          <navLabel>
+            <text>(CXXVI) Melajina (Thera. 19)</text>
+          </navLabel>
+          <content src="index_split_017.html#toc_id_124"/>
+        </navPoint>
+        <navPoint id="num_142" playOrder="142" class="chapter">
+          <navLabel>
+            <text>(CXXVII) Ràdha (Thera. 19)</text>
+          </navLabel>
+          <content src="index_split_017.html#toc_id_125"/>
+        </navPoint>
+        <navPoint id="num_143" playOrder="143" class="chapter">
+          <navLabel>
+            <text>(CXXVIII) Suràdha (Thera. 19)</text>
+          </navLabel>
+          <content src="index_split_017.html#toc_id_126"/>
+        </navPoint>
+        <navPoint id="num_144" playOrder="144" class="chapter">
+          <navLabel>
+            <text>(CXXIX) Gotama (Thera. 19)</text>
+          </navLabel>
+          <content src="index_split_017.html#toc_id_127"/>
+        </navPoint>
+        <navPoint id="num_145" playOrder="145" class="chapter">
+          <navLabel>
+            <text>(CXXX) Vasabha (Thera. 19)</text>
+          </navLabel>
+          <content src="index_split_017.html#toc_id_128"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_146" playOrder="146" class="chapter">
+        <navLabel>
+          <text>Phẩm Hai</text>
+        </navLabel>
+        <content src="index_split_018.html"/>
+        <navPoint id="num_147" playOrder="147" class="chapter">
+          <navLabel>
+            <text>(CXXXI) Mahàcunsa (Thera. 20)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_129"/>
+        </navPoint>
+        <navPoint id="num_148" playOrder="148" class="chapter">
+          <navLabel>
+            <text>(CXXXII) Jotidàra (Thera. 20)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_130"/>
+        </navPoint>
+        <navPoint id="num_149" playOrder="149" class="chapter">
+          <navLabel>
+            <text>(CXXXIII) Herannakàni (Thera. 20)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_131"/>
+        </navPoint>
+        <navPoint id="num_150" playOrder="150" class="chapter">
+          <navLabel>
+            <text>(CXXXIV) Somamitta (Thera. 20)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_132"/>
+        </navPoint>
+        <navPoint id="num_151" playOrder="151" class="chapter">
+          <navLabel>
+            <text>(CXXXV) Sabbamitta (Thera. 20)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_133"/>
+        </navPoint>
+        <navPoint id="num_152" playOrder="152" class="chapter">
+          <navLabel>
+            <text>(CXXXVI) Mahàkàla (Thera. 21)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_134"/>
+        </navPoint>
+        <navPoint id="num_153" playOrder="153" class="chapter">
+          <navLabel>
+            <text>(CXXXVII) Tissa (Thera. 21)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_135"/>
+        </navPoint>
+        <navPoint id="num_154" playOrder="154" class="chapter">
+          <navLabel>
+            <text>(CXXXVIII) Kimbila (Thera. 21)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_136"/>
+        </navPoint>
+        <navPoint id="num_155" playOrder="155" class="chapter">
+          <navLabel>
+            <text>(CXXXIX) Nanda (Thera. 21)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_137"/>
+        </navPoint>
+        <navPoint id="num_156" playOrder="156" class="chapter">
+          <navLabel>
+            <text>(CXL) Sirimat (Thera. 21)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_138"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_157" playOrder="157" class="chapter">
+        <navLabel>
+          <text>Phẩm Ba</text>
+        </navLabel>
+        <content src="index_split_019.html"/>
+        <navPoint id="num_158" playOrder="158" class="chapter">
+          <navLabel>
+            <text>(CXLI) Uttara (Thera. 22)</text>
+          </navLabel>
+          <content src="index_split_019.html#toc_id_139"/>
+        </navPoint>
+        <navPoint id="num_159" playOrder="159" class="chapter">
+          <navLabel>
+            <text>(CXLII) Bhaddaji (Thera. 22)</text>
+          </navLabel>
+          <content src="index_split_019.html#toc_id_140"/>
+        </navPoint>
+        <navPoint id="num_160" playOrder="160" class="chapter">
+          <navLabel>
+            <text>(CXLIII) Sobhita (Thera. 22)</text>
+          </navLabel>
+          <content src="index_split_019.html#toc_id_141"/>
+        </navPoint>
+        <navPoint id="num_161" playOrder="161" class="chapter">
+          <navLabel>
+            <text>(CXLIV) Valliya (Thera. 22)</text>
+          </navLabel>
+          <content src="index_split_019.html#toc_id_142"/>
+        </navPoint>
+        <navPoint id="num_162" playOrder="162" class="chapter">
+          <navLabel>
+            <text>(CXLV) Vitàsoka (Thera. 22)</text>
+          </navLabel>
+          <content src="index_split_019.html#toc_id_143"/>
+        </navPoint>
+        <navPoint id="num_163" playOrder="163" class="chapter">
+          <navLabel>
+            <text>(CXLVI) Punnamàsa (Thera. 23)</text>
+          </navLabel>
+          <content src="index_split_019.html#toc_id_144"/>
+        </navPoint>
+        <navPoint id="num_164" playOrder="164" class="chapter">
+          <navLabel>
+            <text>(CXLVII) Nandaka (Thera. 23)</text>
+          </navLabel>
+          <content src="index_split_019.html#toc_id_145"/>
+        </navPoint>
+        <navPoint id="num_165" playOrder="165" class="chapter">
+          <navLabel>
+            <text>(CXLVIII) Bharata (Thera. 23)</text>
+          </navLabel>
+          <content src="index_split_019.html#toc_id_146"/>
+        </navPoint>
+        <navPoint id="num_166" playOrder="166" class="chapter">
+          <navLabel>
+            <text>(CXLIX) Bhàradvàja (Thera. 23)</text>
+          </navLabel>
+          <content src="index_split_019.html#toc_id_147"/>
+        </navPoint>
+        <navPoint id="num_167" playOrder="167" class="chapter">
+          <navLabel>
+            <text>(CL) Kanhadinna (Thera. 23)</text>
+          </navLabel>
+          <content src="index_split_019.html#toc_id_148"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_168" playOrder="168" class="chapter">
+        <navLabel>
+          <text>Phẩm Bốn</text>
+        </navLabel>
+        <content src="index_split_020.html"/>
+        <navPoint id="num_169" playOrder="169" class="chapter">
+          <navLabel>
+            <text>(CLI) Migasìra (Thera. 24)</text>
+          </navLabel>
+          <content src="index_split_020.html#toc_id_149"/>
+        </navPoint>
+        <navPoint id="num_170" playOrder="170" class="chapter">
+          <navLabel>
+            <text>(CLII) Sivàka (Thera. 24)</text>
+          </navLabel>
+          <content src="index_split_020.html#toc_id_150"/>
+        </navPoint>
+        <navPoint id="num_171" playOrder="171" class="chapter">
+          <navLabel>
+            <text>(CLIII) Upavàna (Thera. 24)</text>
+          </navLabel>
+          <content src="index_split_020.html#toc_id_151"/>
+        </navPoint>
+        <navPoint id="num_172" playOrder="172" class="chapter">
+          <navLabel>
+            <text>(CLIV) Isidinna (Thera. 24)</text>
+          </navLabel>
+          <content src="index_split_020.html#toc_id_152"/>
+        </navPoint>
+        <navPoint id="num_173" playOrder="173" class="chapter">
+          <navLabel>
+            <text>(CLV) Sambula - Kaccàna (Thera. 24)</text>
+          </navLabel>
+          <content src="index_split_020.html#toc_id_153"/>
+        </navPoint>
+        <navPoint id="num_174" playOrder="174" class="chapter">
+          <navLabel>
+            <text>(CLVI) Khitaka (Thera. 25)</text>
+          </navLabel>
+          <content src="index_split_020.html#toc_id_154"/>
+        </navPoint>
+        <navPoint id="num_175" playOrder="175" class="chapter">
+          <navLabel>
+            <text>(CLVII) Sona - Potiriyaputta (Thera. 25)</text>
+          </navLabel>
+          <content src="index_split_020.html#toc_id_155"/>
+        </navPoint>
+        <navPoint id="num_176" playOrder="176" class="chapter">
+          <navLabel>
+            <text>(CLVIII) Nisabha (Thera. 25)</text>
+          </navLabel>
+          <content src="index_split_020.html#toc_id_156"/>
+        </navPoint>
+        <navPoint id="num_177" playOrder="177" class="chapter">
+          <navLabel>
+            <text>(CLIX) Usabha (Thera. 25)</text>
+          </navLabel>
+          <content src="index_split_020.html#toc_id_157"/>
+        </navPoint>
+        <navPoint id="num_178" playOrder="178" class="chapter">
+          <navLabel>
+            <text>(CLX) Kappata - Kura (Thera. 25)</text>
+          </navLabel>
+          <content src="index_split_020.html#toc_id_158"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_179" playOrder="179" class="chapter">
+        <navLabel>
+          <text>Phẩm Năm</text>
+        </navLabel>
+        <content src="index_split_021.html"/>
+        <navPoint id="num_180" playOrder="180" class="chapter">
+          <navLabel>
+            <text>(CLXI) Kumàra-Kassapa (Thera. 26)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_159"/>
+        </navPoint>
+        <navPoint id="num_181" playOrder="181" class="chapter">
+          <navLabel>
+            <text>(CLXII) Dhammapàla (Thera. 26)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_160"/>
+        </navPoint>
+        <navPoint id="num_182" playOrder="182" class="chapter">
+          <navLabel>
+            <text>(CLXIII) Brahmàlì (Thera. 26)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_161"/>
+        </navPoint>
+        <navPoint id="num_183" playOrder="183" class="chapter">
+          <navLabel>
+            <text>(CLXIV) Mogharàjam (Thera. 27)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_162"/>
+        </navPoint>
+        <navPoint id="num_184" playOrder="184" class="chapter">
+          <navLabel>
+            <text>(CLXV) Visàkha, Con Của Pancàlì (Thera. 27)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_163"/>
+        </navPoint>
+        <navPoint id="num_185" playOrder="185" class="chapter">
+          <navLabel>
+            <text>(CLXVI) Cùlaka (Thera. 27)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_164"/>
+        </navPoint>
+        <navPoint id="num_186" playOrder="186" class="chapter">
+          <navLabel>
+            <text>(CLXVII) Anupama (Thera. 27)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_165"/>
+        </navPoint>
+        <navPoint id="num_187" playOrder="187" class="chapter">
+          <navLabel>
+            <text>(CLXVIII) Vajjita (Thera. 27)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_166"/>
+        </navPoint>
+        <navPoint id="num_188" playOrder="188" class="chapter">
+          <navLabel>
+            <text>(CLXIX) Sandhita (Thera. 28)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_167"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_189" playOrder="189" class="chapter">
+        <navLabel>
+          <text>Chương III - Phẩm Ba Kệ</text>
+        </navLabel>
+        <content src="index_split_022.html"/>
+        <navPoint id="num_190" playOrder="190" class="chapter">
+          <navLabel>
+            <text>(CLXX) Anganika Bhàradvàja (Thera. 29)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_168"/>
+        </navPoint>
+        <navPoint id="num_191" playOrder="191" class="chapter">
+          <navLabel>
+            <text>(CLXXI) Paccaya (Thera. 29)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_169"/>
+        </navPoint>
+        <navPoint id="num_192" playOrder="192" class="chapter">
+          <navLabel>
+            <text>(CLXXII) Bàkula (Thera. 29)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_170"/>
+        </navPoint>
+        <navPoint id="num_193" playOrder="193" class="chapter">
+          <navLabel>
+            <text>(CLXXIII) Dhaniya (Thera. 29)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_171"/>
+        </navPoint>
+        <navPoint id="num_194" playOrder="194" class="chapter">
+          <navLabel>
+            <text>(CLXXIV) Con Của Màtanga (Thera. 30)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_172"/>
+        </navPoint>
+        <navPoint id="num_195" playOrder="195" class="chapter">
+          <navLabel>
+            <text>(CLXXV) Khujja Sobhita (Thera. 30)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_173"/>
+        </navPoint>
+        <navPoint id="num_196" playOrder="196" class="chapter">
+          <navLabel>
+            <text>(CLXXVI) Vàrana (Thera. 30)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_174"/>
+        </navPoint>
+        <navPoint id="num_197" playOrder="197" class="chapter">
+          <navLabel>
+            <text>(CLXXVII) Passsika (Thera. 30)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_175"/>
+        </navPoint>
+        <navPoint id="num_198" playOrder="198" class="chapter">
+          <navLabel>
+            <text>(CLXXVIII) Yasoja (Thera. 30)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_176"/>
+        </navPoint>
+        <navPoint id="num_199" playOrder="199" class="chapter">
+          <navLabel>
+            <text>(CLXXIX) Satimattya (Thera. 31)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_177"/>
+        </navPoint>
+        <navPoint id="num_200" playOrder="200" class="chapter">
+          <navLabel>
+            <text>(CLXXX) Upàli (Thera. 31)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_178"/>
+        </navPoint>
+        <navPoint id="num_201" playOrder="201" class="chapter">
+          <navLabel>
+            <text>(CLXXXI) Uttarapàla (Thera. 31)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_179"/>
+        </navPoint>
+        <navPoint id="num_202" playOrder="202" class="chapter">
+          <navLabel>
+            <text>(CLXXXII) Abhibhùta (Thera. 31)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_180"/>
+        </navPoint>
+        <navPoint id="num_203" playOrder="203" class="chapter">
+          <navLabel>
+            <text>(CLXXXIII) Gotama (Thera. 32)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_181"/>
+        </navPoint>
+        <navPoint id="num_204" playOrder="204" class="chapter">
+          <navLabel>
+            <text>(CLXXXIV) Harita (Thera. 32)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_182"/>
+        </navPoint>
+        <navPoint id="num_205" playOrder="205" class="chapter">
+          <navLabel>
+            <text>(CLXXXV) Vimala (Thera. 32)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_183"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_206" playOrder="206" class="chapter">
+        <navLabel>
+          <text>Chương IV - Phẩm Bốn Kệ</text>
+        </navLabel>
+        <content src="index_split_023.html"/>
+        <navPoint id="num_207" playOrder="207" class="chapter">
+          <navLabel>
+            <text>(CLXXXVI) Nàgasamàla (Thera. 33)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_184"/>
+        </navPoint>
+        <navPoint id="num_208" playOrder="208" class="chapter">
+          <navLabel>
+            <text>(CLXXXVII) Bhagu (Thera. 33)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_185"/>
+        </navPoint>
+        <navPoint id="num_209" playOrder="209" class="chapter">
+          <navLabel>
+            <text>(CLXXXVIII) Sabhiya (Thera. 33)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_186"/>
+        </navPoint>
+        <navPoint id="num_210" playOrder="210" class="chapter">
+          <navLabel>
+            <text>(CLXXXIX) Nandaka (Thera. 33)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_187"/>
+        </navPoint>
+        <navPoint id="num_211" playOrder="211" class="chapter">
+          <navLabel>
+            <text>(CXC) Jambuka (Thera. 34)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_188"/>
+        </navPoint>
+        <navPoint id="num_212" playOrder="212" class="chapter">
+          <navLabel>
+            <text>(CXCI) Senaka (Thera. 34)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_189"/>
+        </navPoint>
+        <navPoint id="num_213" playOrder="213" class="chapter">
+          <navLabel>
+            <text>(CXCII) Sambhùta (Thera. 34)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_190"/>
+        </navPoint>
+        <navPoint id="num_214" playOrder="214" class="chapter">
+          <navLabel>
+            <text>(CXCIII) Ràhula (Thera. 35)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_191"/>
+        </navPoint>
+        <navPoint id="num_215" playOrder="215" class="chapter">
+          <navLabel>
+            <text>(CXCIV) Candana (Thera. 35)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_192"/>
+        </navPoint>
+        <navPoint id="num_216" playOrder="216" class="chapter">
+          <navLabel>
+            <text>(CXCV) Dhammika (Thera. 35)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_193"/>
+        </navPoint>
+        <navPoint id="num_217" playOrder="217" class="chapter">
+          <navLabel>
+            <text>(CXCVI) Sabbaka (Thera. 35)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_194"/>
+        </navPoint>
+        <navPoint id="num_218" playOrder="218" class="chapter">
+          <navLabel>
+            <text>(CXVII) Mudita (Thera 36)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_195"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_219" playOrder="219" class="chapter">
+        <navLabel>
+          <text>Chương V - Phẩm Năm Kệ</text>
+        </navLabel>
+        <content src="index_split_024.html"/>
+        <navPoint id="num_220" playOrder="220" class="chapter">
+          <navLabel>
+            <text>(CXCVIII) Ràjadatta (Thera. 37)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_196"/>
+        </navPoint>
+        <navPoint id="num_221" playOrder="221" class="chapter">
+          <navLabel>
+            <text>(CXCIX) Subhùta (Thera. 37)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_197"/>
+        </navPoint>
+        <navPoint id="num_222" playOrder="222" class="chapter">
+          <navLabel>
+            <text>(CC) Girimànanda (Thera. 38)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_198"/>
+        </navPoint>
+        <navPoint id="num_223" playOrder="223" class="chapter">
+          <navLabel>
+            <text>(CCI) Sumana (Thera. 38)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_199"/>
+        </navPoint>
+        <navPoint id="num_224" playOrder="224" class="chapter">
+          <navLabel>
+            <text>(CCII) Vaddha (Thera. 38)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_200"/>
+        </navPoint>
+        <navPoint id="num_225" playOrder="225" class="chapter">
+          <navLabel>
+            <text>(CCIII) Nadikassapa (Thera. 39)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_201"/>
+        </navPoint>
+        <navPoint id="num_226" playOrder="226" class="chapter">
+          <navLabel>
+            <text>(CCIV) Gayà-Kassapa (Thera. 39)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_202"/>
+        </navPoint>
+        <navPoint id="num_227" playOrder="227" class="chapter">
+          <navLabel>
+            <text>(CCV) Vakkali (Thera. 39)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_203"/>
+        </navPoint>
+        <navPoint id="num_228" playOrder="228" class="chapter">
+          <navLabel>
+            <text>(CCVI) Vigitasena (Thera. 39)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_204"/>
+        </navPoint>
+        <navPoint id="num_229" playOrder="229" class="chapter">
+          <navLabel>
+            <text>(CCVII) Yasadatta (Thera. 40)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_205"/>
+        </navPoint>
+        <navPoint id="num_230" playOrder="230" class="chapter">
+          <navLabel>
+            <text>(CCVIII) Sonakutikanna (Thera. 40)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_206"/>
+        </navPoint>
+        <navPoint id="num_231" playOrder="231" class="chapter">
+          <navLabel>
+            <text>(CCIX) Kosiya (Thera. 41)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_207"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_232" playOrder="232" class="chapter">
+        <navLabel>
+          <text>Chương VI - Phẩm Sáu Kệ</text>
+        </navLabel>
+        <content src="index_split_025.html"/>
+        <navPoint id="num_233" playOrder="233" class="chapter">
+          <navLabel>
+            <text>(CCK) Uruvelà Kassapa (Thera. 42)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_208"/>
+        </navPoint>
+        <navPoint id="num_234" playOrder="234" class="chapter">
+          <navLabel>
+            <text>(CCXI) Tekicchakàrì (Thera. 42)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_209"/>
+        </navPoint>
+        <navPoint id="num_235" playOrder="235" class="chapter">
+          <navLabel>
+            <text>(CCXII ) Mahà-Nàga (Thera. 43)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_210"/>
+        </navPoint>
+        <navPoint id="num_236" playOrder="236" class="chapter">
+          <navLabel>
+            <text>(CCXIII) Kulla (Thera. 43)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_211"/>
+        </navPoint>
+        <navPoint id="num_237" playOrder="237" class="chapter">
+          <navLabel>
+            <text>(CCXIV) Màlunkyaputta (Thera. 43)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_212"/>
+        </navPoint>
+        <navPoint id="num_238" playOrder="238" class="chapter">
+          <navLabel>
+            <text>(CCXV) Sappadàsa (Thera. 44)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_213"/>
+        </navPoint>
+        <navPoint id="num_239" playOrder="239" class="chapter">
+          <navLabel>
+            <text>(CCXVI) Kàtiyàna (Thera. 45)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_214"/>
+        </navPoint>
+        <navPoint id="num_240" playOrder="240" class="chapter">
+          <navLabel>
+            <text>(CCXII ) Migajàla (Thera. 45)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_215"/>
+        </navPoint>
+        <navPoint id="num_241" playOrder="241" class="chapter">
+          <navLabel>
+            <text>(CCXVIII) Jenta (Thera. 45)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_216"/>
+        </navPoint>
+        <navPoint id="num_242" playOrder="242" class="chapter">
+          <navLabel>
+            <text>(CCXIX) Sumana (Thera. 46)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_217"/>
+        </navPoint>
+        <navPoint id="num_243" playOrder="243" class="chapter">
+          <navLabel>
+            <text>(CCXX) Nhàlaka - Muni (Thera. 46)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_218"/>
+        </navPoint>
+        <navPoint id="num_244" playOrder="244" class="chapter">
+          <navLabel>
+            <text>(CCXXI) Brahmadatta (Thera. 46)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_219"/>
+        </navPoint>
+        <navPoint id="num_245" playOrder="245" class="chapter">
+          <navLabel>
+            <text>(CCXXII) Sirimanda (Thera. 47)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_220"/>
+        </navPoint>
+        <navPoint id="num_246" playOrder="246" class="chapter">
+          <navLabel>
+            <text>(CCXXIII) Sabbhakàma (Thera. 47)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_221"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_247" playOrder="247" class="chapter">
+        <navLabel>
+          <text>Chương VII - Phẩm Bảy Kệ</text>
+        </navLabel>
+        <content src="index_split_026.html"/>
+        <navPoint id="num_248" playOrder="248" class="chapter">
+          <navLabel>
+            <text>(CCXXIV) Sundara-Samudda (Thera. 49)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_222"/>
+        </navPoint>
+        <navPoint id="num_249" playOrder="249" class="chapter">
+          <navLabel>
+            <text>(CCXXV) Lakuntaka-Bhaddiya (Thera. 49)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_223"/>
+        </navPoint>
+        <navPoint id="num_250" playOrder="250" class="chapter">
+          <navLabel>
+            <text>(CCXXVI) Bhadda (Thera. 50)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_224"/>
+        </navPoint>
+        <navPoint id="num_251" playOrder="251" class="chapter">
+          <navLabel>
+            <text>(CCXXVII) Sopàka (Thera. 50)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_225"/>
+        </navPoint>
+        <navPoint id="num_252" playOrder="252" class="chapter">
+          <navLabel>
+            <text>(CCXXVIII) Sarabhanga (Thera. 50)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_226"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_253" playOrder="253" class="chapter">
+        <navLabel>
+          <text>Chương VIII - Phẩm Tám Kệ</text>
+        </navLabel>
+        <content src="index_split_027.html"/>
+        <navPoint id="num_254" playOrder="254" class="chapter">
+          <navLabel>
+            <text>(CCXXLX) Mahà-Kaccàyana (Thera. 52)</text>
+          </navLabel>
+          <content src="index_split_027.html#toc_id_227"/>
+        </navPoint>
+        <navPoint id="num_255" playOrder="255" class="chapter">
+          <navLabel>
+            <text>(CCXXX) Sirimitta (Thera. 52)</text>
+          </navLabel>
+          <content src="index_split_027.html#toc_id_228"/>
+        </navPoint>
+        <navPoint id="num_256" playOrder="256" class="chapter">
+          <navLabel>
+            <text>(CCXXXI) Mahà-Panthaka (Thera. 53)</text>
+          </navLabel>
+          <content src="index_split_027.html#toc_id_229"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_257" playOrder="257" class="chapter">
+        <navLabel>
+          <text>Chương IX - Phẩm Chín Kệ</text>
+        </navLabel>
+        <content src="index_split_028.html"/>
+        <navPoint id="num_258" playOrder="258" class="chapter">
+          <navLabel>
+            <text>(CCXXXII) Bhùta (Thera. 54)</text>
+          </navLabel>
+          <content src="index_split_028.html#toc_id_230"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_259" playOrder="259" class="chapter">
+        <navLabel>
+          <text>Chương X - Phẩm Mười Kệ</text>
+        </navLabel>
+        <content src="index_split_029.html"/>
+        <navPoint id="num_260" playOrder="260" class="chapter">
+          <navLabel>
+            <text>(CCXXIII) Kàludàyin (Thera. 56)</text>
+          </navLabel>
+          <content src="index_split_029.html#toc_id_231"/>
+        </navPoint>
+        <navPoint id="num_261" playOrder="261" class="chapter">
+          <navLabel>
+            <text>(CCXXXIV) Ekavihàriya (Tissa Kumàra) (Thera. 57)</text>
+          </navLabel>
+          <content src="index_split_029.html#toc_id_232"/>
+        </navPoint>
+        <navPoint id="num_262" playOrder="262" class="chapter">
+          <navLabel>
+            <text>(CCXXXV) Mahà Kappina (Ma-ha Kiếp-tân-na) (Thera. 58)</text>
+          </navLabel>
+          <content src="index_split_029.html#toc_id_233"/>
+        </navPoint>
+        <navPoint id="num_263" playOrder="263" class="chapter">
+          <navLabel>
+            <text>(CCXXXVI) Cùla-Panthaka (Thera. 59)</text>
+          </navLabel>
+          <content src="index_split_029.html#toc_id_234"/>
+        </navPoint>
+        <navPoint id="num_264" playOrder="264" class="chapter">
+          <navLabel>
+            <text>(CCXXXVII) Kappa (Thera. 59)</text>
+          </navLabel>
+          <content src="index_split_029.html#toc_id_235"/>
+        </navPoint>
+        <navPoint id="num_265" playOrder="265" class="chapter">
+          <navLabel>
+            <text>(CCXXXVIII) Upasena, Con Của Vanganta (Thera. 60)</text>
+          </navLabel>
+          <content src="index_split_029.html#toc_id_236"/>
+        </navPoint>
+        <navPoint id="num_266" playOrder="266" class="chapter">
+          <navLabel>
+            <text>(CCXXXIX) Gotama (Thera. 61)</text>
+          </navLabel>
+          <content src="index_split_029.html#toc_id_237"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_267" playOrder="267" class="chapter">
+        <navLabel>
+          <text>Chương XI - Phẩm Mười Một Kệ</text>
+        </navLabel>
+        <content src="index_split_030.html"/>
+        <navPoint id="num_268" playOrder="268" class="chapter">
+          <navLabel>
+            <text>(CCXL) Sankicca (Thera. 62)</text>
+          </navLabel>
+          <content src="index_split_030.html#toc_id_238"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_269" playOrder="269" class="chapter">
+        <navLabel>
+          <text>Chương XII - Phẩm Mười Hai Kệ</text>
+        </navLabel>
+        <content src="index_split_031.html"/>
+        <navPoint id="num_270" playOrder="270" class="chapter">
+          <navLabel>
+            <text>(CCXLI) Sìlavat (Thera. 63)</text>
+          </navLabel>
+          <content src="index_split_031.html#toc_id_239"/>
+        </navPoint>
+        <navPoint id="num_271" playOrder="271" class="chapter">
+          <navLabel>
+            <text>(CCXLII) Sunìta (Thera. 63)</text>
+          </navLabel>
+          <content src="index_split_031.html#toc_id_240"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_272" playOrder="272" class="chapter">
+        <navLabel>
+          <text>Chương XIII - Phẩm Mười Ba Kệ</text>
+        </navLabel>
+        <content src="index_split_032.html"/>
+        <navPoint id="num_273" playOrder="273" class="chapter">
+          <navLabel>
+            <text>(CCXLIII) Sona-Kolivisa (Thera. 65)</text>
+          </navLabel>
+          <content src="index_split_032.html#toc_id_241"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_274" playOrder="274" class="chapter">
+        <navLabel>
+          <text>Chương XIV - Phẩm Mười Bốn Kệ</text>
+        </navLabel>
+        <content src="index_split_033.html"/>
+        <navPoint id="num_275" playOrder="275" class="chapter">
+          <navLabel>
+            <text>(CCXLIV) Revata (Thera. 67)</text>
+          </navLabel>
+          <content src="index_split_033.html#toc_id_242"/>
+        </navPoint>
+        <navPoint id="num_276" playOrder="276" class="chapter">
+          <navLabel>
+            <text>(CCXLV) Godatta (Thera. 67)</text>
+          </navLabel>
+          <content src="index_split_033.html#toc_id_243"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_277" playOrder="277" class="chapter">
+        <navLabel>
+          <text>Chương XV - Phẩm Mười Lăm Kệ</text>
+        </navLabel>
+        <content src="index_split_034.html"/>
+        <navPoint id="num_278" playOrder="278" class="chapter">
+          <navLabel>
+            <text>(CCXLVI) Anna-Kondanna (Thera. 69)</text>
+          </navLabel>
+          <content src="index_split_034.html#toc_id_244"/>
+        </navPoint>
+        <navPoint id="num_279" playOrder="279" class="chapter">
+          <navLabel>
+            <text>(CCXLVII) Udàyin (Thera. 69)</text>
+          </navLabel>
+          <content src="index_split_034.html#toc_id_245"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_280" playOrder="280" class="chapter">
+        <navLabel>
+          <text>Chương XVI - Phẩm Hai Mươi Kệ</text>
+        </navLabel>
+        <content src="index_split_035.html"/>
+        <navPoint id="num_281" playOrder="281" class="chapter">
+          <navLabel>
+            <text>(CCXLVIII) Adhimutta (Thera. 71)</text>
+          </navLabel>
+          <content src="index_split_035.html#toc_id_246"/>
+        </navPoint>
+        <navPoint id="num_282" playOrder="282" class="chapter">
+          <navLabel>
+            <text>(CCXLIX) Pàràpariya (Thera. 72)</text>
+          </navLabel>
+          <content src="index_split_035.html#toc_id_247"/>
+        </navPoint>
+        <navPoint id="num_283" playOrder="283" class="chapter">
+          <navLabel>
+            <text>(CCL) Kelakàni (Thera. 298)</text>
+          </navLabel>
+          <content src="index_split_035.html#toc_id_248"/>
+        </navPoint>
+        <navPoint id="num_284" playOrder="284" class="chapter">
+          <navLabel>
+            <text>(CCLI) Ratthapàla (Thera. 75)</text>
+          </navLabel>
+          <content src="index_split_035.html#toc_id_249"/>
+        </navPoint>
+        <navPoint id="num_285" playOrder="285" class="chapter">
+          <navLabel>
+            <text>(CCLII) Màlunkyaputta (Thera. 77).</text>
+          </navLabel>
+          <content src="index_split_035.html#toc_id_250"/>
+        </navPoint>
+        <navPoint id="num_286" playOrder="286" class="chapter">
+          <navLabel>
+            <text>(CCLIII) Sela (Thera. 78)</text>
+          </navLabel>
+          <content src="index_split_035.html#toc_id_251"/>
+        </navPoint>
+        <navPoint id="num_287" playOrder="287" class="chapter">
+          <navLabel>
+            <text>(CCLIV) Bhaddiya kàligodhàyaputta (Thera. 80)</text>
+          </navLabel>
+          <content src="index_split_035.html#toc_id_252"/>
+        </navPoint>
+        <navPoint id="num_288" playOrder="288" class="chapter">
+          <navLabel>
+            <text>(CCLV) Angulimàlà (Thera. 80)</text>
+          </navLabel>
+          <content src="index_split_035.html#toc_id_253"/>
+        </navPoint>
+        <navPoint id="num_289" playOrder="289" class="chapter">
+          <navLabel>
+            <text>(CCLVI) Anuruddha (Thera. 83)</text>
+          </navLabel>
+          <content src="index_split_035.html#toc_id_254"/>
+        </navPoint>
+        <navPoint id="num_290" playOrder="290" class="chapter">
+          <navLabel>
+            <text>(CCLVII) Pàràpariya (Thera. 84)</text>
+          </navLabel>
+          <content src="index_split_035.html#toc_id_255"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_291" playOrder="291" class="chapter">
+        <navLabel>
+          <text>Chương XVII - Phẩm Ba Mươi Kệ</text>
+        </navLabel>
+        <content src="index_split_036.html"/>
+        <navPoint id="num_292" playOrder="292" class="chapter">
+          <navLabel>
+            <text>(CCLVIII) Phussa (Thera. 87)</text>
+          </navLabel>
+          <content src="index_split_036.html#toc_id_256"/>
+        </navPoint>
+        <navPoint id="num_293" playOrder="293" class="chapter">
+          <navLabel>
+            <text>(CCLIX) Sàriputta (Thera. 89)</text>
+          </navLabel>
+          <content src="index_split_036.html#toc_id_257"/>
+        </navPoint>
+        <navPoint id="num_294" playOrder="294" class="chapter">
+          <navLabel>
+            <text>(XXLX) Ananda (Thera. 91)</text>
+          </navLabel>
+          <content src="index_split_036.html#toc_id_258"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_295" playOrder="295" class="chapter">
+        <navLabel>
+          <text>Chương XVIII - Phẩm Bốn Mươi Kệ</text>
+        </navLabel>
+        <content src="index_split_037.html"/>
+        <navPoint id="num_296" playOrder="296" class="chapter">
+          <navLabel>
+            <text>(CCLXI) Mahà-Kassapa (Thera. 94)</text>
+          </navLabel>
+          <content src="index_split_037.html#toc_id_259"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_297" playOrder="297" class="chapter">
+        <navLabel>
+          <text>Chương XIX - Phẩm Năm Mươi Kệ</text>
+        </navLabel>
+        <content src="index_split_038.html"/>
+        <navPoint id="num_298" playOrder="298" class="chapter">
+          <navLabel>
+            <text>(CCLXII) Tàlaputta (Thera. 97)</text>
+          </navLabel>
+          <content src="index_split_038.html#toc_id_260"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_299" playOrder="299" class="chapter">
+        <navLabel>
+          <text>Chương XX - Phẩm Sáu Mươi Kệ</text>
+        </navLabel>
+        <content src="index_split_039.html"/>
+        <navPoint id="num_300" playOrder="300" class="chapter">
+          <navLabel>
+            <text>(CCLXIII) Mahà-Moggallàna (Thera. 104)</text>
+          </navLabel>
+          <content src="index_split_039.html#toc_id_261"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_301" playOrder="301" class="chapter">
+        <navLabel>
+          <text>Chương XXI - Phẩm Bảy Mươi Mốt Kệ - Ðại Tập</text>
+        </navLabel>
+        <content src="index_split_040.html"/>
+        <navPoint id="num_302" playOrder="302" class="chapter">
+          <navLabel>
+            <text>(CCLXIV) Vangìsa (Thera. 109)</text>
+          </navLabel>
+          <content src="index_split_040.html#toc_id_262"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_303" playOrder="303" class="chapter">
+      <navLabel>
+        <text>(Untitled)</text>
+      </navLabel>
+      <content src="index_split_041.html"/>
+    </navPoint>
+    <navPoint id="num_304" playOrder="303" class="chapter">
+      <navLabel>
+        <text>Tập III - Trưởng Lão Ni Kệ</text>
+      </navLabel>
+      <content src="index_split_041.html"/>
+      <navPoint id="num_305" playOrder="304" class="chapter">
+        <navLabel>
+          <text>Phẩm I - Tập Một Kệ</text>
+        </navLabel>
+        <content src="index_split_042.html"/>
+        <navPoint id="num_306" playOrder="305" class="chapter">
+          <navLabel>
+            <text>(I) Bài Kệ Này Do Một Trưởng Lão Ni Không Biết Tên Nói Lên (Therì. 123)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_264"/>
+        </navPoint>
+        <navPoint id="num_307" playOrder="306" class="chapter">
+          <navLabel>
+            <text>(II) Muttà (Therì. 123)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_265"/>
+        </navPoint>
+        <navPoint id="num_308" playOrder="307" class="chapter">
+          <navLabel>
+            <text>(III) Punnà (Therì. 123)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_266"/>
+        </navPoint>
+        <navPoint id="num_309" playOrder="308" class="chapter">
+          <navLabel>
+            <text>(IV) Tissà (Therì. 123)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_267"/>
+        </navPoint>
+        <navPoint id="num_310" playOrder="309" class="chapter">
+          <navLabel>
+            <text>(V) Một Tissà Khác (Therì. 123)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_268"/>
+        </navPoint>
+        <navPoint id="num_311" playOrder="310" class="chapter">
+          <navLabel>
+            <text>(VI) Dhìra (Therì. 124)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_269"/>
+        </navPoint>
+        <navPoint id="num_312" playOrder="311" class="chapter">
+          <navLabel>
+            <text>(VII) Một Dhìra Khác (Therì. 124)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_270"/>
+        </navPoint>
+        <navPoint id="num_313" playOrder="312" class="chapter">
+          <navLabel>
+            <text>(VIII) Mittà (Therì. 124)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_271"/>
+        </navPoint>
+        <navPoint id="num_314" playOrder="313" class="chapter">
+          <navLabel>
+            <text>(IX) Bhadhà (Therì. 124)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_272"/>
+        </navPoint>
+        <navPoint id="num_315" playOrder="314" class="chapter">
+          <navLabel>
+            <text>(X) Upasanà (Therì. 124)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_273"/>
+        </navPoint>
+        <navPoint id="num_316" playOrder="315" class="chapter">
+          <navLabel>
+            <text>(XI) Muttà (Therì. 123)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_274"/>
+        </navPoint>
+        <navPoint id="num_317" playOrder="316" class="chapter">
+          <navLabel>
+            <text>(XII) Dhammadinnà (Therì. 124)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_275"/>
+        </navPoint>
+        <navPoint id="num_318" playOrder="317" class="chapter">
+          <navLabel>
+            <text>(XIII) Visàkhà (Therì. 124)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_276"/>
+        </navPoint>
+        <navPoint id="num_319" playOrder="318" class="chapter">
+          <navLabel>
+            <text>(XIV) Sumànà (Therì. 124)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_277"/>
+        </navPoint>
+        <navPoint id="num_320" playOrder="319" class="chapter">
+          <navLabel>
+            <text>(XV) Uttarà (Therì. 125)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_278"/>
+        </navPoint>
+        <navPoint id="num_321" playOrder="320" class="chapter">
+          <navLabel>
+            <text>(XVI) Sumànà Xuất Gia Khi Tuổi Già (Therì. 125)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_279"/>
+        </navPoint>
+        <navPoint id="num_322" playOrder="321" class="chapter">
+          <navLabel>
+            <text>(XVII) Dhammà (Therì. 125)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_280"/>
+        </navPoint>
+        <navPoint id="num_323" playOrder="322" class="chapter">
+          <navLabel>
+            <text>(XVIII) Sanjhà (Therì. 125)</text>
+          </navLabel>
+          <content src="index_split_042.html#toc_id_281"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_324" playOrder="323" class="chapter">
+        <navLabel>
+          <text>Phẩm Hai -Tập Hai Kệ</text>
+        </navLabel>
+        <content src="index_split_043.html"/>
+        <navPoint id="num_325" playOrder="324" class="chapter">
+          <navLabel>
+            <text>(XIX) Abhirùpa Nandà (Therì. 125)</text>
+          </navLabel>
+          <content src="index_split_043.html#toc_id_282"/>
+        </navPoint>
+        <navPoint id="num_326" playOrder="325" class="chapter">
+          <navLabel>
+            <text>(XX) Jentì (hay Jentà) (Therì. 125)</text>
+          </navLabel>
+          <content src="index_split_043.html#toc_id_283"/>
+        </navPoint>
+        <navPoint id="num_327" playOrder="326" class="chapter">
+          <navLabel>
+            <text>(XXI) Mẹ Của Sumangala (Therì. 126)</text>
+          </navLabel>
+          <content src="index_split_043.html#toc_id_284"/>
+        </navPoint>
+        <navPoint id="num_328" playOrder="327" class="chapter">
+          <navLabel>
+            <text>(XXII) Addhakasi (Therì. 126)</text>
+          </navLabel>
+          <content src="index_split_043.html#toc_id_285"/>
+        </navPoint>
+        <navPoint id="num_329" playOrder="328" class="chapter">
+          <navLabel>
+            <text>(XXIII) Città (Therì. 126)</text>
+          </navLabel>
+          <content src="index_split_043.html#toc_id_286"/>
+        </navPoint>
+        <navPoint id="num_330" playOrder="329" class="chapter">
+          <navLabel>
+            <text>(XXIV) Mettikà (Therì. 126)</text>
+          </navLabel>
+          <content src="index_split_043.html#toc_id_287"/>
+        </navPoint>
+        <navPoint id="num_331" playOrder="330" class="chapter">
+          <navLabel>
+            <text>(XXV) Mittà (Therì. 127)</text>
+          </navLabel>
+          <content src="index_split_043.html#toc_id_288"/>
+        </navPoint>
+        <navPoint id="num_332" playOrder="331" class="chapter">
+          <navLabel>
+            <text>(XXVI) Mẹ Của Abhayà (Therì. 127)</text>
+          </navLabel>
+          <content src="index_split_043.html#toc_id_289"/>
+        </navPoint>
+        <navPoint id="num_333" playOrder="332" class="chapter">
+          <navLabel>
+            <text>(XXVII) Abhaya (Therì. 127)</text>
+          </navLabel>
+          <content src="index_split_043.html#toc_id_290"/>
+        </navPoint>
+        <navPoint id="num_334" playOrder="333" class="chapter">
+          <navLabel>
+            <text>(XXVIII) Sàmà (Therì. 127)</text>
+          </navLabel>
+          <content src="index_split_043.html#toc_id_291"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_335" playOrder="334" class="chapter">
+        <navLabel>
+          <text>Phẩm Ba - Tập Ba Kệ</text>
+        </navLabel>
+        <content src="index_split_044.html"/>
+        <navPoint id="num_336" playOrder="335" class="chapter">
+          <navLabel>
+            <text>(XXIX) Một Sàmà Khác (Therì. 127)</text>
+          </navLabel>
+          <content src="index_split_044.html#toc_id_292"/>
+        </navPoint>
+        <navPoint id="num_337" playOrder="336" class="chapter">
+          <navLabel>
+            <text>(XXX) Uttama (Therì. 128)</text>
+          </navLabel>
+          <content src="index_split_044.html#toc_id_293"/>
+        </navPoint>
+        <navPoint id="num_338" playOrder="337" class="chapter">
+          <navLabel>
+            <text>(XXXI) Một Uttarà Khác</text>
+          </navLabel>
+          <content src="index_split_044.html#toc_id_294"/>
+        </navPoint>
+        <navPoint id="num_339" playOrder="338" class="chapter">
+          <navLabel>
+            <text>(XXXII) Dantikà</text>
+          </navLabel>
+          <content src="index_split_044.html#toc_id_295"/>
+        </navPoint>
+        <navPoint id="num_340" playOrder="339" class="chapter">
+          <navLabel>
+            <text>(XXXIII) Ubirì</text>
+          </navLabel>
+          <content src="index_split_044.html#toc_id_296"/>
+        </navPoint>
+        <navPoint id="num_341" playOrder="340" class="chapter">
+          <navLabel>
+            <text>(XXXIV) Sukkà (Therì. 129)</text>
+          </navLabel>
+          <content src="index_split_044.html#toc_id_297"/>
+        </navPoint>
+        <navPoint id="num_342" playOrder="341" class="chapter">
+          <navLabel>
+            <text>(XXXV) Sielà</text>
+          </navLabel>
+          <content src="index_split_044.html#toc_id_298"/>
+        </navPoint>
+        <navPoint id="num_343" playOrder="342" class="chapter">
+          <navLabel>
+            <text>(XXXVI) Somà (Therì. 129)</text>
+          </navLabel>
+          <content src="index_split_044.html#toc_id_299"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_344" playOrder="343" class="chapter">
+        <navLabel>
+          <text>Phẩm Bốn - Tập Bốn Kệ</text>
+        </navLabel>
+        <content src="index_split_045.html"/>
+        <navPoint id="num_345" playOrder="344" class="chapter">
+          <navLabel>
+            <text>(XXXVII) Bhaddà Thuộc Dòng Họ Kapllà. (Therì. 130)</text>
+          </navLabel>
+          <content src="index_split_045.html#toc_id_300"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_346" playOrder="345" class="chapter">
+        <navLabel>
+          <text>Phẩm V - Tập Năm Kệ</text>
+        </navLabel>
+        <content src="index_split_046.html"/>
+        <navPoint id="num_347" playOrder="346" class="chapter">
+          <navLabel>
+            <text>(XXXVIII) Một Tỷ Kheo Ni Vô Danh (Therì. 130)</text>
+          </navLabel>
+          <content src="index_split_046.html#id_here"/>
+        </navPoint>
+        <navPoint id="num_348" playOrder="347" class="chapter">
+          <navLabel>
+            <text>(XXXIX) Vimala, Xưa Làm Một Kỹ Nữ (Therì. 131)</text>
+          </navLabel>
+          <content src="index_split_046.html#toc_id_301"/>
+        </navPoint>
+        <navPoint id="num_349" playOrder="348" class="chapter">
+          <navLabel>
+            <text>(VL) Sìha (Therì. 131)</text>
+          </navLabel>
+          <content src="index_split_046.html#toc_id_302"/>
+        </navPoint>
+        <navPoint id="num_350" playOrder="349" class="chapter">
+          <navLabel>
+            <text>(XLI) Sundarì Nandà (Therì. 132)</text>
+          </navLabel>
+          <content src="index_split_046.html#toc_id_303"/>
+        </navPoint>
+        <navPoint id="num_351" playOrder="350" class="chapter">
+          <navLabel>
+            <text>(XLII) Manduttara (Therì. 132)</text>
+          </navLabel>
+          <content src="index_split_046.html#toc_id_304"/>
+        </navPoint>
+        <navPoint id="num_352" playOrder="351" class="chapter">
+          <navLabel>
+            <text>(XLIII) Mittakali (Therì. 132)</text>
+          </navLabel>
+          <content src="index_split_046.html#toc_id_305"/>
+        </navPoint>
+        <navPoint id="num_353" playOrder="352" class="chapter">
+          <navLabel>
+            <text>(XLIV) Sakulà (Therì. 133)</text>
+          </navLabel>
+          <content src="index_split_046.html#toc_id_306"/>
+        </navPoint>
+        <navPoint id="num_354" playOrder="353" class="chapter">
+          <navLabel>
+            <text>(XLV) Sonà (Therì. 133)</text>
+          </navLabel>
+          <content src="index_split_046.html#toc_id_307"/>
+        </navPoint>
+        <navPoint id="num_355" playOrder="354" class="chapter">
+          <navLabel>
+            <text>(XLVI) Bhadda Kundalakess (Therì. 134)</text>
+          </navLabel>
+          <content src="index_split_046.html#toc_id_308"/>
+        </navPoint>
+        <navPoint id="num_356" playOrder="355" class="chapter">
+          <navLabel>
+            <text>(XLVII) Patàcàrà (Therì. 134)</text>
+          </navLabel>
+          <content src="index_split_046.html#toc_id_309"/>
+        </navPoint>
+        <navPoint id="num_357" playOrder="356" class="chapter">
+          <navLabel>
+            <text>(XLVIII) 30 Tỷ Kheo Ni Tuyên Bố Về Chánh Trí Dưới Sự Lãnh Ðạo Của Patàcàrà (Therì. 135)</text>
+          </navLabel>
+          <content src="index_split_046.html#toc_id_310"/>
+        </navPoint>
+        <navPoint id="num_358" playOrder="357" class="chapter">
+          <navLabel>
+            <text>(XLIX) Candà (Therì. 135)</text>
+          </navLabel>
+          <content src="index_split_046.html#toc_id_311"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_359" playOrder="358" class="chapter">
+        <navLabel>
+          <text>Phẩm VI - Tập Sáu Kệ</text>
+        </navLabel>
+        <content src="index_split_047.html"/>
+        <navPoint id="num_360" playOrder="359" class="chapter">
+          <navLabel>
+            <text>(L) Năm Trăm Patàcàrà (Therì. 136)</text>
+          </navLabel>
+          <content src="index_split_047.html#toc_id_312"/>
+        </navPoint>
+        <navPoint id="num_361" playOrder="360" class="chapter">
+          <navLabel>
+            <text>(LI) Vàsitthi (Therì. 136)</text>
+          </navLabel>
+          <content src="index_split_047.html#toc_id_313"/>
+        </navPoint>
+        <navPoint id="num_362" playOrder="361" class="chapter">
+          <navLabel>
+            <text>(LII) Khemà (Therì. 137)</text>
+          </navLabel>
+          <content src="index_split_047.html#toc_id_314"/>
+        </navPoint>
+        <navPoint id="num_363" playOrder="362" class="chapter">
+          <navLabel>
+            <text>(LIII) Sujàtà (Therì. 137)</text>
+          </navLabel>
+          <content src="index_split_047.html#toc_id_315"/>
+        </navPoint>
+        <navPoint id="num_364" playOrder="363" class="chapter">
+          <navLabel>
+            <text>(LIV) Anopanà (Therì. 138)</text>
+          </navLabel>
+          <content src="index_split_047.html#toc_id_316"/>
+        </navPoint>
+        <navPoint id="num_365" playOrder="364" class="chapter">
+          <navLabel>
+            <text>(LV) Mahàpajàpatì Gotamì (Therì. 138)</text>
+          </navLabel>
+          <content src="index_split_047.html#toc_id_317"/>
+        </navPoint>
+        <navPoint id="num_366" playOrder="365" class="chapter">
+          <navLabel>
+            <text>(LVI) Guttà (Therì. 139)</text>
+          </navLabel>
+          <content src="index_split_047.html#toc_id_318"/>
+        </navPoint>
+        <navPoint id="num_367" playOrder="366" class="chapter">
+          <navLabel>
+            <text>(LVII) Vijjayà (Therì. 139)</text>
+          </navLabel>
+          <content src="index_split_047.html#toc_id_319"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_368" playOrder="367" class="chapter">
+        <navLabel>
+          <text>Phẩm VII - Tập Bảy Kệ</text>
+        </navLabel>
+        <content src="index_split_048.html"/>
+        <navPoint id="num_369" playOrder="368" class="chapter">
+          <navLabel>
+            <text>(LVIII) Uttarà (Therì. 140)</text>
+          </navLabel>
+          <content src="index_split_048.html#toc_id_320"/>
+        </navPoint>
+        <navPoint id="num_370" playOrder="369" class="chapter">
+          <navLabel>
+            <text>(LIX) Calà (Therì. 141)</text>
+          </navLabel>
+          <content src="index_split_048.html#toc_id_321"/>
+        </navPoint>
+        <navPoint id="num_371" playOrder="370" class="chapter">
+          <navLabel>
+            <text>(LX) Upacàlà (Therì. 141)</text>
+          </navLabel>
+          <content src="index_split_048.html#toc_id_322"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_372" playOrder="371" class="chapter">
+        <navLabel>
+          <text>Phẩm VIII - Tập Tám Kệ</text>
+        </navLabel>
+        <content src="index_split_049.html"/>
+        <navPoint id="num_373" playOrder="372" class="chapter">
+          <navLabel>
+            <text>(LXI) Sìsupacàlà (Therì. 142)</text>
+          </navLabel>
+          <content src="index_split_049.html#toc_id_323"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_374" playOrder="373" class="chapter">
+        <navLabel>
+          <text>Phẩm IX - Tập Chín Kệ</text>
+        </navLabel>
+        <content src="index_split_050.html"/>
+        <navPoint id="num_375" playOrder="374" class="chapter">
+          <navLabel>
+            <text>(LXII) Mẹ Của Vaddha</text>
+          </navLabel>
+          <content src="index_split_050.html#toc_id_324"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_376" playOrder="375" class="chapter">
+        <navLabel>
+          <text>Phẩm X - Tập Mười Kệ</text>
+        </navLabel>
+        <content src="index_split_051.html"/>
+        <navPoint id="num_377" playOrder="376" class="chapter">
+          <navLabel>
+            <text>(LXIII) Kisà Gotamì (Therì. 143)</text>
+          </navLabel>
+          <content src="index_split_051.html#toc_id_325"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_378" playOrder="377" class="chapter">
+        <navLabel>
+          <text>Phẩm XI - Tập Mười Hai Kệ</text>
+        </navLabel>
+        <content src="index_split_052.html"/>
+        <navPoint id="num_379" playOrder="378" class="chapter">
+          <navLabel>
+            <text>(LXIV) Uppalavanna</text>
+          </navLabel>
+          <content src="index_split_052.html#toc_id_326"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_380" playOrder="379" class="chapter">
+        <navLabel>
+          <text>Phẩm XII - Tập Mười Sáu Kệ</text>
+        </navLabel>
+        <content src="index_split_053.html"/>
+        <navPoint id="num_381" playOrder="380" class="chapter">
+          <navLabel>
+            <text>(LXV) Punnà hay Punnikà (Therì. 146)</text>
+          </navLabel>
+          <content src="index_split_053.html#toc_id_327"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_382" playOrder="381" class="chapter">
+        <navLabel>
+          <text>Phẩm XIII - Tập Hai Mươi Kệ</text>
+        </navLabel>
+        <content src="index_split_054.html"/>
+        <navPoint id="num_383" playOrder="382" class="chapter">
+          <navLabel>
+            <text>(LXVI) Ambapàlì (Therì. 147)</text>
+          </navLabel>
+          <content src="index_split_054.html#toc_id_328"/>
+        </navPoint>
+        <navPoint id="num_384" playOrder="383" class="chapter">
+          <navLabel>
+            <text>(LXVII) Rohinì (Therì. 150)</text>
+          </navLabel>
+          <content src="index_split_054.html#toc_id_329"/>
+        </navPoint>
+        <navPoint id="num_385" playOrder="384" class="chapter">
+          <navLabel>
+            <text>(LXVIII) Càpà (Therì. 151)</text>
+          </navLabel>
+          <content src="index_split_054.html#toc_id_330"/>
+        </navPoint>
+        <navPoint id="num_386" playOrder="385" class="chapter">
+          <navLabel>
+            <text>(LXIX) Sundàrì (Therì. 153)</text>
+          </navLabel>
+          <content src="index_split_054.html#toc_id_331"/>
+        </navPoint>
+        <navPoint id="num_387" playOrder="386" class="chapter">
+          <navLabel>
+            <text>(LXX) Subhà, Con Người Thợ Vàng (Therì. 156)</text>
+          </navLabel>
+          <content src="index_split_054.html#toc_id_332"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_388" playOrder="387" class="chapter">
+        <navLabel>
+          <text>Phẩm XIV - Tập Ba Mươi Kệ</text>
+        </navLabel>
+        <content src="index_split_055.html"/>
+        <navPoint id="num_389" playOrder="388" class="chapter">
+          <navLabel>
+            <text>(LXXI) Subhà ở Rừng Xoài của Jivaka (Therì. 150)</text>
+          </navLabel>
+          <content src="index_split_055.html#toc_id_333"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_390" playOrder="389" class="chapter">
+        <navLabel>
+          <text>Phẩm XV - Tập Bốn Mươi Kệ</text>
+        </navLabel>
+        <content src="index_split_056.html"/>
+        <navPoint id="num_391" playOrder="390" class="chapter">
+          <navLabel>
+            <text>(LXXII) Isidàsi (Therì. 162)</text>
+          </navLabel>
+          <content src="index_split_056.html#toc_id_334"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_392" playOrder="391" class="chapter">
+        <navLabel>
+          <text>Phẩm XVI - Ðại Phẩm</text>
+        </navLabel>
+        <content src="index_split_057.html"/>
+        <navPoint id="num_393" playOrder="392" class="chapter">
+          <navLabel>
+            <text>(LXXIII) Sumedhà (Therì. 167)</text>
+          </navLabel>
+          <content src="index_split_057.html#toc_id_335"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

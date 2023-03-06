@@ -1,0 +1,975 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta name="dtb:uid" content="2bf8d565-9096-498e-a499-435277a0a22f"/>
+    <meta name="dtb:depth" content="4"/>
+    <meta name="dtb:generator" content="calibre (5.32.0)"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Kinh Tiểu Bộ Tập 2</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1" class="chapter">
+      <navLabel>
+        <text>(Untitled)</text>
+      </navLabel>
+      <content src="index_split_003.html"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="1" class="chapter">
+      <navLabel>
+        <text>Giới thiệu Thiên cung sự và Ngạ quỷ sự</text>
+      </navLabel>
+      <content src="index_split_003.html"/>
+    </navPoint>
+    <navPoint id="num_3" playOrder="2" class="chapter">
+      <navLabel>
+        <text>Tập II - Thiên Cung Sự</text>
+      </navLabel>
+      <content src="index_split_004.html"/>
+      <navPoint id="num_4" playOrder="3" class="chapter">
+        <navLabel>
+          <text>Phẩm I.a</text>
+        </navLabel>
+        <content src="index_split_005.html"/>
+        <navPoint id="num_5" playOrder="4" class="chapter">
+          <navLabel>
+            <text>1- Chuyện thứ nhất - Lâu Ðài Có Sàng Tọa (Pìtha-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_2"/>
+        </navPoint>
+        <navPoint id="num_6" playOrder="5" class="chapter">
+          <navLabel>
+            <text>2. Chuyện thứ hai - Lâu Ðài Có Sàng Tọa Thứ Hai (Dutiyapìthà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_3"/>
+        </navPoint>
+        <navPoint id="num_7" playOrder="6" class="chapter">
+          <navLabel>
+            <text>3. Chuyện thứ ba - Lâu Ðài Có Sàng Tọa Thứ Ba (Tatiyapìtha-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_4"/>
+        </navPoint>
+        <navPoint id="num_8" playOrder="7" class="chapter">
+          <navLabel>
+            <text>4. Chuyện thứ tư - Lâu Ðài Có Sàng Tọa Thứ Tư (Catutthapìtha-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_5"/>
+        </navPoint>
+        <navPoint id="num_9" playOrder="8" class="chapter">
+          <navLabel>
+            <text>5. Chuyện thứ năm - Lâu Ðài Con Voi (Kunjara-Vima ana)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_6"/>
+        </navPoint>
+        <navPoint id="num_10" playOrder="9" class="chapter">
+          <navLabel>
+            <text>6. Chuyện thứ sáu - Lâu Ðài Có Chiếc Thuyền (Nàvà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_7"/>
+        </navPoint>
+        <navPoint id="num_11" playOrder="10" class="chapter">
+          <navLabel>
+            <text>7. Chuyện thứ bảy - Lâu Ðài Có Chiếc Thuyền Thứ Hai (Dutiyanàvà Vimàna)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_8"/>
+        </navPoint>
+        <navPoint id="num_12" playOrder="11" class="chapter">
+          <navLabel>
+            <text>8. Chuyện thứ tám - Lâu Ðài Có Chiếc Thuyền Thứ Ba (Tatiyanàvà-Vimàna )</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_9"/>
+        </navPoint>
+        <navPoint id="num_13" playOrder="12" class="chapter">
+          <navLabel>
+            <text>9. Chuyện thứ chín - Lâu Ðài Có Ngọn Ðèn (Dìpa-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_10"/>
+        </navPoint>
+        <navPoint id="num_14" playOrder="13" class="chapter">
+          <navLabel>
+            <text>10. Chuyện thứ mười - Lâu Ðài Do Cúng Mè (Tiladakkhina-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_005.html#toc_id_11"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_15" playOrder="14" class="chapter">
+        <navLabel>
+          <text>Phẩm I.b</text>
+        </navLabel>
+        <content src="index_split_006.html"/>
+        <navPoint id="num_16" playOrder="15" class="chapter">
+          <navLabel>
+            <text>11. Chuyện thứ mười một - Lâu Ðài Trinh Phụ (Patibbatà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_12"/>
+        </navPoint>
+        <navPoint id="num_17" playOrder="16" class="chapter">
+          <navLabel>
+            <text>12. Chuyện thứ mười hai - Lâu Ðài Trinh Phụ Thứ Hai (Dutiyapatibbatà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_13"/>
+        </navPoint>
+        <navPoint id="num_18" playOrder="17" class="chapter">
+          <navLabel>
+            <text>13. Chuyện thứ mười ba - Lâu Ðài Của Nàng Dâu (Sunisà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_14"/>
+        </navPoint>
+        <navPoint id="num_19" playOrder="18" class="chapter">
+          <navLabel>
+            <text>14. Chuyện thứ mười bốn - Lâu Dài Nàng Dâu Thứ Hai (Dutiyasunisà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_15"/>
+        </navPoint>
+        <navPoint id="num_20" playOrder="19" class="chapter">
+          <navLabel>
+            <text>15. Chuyện thứ mười lăm - Lâu Ðài Của Uttarà (Uttarà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_16"/>
+        </navPoint>
+        <navPoint id="num_21" playOrder="20" class="chapter">
+          <navLabel>
+            <text>16. Chuyện thứ mười sáu - Lâu Ðài Của Sirimà (Sirimà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_17"/>
+        </navPoint>
+        <navPoint id="num_22" playOrder="21" class="chapter">
+          <navLabel>
+            <text>17. Chuyện thứ mười bảy - Lâu Ðài Của Kesakàri (Kesakàri-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_006.html#toc_id_18"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_23" playOrder="22" class="chapter">
+        <navLabel>
+          <text>Tổng Kết</text>
+        </navLabel>
+        <content src="index_split_007.html"/>
+      </navPoint>
+      <navPoint id="num_24" playOrder="23" class="chapter">
+        <navLabel>
+          <text>Phẩm II</text>
+        </navLabel>
+        <content src="index_split_008.html"/>
+        <navPoint id="num_25" playOrder="24" class="chapter">
+          <navLabel>
+            <text>1. (18) Chuyện thứ nhất - Lâu Ðài Của Nữ Tỳ (Dàsi-Vimàra)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_19"/>
+        </navPoint>
+        <navPoint id="num_26" playOrder="25" class="chapter">
+          <navLabel>
+            <text>2. (19) Chuyện thứ hai - Lâu Ðài Của Lakhumà (Lakhumà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_20"/>
+        </navPoint>
+        <navPoint id="num_27" playOrder="26" class="chapter">
+          <navLabel>
+            <text>3. (20) Câu chuyện thứ ba - Lâu Ðài Của Người Cho Cơm Cháy (Acàmadàyikà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_21"/>
+        </navPoint>
+        <navPoint id="num_28" playOrder="27" class="chapter">
+          <navLabel>
+            <text>4. (21) Chuyện thứ tư - Lâu Ðài Của Nàng Chiên-Ðà-La (Candàlì-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_22"/>
+        </navPoint>
+        <navPoint id="num_29" playOrder="28" class="chapter">
+          <navLabel>
+            <text>5. (22) Chuyện thứ năm - Lâu Ðài Của Phu Nhân Khả Ái (Bhaddhitthi-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_23"/>
+        </navPoint>
+        <navPoint id="num_30" playOrder="29" class="chapter">
+          <navLabel>
+            <text>6. (23) Chuyện thứ sáu - Lâu Ðài Của Sonadinnà (Sonadinnà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_24"/>
+        </navPoint>
+        <navPoint id="num_31" playOrder="30" class="chapter">
+          <navLabel>
+            <text>7. (24) Chuyện thứ bảy - Lâu Ðài Của Uposathà (Uposathà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_25"/>
+        </navPoint>
+        <navPoint id="num_32" playOrder="31" class="chapter">
+          <navLabel>
+            <text>8, 9. (25, 26) Chuyện thứ tám và chín - Các Lâu Ðài Của Niddà Và Suniddà (Niddà-Suniddà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_26"/>
+        </navPoint>
+        <navPoint id="num_33" playOrder="32" class="chapter">
+          <navLabel>
+            <text>10. (27) Chuyện thứ mười - Lâu Ðài Của Nữ Thí Chủ (Bhikkhàdàyikà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_27"/>
+        </navPoint>
+        <navPoint id="num_34" playOrder="33" class="chapter">
+          <navLabel>
+            <text>11. (28) Chuyện thứ mười một - Lâu Ðài Cuả Nữ Thí Chủ Thứ Hai (Dutiyabhikkhàdàyika-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_008.html#toc_id_28"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_35" playOrder="34" class="chapter">
+        <navLabel>
+          <text>Tổng Kết</text>
+        </navLabel>
+        <content src="index_split_009.html"/>
+      </navPoint>
+      <navPoint id="num_36" playOrder="35" class="chapter">
+        <navLabel>
+          <text>Phẩm III</text>
+        </navLabel>
+        <content src="index_split_010.html"/>
+        <navPoint id="num_37" playOrder="36" class="chapter">
+          <navLabel>
+            <text>1. (29) Chuyện thứ nhất - Lâu Ðài Huy Hoàng (Ulàra-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_29"/>
+        </navPoint>
+        <navPoint id="num_38" playOrder="37" class="chapter">
+          <navLabel>
+            <text>2. (30) Chuyện thứ hai - Lâu Ðài Do Cúng Mía (Ucchu-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_30"/>
+        </navPoint>
+        <navPoint id="num_39" playOrder="38" class="chapter">
+          <navLabel>
+            <text>3. (31) Chuyện thứ ba - Lâu Ðài Có Chiếc Trường Kỷ (Pallanka-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_31"/>
+        </navPoint>
+        <navPoint id="num_40" playOrder="39" class="chapter">
+          <navLabel>
+            <text>4. (32) Chuyện thứ tư - Lâu Ðài Của Latà (Latà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_32"/>
+        </navPoint>
+        <navPoint id="num_41" playOrder="40" class="chapter">
+          <navLabel>
+            <text>5. (33) Chuyện thứ năm - Lâu Ðài Của Guttila (Guttila-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_33"/>
+        </navPoint>
+        <navPoint id="num_42" playOrder="41" class="chapter">
+          <navLabel>
+            <text>6. (34) Chuyện thứ sáu - Lâu Ðài Rực Rỡ (Daddalha-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_34"/>
+        </navPoint>
+        <navPoint id="num_43" playOrder="42" class="chapter">
+          <navLabel>
+            <text>7. (35) Chuyện thứ bảy - Lâu Ðài Của Sesavati (Sesavati-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_35"/>
+        </navPoint>
+        <navPoint id="num_44" playOrder="43" class="chapter">
+          <navLabel>
+            <text>8. (36) Chuyện thứ tám - Lâu Ðài Của Mallikà (Mallikà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_36"/>
+        </navPoint>
+        <navPoint id="num_45" playOrder="44" class="chapter">
+          <navLabel>
+            <text>9. (37) Chuyện thứ bảy - Lâu Ðài Của Visàlakkhì (Visàlakkhì-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_37"/>
+        </navPoint>
+        <navPoint id="num_46" playOrder="45" class="chapter">
+          <navLabel>
+            <text>10. (38) Chuyện thứ mười - Lâu Ðài Cây San Hô (Paricchattaka-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_010.html#toc_id_38"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_47" playOrder="46" class="chapter">
+        <navLabel>
+          <text>Tổng Kết</text>
+        </navLabel>
+        <content src="index_split_011.html"/>
+      </navPoint>
+      <navPoint id="num_48" playOrder="47" class="chapter">
+        <navLabel>
+          <text>Phẩm IV</text>
+        </navLabel>
+        <content src="index_split_012.html"/>
+        <navPoint id="num_49" playOrder="48" class="chapter">
+          <navLabel>
+            <text>1. (39) Chuyện thứ nhất - Lâu Ðài Ðỏ Sẫm (Manjetthaka-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_39"/>
+        </navPoint>
+        <navPoint id="num_50" playOrder="49" class="chapter">
+          <navLabel>
+            <text>2. (40) Chuyện thứ hai - Lâu Ðài Sáng Chói (Pabhassara-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_40"/>
+        </navPoint>
+        <navPoint id="num_51" playOrder="50" class="chapter">
+          <navLabel>
+            <text>3. (41) Chuyện thứ ba - Lâu Ðài Trên Con Voi (Nàga-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_41"/>
+        </navPoint>
+        <navPoint id="num_52" playOrder="51" class="chapter">
+          <navLabel>
+            <text>4. (42) Chuyện thứ tư - Lâu Ðài Alomà (Alomà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_42"/>
+        </navPoint>
+        <navPoint id="num_53" playOrder="52" class="chapter">
+          <navLabel>
+            <text>5. (43) Chuyện thứ năm - Lâu Ðài Của Người Cúng Cháo Gạo (Kanjikadàyika-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_43"/>
+        </navPoint>
+        <navPoint id="num_54" playOrder="53" class="chapter">
+          <navLabel>
+            <text>6. (44) Câu chuyện thứ sáu - Lâu Ðài Tịnh Xá (Vihàra-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_44"/>
+        </navPoint>
+        <navPoint id="num_55" playOrder="54" class="chapter">
+          <navLabel>
+            <text>7. (45) Chuyện thứ bảy - Lâu Ðài Bốn Nữ Nhân (Caturitthi-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_45"/>
+        </navPoint>
+        <navPoint id="num_56" playOrder="55" class="chapter">
+          <navLabel>
+            <text>8. (46) Chuyện thứ tám - Lâu Ðài Vườn Xoài (Amba-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_46"/>
+        </navPoint>
+        <navPoint id="num_57" playOrder="56" class="chapter">
+          <navLabel>
+            <text>9. (47) Chuyện thứ chín - Lâu Ðài Hoàng Kim (Pìta-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_47"/>
+        </navPoint>
+        <navPoint id="num_58" playOrder="57" class="chapter">
+          <navLabel>
+            <text>10. (48) Chuyện thứ mười - Lâu Ðài Do Cúng Mía (Ucchu-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_48"/>
+        </navPoint>
+        <navPoint id="num_59" playOrder="58" class="chapter">
+          <navLabel>
+            <text>11. (49) Chuyện thứ mười một - Lâu Ðài Do Sự Ðảnh Lễ (Vandana-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_49"/>
+        </navPoint>
+        <navPoint id="num_60" playOrder="59" class="chapter">
+          <navLabel>
+            <text>12. (50) Chuyện thứ mười hai - Lâu Ðài Của Rajjumàlà (Rajjumàlà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_012.html#toc_id_50"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_61" playOrder="60" class="chapter">
+        <navLabel>
+          <text>Tổng Kết</text>
+        </navLabel>
+        <content src="index_split_013.html"/>
+      </navPoint>
+      <navPoint id="num_62" playOrder="61" class="chapter">
+        <navLabel>
+          <text>Phẩm V</text>
+        </navLabel>
+        <content src="index_split_014.html"/>
+        <navPoint id="num_63" playOrder="62" class="chapter">
+          <navLabel>
+            <text>1. (51) Chuyện Thứ Nhất - Lâu Ðài Tiên Nhái (Mandukadevaputta-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_51"/>
+        </navPoint>
+        <navPoint id="num_64" playOrder="63" class="chapter">
+          <navLabel>
+            <text>2. (52) Chuyện thứ hai - Lâu Ðài Của Revatì (Revatì-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_52"/>
+        </navPoint>
+        <navPoint id="num_65" playOrder="64" class="chapter">
+          <navLabel>
+            <text>3. (53) Chuyện thứ ba - Lâu Ðài Của Chatta, Nam tử Bà-la-môn (Chattamànava-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_53"/>
+        </navPoint>
+        <navPoint id="num_66" playOrder="65" class="chapter">
+          <navLabel>
+            <text>4. (54) Chuyện thứ tư - Lâu Ðài Của Người Cúng Cháo (Kakkatakarasadàyaka-Vimàma)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_54"/>
+        </navPoint>
+        <navPoint id="num_67" playOrder="66" class="chapter">
+          <navLabel>
+            <text>5. (55) Chuyện thứ năm - Lâu Ðài Của Người Giữ Cửa (Dvàrapàlaka-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_55"/>
+        </navPoint>
+        <navPoint id="num_68" playOrder="67" class="chapter">
+          <navLabel>
+            <text>6. (56) Chuyện thứ sáu - Lâu Ðài Do Công Ðức Thiện Sự (Karanìya-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_56"/>
+        </navPoint>
+        <navPoint id="num_69" playOrder="68" class="chapter">
+          <navLabel>
+            <text>7. (57) Chuyện thứ bảy - Lâu Ðài Thứ Hai Do Công Ðức Thiện Sự (Dutiyakaraniya-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_57"/>
+        </navPoint>
+        <navPoint id="num_70" playOrder="69" class="chapter">
+          <navLabel>
+            <text>8. (58) Chuyện thứ tám - Lâu Ðài Do Cúng Cây Kim (Sùci-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_58"/>
+        </navPoint>
+        <navPoint id="num_71" playOrder="70" class="chapter">
+          <navLabel>
+            <text>9. (59) Chuyện thứ chín - Lâu Ðài Thứ Hai Do Cúng Cây Kim (Dutiyasùci-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_59"/>
+        </navPoint>
+        <navPoint id="num_72" playOrder="71" class="chapter">
+          <navLabel>
+            <text>10. (60) Chuyện thứ mười - Lâu Ðài Con Voi (Nàga-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_60"/>
+        </navPoint>
+        <navPoint id="num_73" playOrder="72" class="chapter">
+          <navLabel>
+            <text>11. (61) Chuyện thứ mười một - Lâu Ðài Con Voi Thứ Hai (Dutiyanàga-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_61"/>
+        </navPoint>
+        <navPoint id="num_74" playOrder="73" class="chapter">
+          <navLabel>
+            <text>12. (62) Chuyện thứ mười hai - Lâu Ðài Con Voi Thứ Ba (Tatiyanàga-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_62"/>
+        </navPoint>
+        <navPoint id="num_75" playOrder="74" class="chapter">
+          <navLabel>
+            <text>13. (63) Chuyện thứ mười ba - Lâu Ðài Có Cỗ Xe Nhỏ (Cùlaratha-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_63"/>
+        </navPoint>
+        <navPoint id="num_76" playOrder="75" class="chapter">
+          <navLabel>
+            <text>14. (64) Chuyện thứ mười bốn - Lâu Ðài Có Cỗ Xe Lớn (Mahàratha-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_014.html#toc_id_64"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_77" playOrder="76" class="chapter">
+        <navLabel>
+          <text>Tổng Kết</text>
+        </navLabel>
+        <content src="index_split_015.html"/>
+      </navPoint>
+      <navPoint id="num_78" playOrder="77" class="chapter">
+        <navLabel>
+          <text>Phẩm VI</text>
+        </navLabel>
+        <content src="index_split_016.html"/>
+        <navPoint id="num_79" playOrder="78" class="chapter">
+          <navLabel>
+            <text>1. (65) Chuyện thứ nhất - Lâu Ðài Gia Chủ (Agàriya-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_65"/>
+        </navPoint>
+        <navPoint id="num_80" playOrder="79" class="chapter">
+          <navLabel>
+            <text>2. (66) Chuyện thứ hai - Lâu Ðài Gia Chủ Thứ Hai (Dutiya-Agàriya-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_66"/>
+        </navPoint>
+        <navPoint id="num_81" playOrder="80" class="chapter">
+          <navLabel>
+            <text>3. (67) Chuyện thứ ba - Lâu Ðài Của Người Cúng Trái Cây (Phaladàya-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_67"/>
+        </navPoint>
+        <navPoint id="num_82" playOrder="81" class="chapter">
+          <navLabel>
+            <text>4. (68) Chuyện thứ tư - Lâu Ðài Của Ngừơi Cúng Chỗ Cư Trú (Upassayadàyaka-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_68"/>
+        </navPoint>
+        <navPoint id="num_83" playOrder="82" class="chapter">
+          <navLabel>
+            <text>5. (69) Chuyện thứ năm - Lâu Ðài Của Người Cúng Chỗ Cư Trú Thứ Hai (Dutiya-Upassayadàyaka-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_69"/>
+        </navPoint>
+        <navPoint id="num_84" playOrder="83" class="chapter">
+          <navLabel>
+            <text>6. (70) Chuyện thứ sáu - Lâu Ðài Của Người Cúng Món Khất Thực (Bhikkhàdàyaka-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_70"/>
+        </navPoint>
+        <navPoint id="num_85" playOrder="84" class="chapter">
+          <navLabel>
+            <text>7 (71) Chuyện thứ bảy - Lâu Ðài Của Người Giữ Lúa Mạch (Yavapàlaka-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_71"/>
+        </navPoint>
+        <navPoint id="num_86" playOrder="85" class="chapter">
+          <navLabel>
+            <text>8. (72) Chuyện thứ tám - Lâu Ðài Của Vị Thiên Tử Ðeo Vòng Tai (Kundalì-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_72"/>
+        </navPoint>
+        <navPoint id="num_87" playOrder="86" class="chapter">
+          <navLabel>
+            <text>9. (73) Chuyện thứ chín - Lâu Ðài Của Vị Thiên Tử Thứ Hai Ðeo Vòng Tai (Dutiyakùdalì - Vimàna)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_73"/>
+        </navPoint>
+        <navPoint id="num_88" playOrder="87" class="chapter">
+          <navLabel>
+            <text>10. (74) Chuyện thứ mười - Lâu Ðài Của Uttara (Uttara-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_016.html#toc_id_74"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_89" playOrder="88" class="chapter">
+        <navLabel>
+          <text>Tổng Kết</text>
+        </navLabel>
+        <content src="index_split_017.html"/>
+      </navPoint>
+      <navPoint id="num_90" playOrder="89" class="chapter">
+        <navLabel>
+          <text>Phẩm VII</text>
+        </navLabel>
+        <content src="index_split_018.html"/>
+        <navPoint id="num_91" playOrder="90" class="chapter">
+          <navLabel>
+            <text>1. (75) Chuyện thứ nhất - Lâu Ðài Cittalatà (Cittalatà-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_75"/>
+        </navPoint>
+        <navPoint id="num_92" playOrder="91" class="chapter">
+          <navLabel>
+            <text>2 (76) Chuyện thứ hai - Lâu Ðài Nandana (Nandana-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_76"/>
+        </navPoint>
+        <navPoint id="num_93" playOrder="92" class="chapter">
+          <navLabel>
+            <text>3. (77) Chuyện thứ ba - Lâu Ðài Có Trụ Ngọc Bích (Manithùna-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_77"/>
+        </navPoint>
+        <navPoint id="num_94" playOrder="93" class="chapter">
+          <navLabel>
+            <text>4. (78) Câu chuyện thứ tư - Lâu Ðài Bằng Vàng (Suvanna-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_78"/>
+        </navPoint>
+        <navPoint id="num_95" playOrder="94" class="chapter">
+          <navLabel>
+            <text>5. (79) Chuyện thứ năm - Lâu Ðài Vườn Xoài (Amba-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_79"/>
+        </navPoint>
+        <navPoint id="num_96" playOrder="95" class="chapter">
+          <navLabel>
+            <text>6. (80) Chuyện thứ sáu - Lâu Ðài Của Người Chăn Bò (Gopàla-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_80"/>
+        </navPoint>
+        <navPoint id="num_97" playOrder="96" class="chapter">
+          <navLabel>
+            <text>7. (81) Chuyện thứ bảy - Lâu Ðài Của Kanthaka (Ngựa Kiền-trắc) (Kanthaka-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_81"/>
+        </navPoint>
+        <navPoint id="num_98" playOrder="97" class="chapter">
+          <navLabel>
+            <text>8. (82) Chuyện thứ tám - Lâu Ðài Có Nhiều Mầu Sắc (Anekavanna-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_82"/>
+        </navPoint>
+        <navPoint id="num_99" playOrder="98" class="chapter">
+          <navLabel>
+            <text>9. (83) Chuyện thứ chín - Lâu Ðài Của Vị Thiên Tử Ðeo Vòng Tai Sáng Chói (Mattakundalì-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_83"/>
+        </navPoint>
+        <navPoint id="num_100" playOrder="99" class="chapter">
+          <navLabel>
+            <text>10. (84) Chuyện thứ mười - Lâu Ðài Của Serissaka (Serissaka-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_84"/>
+        </navPoint>
+        <navPoint id="num_101" playOrder="100" class="chapter">
+          <navLabel>
+            <text>11. (85) Chuyện thứ mười một - Lâu Ðài Của Sunikkhitta (Sunikkhitta-Vimàna)</text>
+          </navLabel>
+          <content src="index_split_018.html#toc_id_85"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_102" playOrder="101" class="chapter">
+        <navLabel>
+          <text>Tổng Kết</text>
+        </navLabel>
+        <content src="index_split_019.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_103" playOrder="102" class="chapter">
+      <navLabel>
+        <text>Tập II - Ngạ Quỷ Sự</text>
+      </navLabel>
+      <content src="index_split_020.html"/>
+      <navPoint id="num_104" playOrder="103" class="chapter">
+        <navLabel>
+          <text>Phẩm I</text>
+        </navLabel>
+        <content src="index_split_021.html"/>
+        <navPoint id="num_105" playOrder="104" class="chapter">
+          <navLabel>
+            <text>1. Chuyện Thí Dụ Phước Ðiền (Khettùpamà)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_86"/>
+        </navPoint>
+        <navPoint id="num_106" playOrder="105" class="chapter">
+          <navLabel>
+            <text>2. Chuyện Con Lợn Rừng (Sukàra)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_87"/>
+        </navPoint>
+        <navPoint id="num_107" playOrder="106" class="chapter">
+          <navLabel>
+            <text>3. Chuyện Ngạ Quỷ Có Mồm Hôi Thối (Pùtimukkha)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_88"/>
+        </navPoint>
+        <navPoint id="num_108" playOrder="107" class="chapter">
+          <navLabel>
+            <text>4. Chuyện Hình Nhân Bằng Bột (Pitthadhìtalika)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_89"/>
+        </navPoint>
+        <navPoint id="num_109" playOrder="108" class="chapter">
+          <navLabel>
+            <text>5. Chuyện Ngạ Quỷ Ngoại Bức Tường (Tirokuddapeta)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_90"/>
+        </navPoint>
+        <navPoint id="num_110" playOrder="109" class="chapter">
+          <navLabel>
+            <text>6. Chuyện Ngạ Quỷ Ăn Thịt Năm Ðứa Bé (Pàncaputtakhadaka)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_91"/>
+        </navPoint>
+        <navPoint id="num_111" playOrder="110" class="chapter">
+          <navLabel>
+            <text>7. Chuyện Ngạ Quỷ Ăn Thịt Bảy Ðứa Bé (Sattaputtakhadaka)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_92"/>
+        </navPoint>
+        <navPoint id="num_112" playOrder="111" class="chapter">
+          <navLabel>
+            <text>8. Chuyện Con Bò (Gona)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_93"/>
+        </navPoint>
+        <navPoint id="num_113" playOrder="112" class="chapter">
+          <navLabel>
+            <text>9. Chuyện Ông Chủ Thợ Dệt (Mahàpesakàra)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_94"/>
+        </navPoint>
+        <navPoint id="num_114" playOrder="113" class="chapter">
+          <navLabel>
+            <text>10. Chuyện Nữ Nhân Sói Ðầu (Khallàtiya)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_95"/>
+        </navPoint>
+        <navPoint id="num_115" playOrder="114" class="chapter">
+          <navLabel>
+            <text>11. Chuyện Con Voi (Nàga)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_96"/>
+        </navPoint>
+        <navPoint id="num_116" playOrder="115" class="chapter">
+          <navLabel>
+            <text>12. Chuyện Con Rắn (Uraga)</text>
+          </navLabel>
+          <content src="index_split_021.html#toc_id_97"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_117" playOrder="116" class="chapter">
+        <navLabel>
+          <text>Phẩm II.a</text>
+        </navLabel>
+        <content src="index_split_022.html"/>
+        <navPoint id="num_118" playOrder="117" class="chapter">
+          <navLabel>
+            <text>1. (13) Chuyện Người Tìm Giải Thoát Vòng Luân Hồi (Samsàmocaka)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_98"/>
+        </navPoint>
+        <navPoint id="num_119" playOrder="118" class="chapter">
+          <navLabel>
+            <text>2. (14) Chuyện Mẹ Của Trưởng Lão Sàriputta (Sàriputtatheramàtu)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_99"/>
+        </navPoint>
+        <navPoint id="num_120" playOrder="119" class="chapter">
+          <navLabel>
+            <text>3. (15) Chuyện Nữ Ngạ Quỷ Mattà (Mattà)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_100"/>
+        </navPoint>
+        <navPoint id="num_121" playOrder="120" class="chapter">
+          <navLabel>
+            <text>4. (16) Chuyện Nữ Ngạ Quỷ Nandà (Nandàpeti)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_101"/>
+        </navPoint>
+        <navPoint id="num_122" playOrder="121" class="chapter">
+          <navLabel>
+            <text>5. (17) Chuyện Mattakundalì (Mattakundalì)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_102"/>
+        </navPoint>
+        <navPoint id="num_123" playOrder="122" class="chapter">
+          <navLabel>
+            <text>6. (18) Chuyện Ðại Vương Kanha (Kanha)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_103"/>
+        </navPoint>
+        <navPoint id="num_124" playOrder="123" class="chapter">
+          <navLabel>
+            <text>7. (19) Chuyện Ngạ Quỷ Dhanapàla (Dhanapàlapeta)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_104"/>
+        </navPoint>
+        <navPoint id="num_125" playOrder="124" class="chapter">
+          <navLabel>
+            <text>8. (20) Chuyện Tiểu Chủ Ngân Khố (Cùlasetthi)</text>
+          </navLabel>
+          <content src="index_split_022.html#toc_id_105"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_126" playOrder="125" class="chapter">
+        <navLabel>
+          <text>Phẩm II.b</text>
+        </navLabel>
+        <content src="index_split_023.html"/>
+        <navPoint id="num_127" playOrder="126" class="chapter">
+          <navLabel>
+            <text>9. (21) Chuyện Ankura (Ankura)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_106"/>
+        </navPoint>
+        <navPoint id="num_128" playOrder="127" class="chapter">
+          <navLabel>
+            <text>10. (22) Chuyện Mẹ Của Uttara (Uttaramàtu)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_107"/>
+        </navPoint>
+        <navPoint id="num_129" playOrder="128" class="chapter">
+          <navLabel>
+            <text>11. (23) Chuyện Cuộn Chỉ (Sutta)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_108"/>
+        </navPoint>
+        <navPoint id="num_130" playOrder="129" class="chapter">
+          <navLabel>
+            <text>12. (24) Chuyện Nữ Quỷ Ở Hakannamunda (Kannamundapetì)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_109"/>
+        </navPoint>
+        <navPoint id="num_131" playOrder="130" class="chapter">
+          <navLabel>
+            <text>13. (25) Chuyện Hoàng Hậu Ubbarì (Ubbarì)</text>
+          </navLabel>
+          <content src="index_split_023.html#toc_id_110"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_132" playOrder="131" class="chapter">
+        <navLabel>
+          <text>Phẩm III</text>
+        </navLabel>
+        <content src="index_split_024.html"/>
+        <navPoint id="num_133" playOrder="132" class="chapter">
+          <navLabel>
+            <text>1. (26) Chuyện Không Chìm Trong Nước (Abhijjamàna)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_111"/>
+        </navPoint>
+        <navPoint id="num_134" playOrder="133" class="chapter">
+          <navLabel>
+            <text>2. (27) Chuyện Ngạ Quỷ Núi Sànuvàsin (Sànuvàsinpeta)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_112"/>
+        </navPoint>
+        <navPoint id="num_135" playOrder="134" class="chapter">
+          <navLabel>
+            <text>3. (28) Chuyện Nữ Quỷ Hồ Ràthakàrà (Rathakàràpeti)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_113"/>
+        </navPoint>
+        <navPoint id="num_136" playOrder="135" class="chapter">
+          <navLabel>
+            <text>4. (29) Chuyện Rơm Trấu (Bhusa)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_114"/>
+        </navPoint>
+        <navPoint id="num_137" playOrder="136" class="chapter">
+          <navLabel>
+            <text>5. (30) Chuyện Chàng Trai (Kumàra)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_115"/>
+        </navPoint>
+        <navPoint id="num_138" playOrder="137" class="chapter">
+          <navLabel>
+            <text>6. (31) Chuyện Ngạ Quỷ Serinì (Serinì)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_116"/>
+        </navPoint>
+        <navPoint id="num_139" playOrder="138" class="chapter">
+          <navLabel>
+            <text>7. (32) Chuyện Người Săn Nai (Migaludda)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_117"/>
+        </navPoint>
+        <navPoint id="num_140" playOrder="139" class="chapter">
+          <navLabel>
+            <text>8. (33) Chuyện Người Săn Nai Thứ Hai (Dutiyaludda)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_118"/>
+        </navPoint>
+        <navPoint id="num_141" playOrder="140" class="chapter">
+          <navLabel>
+            <text>9. (34) Chuyện Những Phán Quyết Gian Dối (Kùtavinicchayika)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_119"/>
+        </navPoint>
+        <navPoint id="num_142" playOrder="141" class="chapter">
+          <navLabel>
+            <text>10. (35) Chuyện Khinh Khi Xá Lợi (Dhàtuvivanna)</text>
+          </navLabel>
+          <content src="index_split_024.html#toc_id_120"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_143" playOrder="142" class="chapter">
+        <navLabel>
+          <text>Phẩm IV.a</text>
+        </navLabel>
+        <content src="index_split_025.html"/>
+        <navPoint id="num_144" playOrder="143" class="chapter">
+          <navLabel>
+            <text>1. (36) Chuyện Vua Ambasakkhara (Ambasakkhara)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_121"/>
+        </navPoint>
+        <navPoint id="num_145" playOrder="144" class="chapter">
+          <navLabel>
+            <text>2. (37) Chuyện Serìssaka</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_122"/>
+        </navPoint>
+        <navPoint id="num_146" playOrder="145" class="chapter">
+          <navLabel>
+            <text>3. (38) Chuyện Quỷ Thần Nandaka (Nandakapeta)</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_123"/>
+        </navPoint>
+        <navPoint id="num_147" playOrder="146" class="chapter">
+          <navLabel>
+            <text>4. (39) Chuyện Ngạ Quỷ Revatì</text>
+          </navLabel>
+          <content src="index_split_025.html#toc_id_124"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_148" playOrder="147" class="chapter">
+        <navLabel>
+          <text>Phẩm IV.b</text>
+        </navLabel>
+        <content src="index_split_026.html"/>
+        <navPoint id="num_149" playOrder="148" class="chapter">
+          <navLabel>
+            <text>5. (40) Chuyện Cây Mía (Ucchu)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_125"/>
+        </navPoint>
+        <navPoint id="num_150" playOrder="149" class="chapter">
+          <navLabel>
+            <text>6. (41) Chuyện Các Vương Tử (Kumara)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_126"/>
+        </navPoint>
+        <navPoint id="num_151" playOrder="150" class="chapter">
+          <navLabel>
+            <text>7. (42) Chuyện Vợ Vương Tử (Ràjaputta)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_127"/>
+        </navPoint>
+        <navPoint id="num_152" playOrder="151" class="chapter">
+          <navLabel>
+            <text>8. (43) Chuyện Những Ngạ Quỷ Ăn Phân (Gùthakhàdaka)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_128"/>
+        </navPoint>
+        <navPoint id="num_153" playOrder="152" class="chapter">
+          <navLabel>
+            <text>9. (44) Chuyện Thứ Hai Về Các Ngạ Quỷ Ăn Phân (Gùthakhàdaka)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_129"/>
+        </navPoint>
+        <navPoint id="num_154" playOrder="153" class="chapter">
+          <navLabel>
+            <text>10. (45) Chuyện Bầy Ngạ Quỷ (Ganapeta)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_130"/>
+        </navPoint>
+        <navPoint id="num_155" playOrder="154" class="chapter">
+          <navLabel>
+            <text>11. (46) Chuyện Ngạ Quỷ Thành Pàtaliputta (Pàtaliputtapeta)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_131"/>
+        </navPoint>
+        <navPoint id="num_156" playOrder="155" class="chapter">
+          <navLabel>
+            <text>12. (47) Chuyện Các Trái Xoài (Amba)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_132"/>
+        </navPoint>
+        <navPoint id="num_157" playOrder="156" class="chapter">
+          <navLabel>
+            <text>13. (48) Chuyện Trục Xe và Cây Gỗ (Akkharukkha)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_133"/>
+        </navPoint>
+        <navPoint id="num_158" playOrder="157" class="chapter">
+          <navLabel>
+            <text>14. (49) Chuyện Thu Góp Tài Sản (Bhogasamharana)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_134"/>
+        </navPoint>
+        <navPoint id="num_159" playOrder="158" class="chapter">
+          <navLabel>
+            <text>15. (50) Chuyện Các Nam Tử Của Nhà Triệu Phú (Setthiputta)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_135"/>
+        </navPoint>
+        <navPoint id="num_160" playOrder="159" class="chapter">
+          <navLabel>
+            <text>16. (51) Chuyện Sáu Vạn Cái Búa (Satthikùtasahassa)</text>
+          </navLabel>
+          <content src="index_split_026.html#toc_id_136"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

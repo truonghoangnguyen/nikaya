@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta name="dtb:uid" content="d11b94cd-6e19-4a21-bc98-495ca0b61cd0"/>
+    <meta name="dtb:depth" content="4"/>
+    <meta name="dtb:generator" content="calibre (5.32.0)"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Đức Phật Lịch Sử- Schumann</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1" class="chapter">
+      <navLabel>
+        <text>Ðôi nét về tác giả quyển Ðức Phật Lịch Sử</text>
+      </navLabel>
+      <content src="index_split_003.html"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="2" class="chapter">
+      <navLabel>
+        <text>Lời Giới Thiệu</text>
+      </navLabel>
+      <content src="index_split_004.html"/>
+    </navPoint>
+    <navPoint id="num_3" playOrder="3" class="chapter">
+      <navLabel>
+        <text>Lời Tựa Của Tác Giả</text>
+      </navLabel>
+      <content src="index_split_005.html"/>
+    </navPoint>
+    <navPoint id="num_4" playOrder="4" class="chapter">
+      <navLabel>
+        <text>Chú Thích Về Bản Niên Ðại</text>
+      </navLabel>
+      <content src="index_split_006.html"/>
+    </navPoint>
+    <navPoint id="num_5" playOrder="5" class="chapter">
+      <navLabel>
+        <text>Thời Niên Thiếu - Cuộc Tầm Cầu - Giác Ngộ</text>
+      </navLabel>
+      <content src="index_split_007.html#id_Toc4944912"/>
+      <navPoint id="num_6" playOrder="6" class="chapter">
+        <navLabel>
+          <text>BỐI CẢNH VÀ NỀN CHÍNH TRỊ Ở BẮC ẤN THẾ KỶ THỨ SÁU TRƯỚC CN</text>
+        </navLabel>
+        <content src="index_split_007.html#id_Toc4944913"/>
+      </navPoint>
+      <navPoint id="num_7" playOrder="7" class="chapter">
+        <navLabel>
+          <text>NGUỒN GỐC THÁI TỬ SIDDHATTHA VÀ SỰ ÐẢN SANH CỦA NGÀI</text>
+        </navLabel>
+        <content src="index_split_007.html#id_Toc4944914"/>
+      </navPoint>
+      <navPoint id="num_8" playOrder="8" class="chapter">
+        <navLabel>
+          <text>VẤN ÐỀ XÁC ÐỊNH NIÊN ÐẠI</text>
+        </navLabel>
+        <content src="index_split_007.html#id_Toc4944915"/>
+      </navPoint>
+      <navPoint id="num_9" playOrder="9" class="chapter">
+        <navLabel>
+          <text>KINH THÀNH KAPILAVATTHU VÀ VỊ QUỐC VƯƠNG</text>
+        </navLabel>
+        <content src="index_split_007.html#id_Toc4944916"/>
+      </navPoint>
+      <navPoint id="num_10" playOrder="10" class="chapter">
+        <navLabel>
+          <text>THÁI TỬ SIDDHATTHA, VỊ HOÀNG NAM</text>
+        </navLabel>
+        <content src="index_split_007.html#id_Toc4944917"/>
+      </navPoint>
+      <navPoint id="num_11" playOrder="11" class="chapter">
+        <navLabel>
+          <text>MỘT KINH THÀNH ẤN ÐỘ CỔ ÐẠI</text>
+        </navLabel>
+        <content src="index_split_007.html#id_Toc4944918"/>
+      </navPoint>
+      <navPoint id="num_12" playOrder="12" class="chapter">
+        <navLabel>
+          <text>TẾ LỄ THEO KINH ÐIỂN VỆ-ÐÀ</text>
+        </navLabel>
+        <content src="index_split_007.html#id_Toc4944919"/>
+      </navPoint>
+      <navPoint id="num_13" playOrder="13" class="chapter">
+        <navLabel>
+          <text>PHONG TRÀO ÐI TÌM GIẢI THOÁT TRONG ÐẠO GIÁO</text>
+        </navLabel>
+        <content src="index_split_007.html#id_Toc4944920"/>
+      </navPoint>
+      <navPoint id="num_14" playOrder="14" class="chapter">
+        <navLabel>
+          <text>CON ÐƯỜNG XUẤT GIA CỦA THÁI TỬ SIDDHATTHA</text>
+        </navLabel>
+        <content src="index_split_007.html#id_Toc4944921"/>
+      </navPoint>
+      <navPoint id="num_15" playOrder="15" class="chapter">
+        <navLabel>
+          <text>NHÀ KHỔ HẠNH SIDDHATTHA</text>
+        </navLabel>
+        <content src="index_split_007.html#id_Toc4944922"/>
+      </navPoint>
+      <navPoint id="num_16" playOrder="16" class="chapter">
+        <navLabel>
+          <text>THÁI TỬ SIDDHATTHA GOTAMA THÀNH PHẬT</text>
+        </navLabel>
+        <content src="index_split_007.html#id_Toc4944923"/>
+      </navPoint>
+      <navPoint id="num_17" playOrder="17" class="chapter">
+        <navLabel>
+          <text>LINH THỌ BỒ-ÐỀ</text>
+        </navLabel>
+        <content src="index_split_007.html#id_Toc4944924"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_18" playOrder="18" class="chapter">
+      <navLabel>
+        <text>Thành lập Giáo Hội và khởi đầu Hoằng Pháp</text>
+      </navLabel>
+      <content src="index_split_008.html#id_Toc4944925"/>
+      <navPoint id="num_19" playOrder="19" class="chapter">
+        <navLabel>
+          <text>NHỮNG BÀI THUYẾT PHÁP ÐẦU TIÊN</text>
+        </navLabel>
+        <content src="index_split_008.html#id_Toc4944926"/>
+      </navPoint>
+      <navPoint id="num_20" playOrder="20" class="chapter">
+        <navLabel>
+          <text>SÀRNÀTH, ÐỊA ÐIỂM KHẢO CỔ</text>
+        </navLabel>
+        <content src="index_split_008.html#id_Toc4944927"/>
+        <navPoint id="num_21" playOrder="21" class="chapter">
+          <navLabel>
+            <text>PHÁT TRIỂN GIÁO HỘI</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc4944928"/>
+        </navPoint>
+        <navPoint id="num_22" playOrder="22" class="chapter">
+          <navLabel>
+            <text>CHÍNH THỐNG GIÁO Ở BENARES ÐỐI LẬP PHONG TRÀO SA-MÔN KHẤT SĨ</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc4944929"/>
+        </navPoint>
+        <navPoint id="num_23" playOrder="23" class="chapter">
+          <navLabel>
+            <text>AN CƯ MÙA MƯA ÐẦU TIÊN Ở ISIPATANA</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc4944930"/>
+        </navPoint>
+        <navPoint id="num_24" playOrder="24" class="chapter">
+          <navLabel>
+            <text>TRỞ LẠI URUVELÀ</text>
+          </navLabel>
+          <content src="index_split_008.html#id_Toc4944931"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_25" playOrder="25" class="chapter">
+      <navLabel>
+        <text>Hai mươi năm đầu tiên</text>
+      </navLabel>
+      <content src="index_split_009.html#id_Toc4944932"/>
+      <navPoint id="num_26" playOrder="26" class="chapter">
+        <navLabel>
+          <text>CÔNG CUỘC GIÁO HÓA VUA BIMBISÀRA</text>
+        </navLabel>
+        <content src="index_split_009.html#id_Toc4944933"/>
+      </navPoint>
+      <navPoint id="num_27" playOrder="27" class="chapter">
+        <navLabel>
+          <text>TÔN GIẢ SÀRIPUTTA VÀ MOGGALLÀNA TRỞ THÀNH CÁC ÐỆ TỬ</text>
+        </navLabel>
+        <content src="index_split_009.html#id_Toc4944934"/>
+      </navPoint>
+      <navPoint id="num_28" playOrder="28" class="chapter">
+        <navLabel>
+          <text>MÙA MƯA TẠI RÀJAGAHA</text>
+        </navLabel>
+        <content src="index_split_009.html#id_Toc4944935"/>
+      </navPoint>
+      <navPoint id="num_29" playOrder="29" class="chapter">
+        <navLabel>
+          <text>ÐỨC PHẬT VỀ THĂM QUÊ HƯƠNG</text>
+        </navLabel>
+        <content src="index_split_009.html#id_Toc4944936"/>
+      </navPoint>
+      <navPoint id="num_30" playOrder="30" class="chapter">
+        <navLabel>
+          <text>TRỞ LẠI RÀJAGAHA</text>
+        </navLabel>
+        <content src="index_split_009.html#id_Toc4944937"/>
+      </navPoint>
+      <navPoint id="num_31" playOrder="31" class="chapter">
+        <navLabel>
+          <text>VUA PASENADI TRỞ THÀNH ÐỆ TỬ TẠI GIA</text>
+        </navLabel>
+        <content src="index_split_009.html#id_Toc4944938"/>
+      </navPoint>
+      <navPoint id="num_32" playOrder="32" class="chapter">
+        <navLabel>
+          <text>VUA PASENADI VÀ VƯƠNG QUỐC KOSALA</text>
+        </navLabel>
+        <content src="index_split_009.html#id_Toc4944939"/>
+      </navPoint>
+      <navPoint id="num_33" playOrder="33" class="chapter">
+        <navLabel>
+          <text>CÁC VŨ KỲ AN CƯ TẠI RÀJAGAHA VÀ VESÀLI</text>
+        </navLabel>
+        <content src="index_split_009.html#id_Toc4944940"/>
+      </navPoint>
+      <navPoint id="num_34" playOrder="34" class="chapter">
+        <navLabel>
+          <text>THÀNH LẬP GIÁO HỘI TỲ-KHEO-NI</text>
+        </navLabel>
+        <content src="index_split_009.html#id_Toc4944941"/>
+      </navPoint>
+      <navPoint id="num_35" playOrder="35" class="chapter">
+        <navLabel>
+          <text>NHỮNG VẤN ÐỀ LIÊN HỆ ÐẾN KOSAMBÌ</text>
+        </navLabel>
+        <content src="index_split_009.html#id_Toc4944942"/>
+      </navPoint>
+      <navPoint id="num_36" playOrder="36" class="chapter">
+        <navLabel>
+          <text>THẬP NIÊN HOẰNG PHÁP THỨ HAI</text>
+        </navLabel>
+        <content src="index_split_009.html#id_Toc4944943"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_37" playOrder="37" class="chapter">
+      <navLabel>
+        <text>Giáo lý - Tăng chúng và giới Cư sĩ</text>
+      </navLabel>
+      <content src="index_split_010.html#id_Toc4944944"/>
+      <navPoint id="num_38" playOrder="38" class="chapter">
+        <navLabel>
+          <text>GIÁO LÝ</text>
+        </navLabel>
+        <content src="index_split_010.html#id_Toc4944945"/>
+        <navPoint id="num_39" playOrder="39" class="chapter">
+          <navLabel>
+            <text>I. KHỔ (DUKKHA):</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc4944946"/>
+        </navPoint>
+        <navPoint id="num_40" playOrder="40" class="chapter">
+          <navLabel>
+            <text>II. SAMSÀRA: VÒNG LUÂN HỒI SANH TỬ VÀ QUY LUẬT CỦA NÓ.</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc4944947"/>
+        </navPoint>
+        <navPoint id="num_41" playOrder="41" class="chapter">
+          <navLabel>
+            <text>III. ANATTA: VÔ NGÃ</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc4944948"/>
+        </navPoint>
+        <navPoint id="num_42" playOrder="42" class="chapter">
+          <navLabel>
+            <text>IV.- BÌNH LUẬN THÊM VỀ THẾ GIỚI QUAN CỦA ÐỨC PHẬT</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc4944949"/>
+        </navPoint>
+        <navPoint id="num_43" playOrder="43" class="chapter">
+          <navLabel>
+            <text>V.- CÁI GÌ KHIẾN VÒNG LUÂN HỒI SANH TỬ (SAMSÀRA) TIẾP DIỄN?</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc4944950"/>
+        </navPoint>
+        <navPoint id="num_44" playOrder="44" class="chapter">
+          <navLabel>
+            <text>VI.- CON ÐƯỜNG GIẢI THOÁT</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc4944951"/>
+        </navPoint>
+        <navPoint id="num_45" playOrder="45" class="chapter">
+          <navLabel>
+            <text>VII.- NIẾT BÀN</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc4944952"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_46" playOrder="46" class="chapter">
+        <navLabel>
+          <text>TĂNG CHÚNG</text>
+        </navLabel>
+        <content src="index_split_010.html#id_Toc4944953"/>
+        <navPoint id="num_47" playOrder="47" class="chapter">
+          <navLabel>
+            <text>I.- CĂN BẢN PHÁP LÝ:</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc4944954"/>
+        </navPoint>
+        <navPoint id="num_48" playOrder="48" class="chapter">
+          <navLabel>
+            <text>II.- ÐỜI SỐNG CỦA TỲ-KHEO</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc4944955"/>
+        </navPoint>
+        <navPoint id="num_49" playOrder="49" class="chapter">
+          <navLabel>
+            <text>III.- CÁC TINH XÁ</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc4944956"/>
+        </navPoint>
+        <navPoint id="num_50" playOrder="50" class="chapter">
+          <navLabel>
+            <text>IV.- TINH THẦN CỦA GIÁO HỘI</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc4944957"/>
+        </navPoint>
+        <navPoint id="num_51" playOrder="51" class="chapter">
+          <navLabel>
+            <text>GIÁO HỘI VÀ GIỚI ÐỆ TỬ TẠI GIA XÉT VỀ PHƯƠNG DIỆN XÃ HỘI HỌC</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc4944958"/>
+        </navPoint>
+        <navPoint id="num_52" playOrder="52" class="chapter">
+          <navLabel>
+            <text>ÐỨC PHẬT VÀ HỆ THỐNG GIAI CẤP</text>
+          </navLabel>
+          <content src="index_split_010.html#id_Toc4944959"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_53" playOrder="53" class="chapter">
+      <navLabel>
+        <text>Ðức Phật Gotama và các phương diện tâm lý</text>
+      </navLabel>
+      <content src="index_split_011.html#id_Toc4944960"/>
+      <navPoint id="num_54" playOrder="54" class="chapter">
+        <navLabel>
+          <text>NHÂN DẠNG CỦA NGÀI</text>
+        </navLabel>
+        <content src="index_split_011.html#id_Toc4944961"/>
+      </navPoint>
+      <navPoint id="num_55" playOrder="55" class="chapter">
+        <navLabel>
+          <text>SỰ PHÁT TRIỂN NHÂN CÁCH CỦA NGÀI</text>
+        </navLabel>
+        <content src="index_split_011.html#id_Toc4944962"/>
+      </navPoint>
+      <navPoint id="num_56" playOrder="56" class="chapter">
+        <navLabel>
+          <text>CÁCH ÐỨC PHẬT TỰ NHẬN XÉT MÌNH</text>
+        </navLabel>
+        <content src="index_split_011.html#id_Toc4944963"/>
+      </navPoint>
+      <navPoint id="num_57" playOrder="57" class="chapter">
+        <navLabel>
+          <text>TÍNH TÌNH</text>
+        </navLabel>
+        <content src="index_split_011.html#id_Toc4944964"/>
+      </navPoint>
+      <navPoint id="num_58" playOrder="58" class="chapter">
+        <navLabel>
+          <text>CÁCH ÐỨC PHẬT CƯ XỬ VỚI ÐỆ TỬ TẠI GIA</text>
+        </navLabel>
+        <content src="index_split_011.html#id_Toc4944965"/>
+      </navPoint>
+      <navPoint id="num_59" playOrder="59" class="chapter">
+        <navLabel>
+          <text>BẬC ÐẠO SƯ</text>
+        </navLabel>
+        <content src="index_split_011.html#id_Toc4944966"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_60" playOrder="60" class="chapter">
+      <navLabel>
+        <text>Các Năm Sau</text>
+      </navLabel>
+      <content src="index_split_012.html#id_Toc4944967"/>
+      <navPoint id="num_61" playOrder="61" class="chapter">
+        <navLabel>
+          <text>CÁC TRIẾT LÝ ÐỐI LẬP</text>
+        </navLabel>
+        <content src="index_split_012.html#id_Toc4944968"/>
+      </navPoint>
+      <navPoint id="num_62" playOrder="62" class="chapter">
+        <navLabel>
+          <text>ÐỨC PHẬT GOTAMA, NHÀ DU HÀNH</text>
+        </navLabel>
+        <content src="index_split_012.html#id_Toc4944969"/>
+      </navPoint>
+      <navPoint id="num_63" playOrder="63" class="chapter">
+        <navLabel>
+          <text>MỘT THẬP NIÊN NHIỀU KHỦNG HOẢNG</text>
+        </navLabel>
+        <content src="index_split_012.html#id_Toc4944970"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_64" playOrder="64" class="chapter">
+      <navLabel>
+        <text>Cuộc hồi hương vĩ đại</text>
+      </navLabel>
+      <content src="index_split_013.html#id_Toc4944971"/>
+      <navPoint id="num_65" playOrder="65" class="chapter">
+        <navLabel>
+          <text>NHỮNG HÀNH TRÌNH CUỐI CÙNG</text>
+        </navLabel>
+        <content src="index_split_013.html#id_Toc4944972"/>
+      </navPoint>
+      <navPoint id="num_66" playOrder="66" class="chapter">
+        <navLabel>
+          <text>ÐẠI DIỆT ÐỘ</text>
+        </navLabel>
+        <content src="index_split_013.html#id_Toc4944973"/>
+      </navPoint>
+      <navPoint id="num_67" playOrder="67" class="chapter">
+        <navLabel>
+          <text>LỄ TRÀ-TỲ (HỎA TÁNG)</text>
+        </navLabel>
+        <content src="index_split_013.html#id_Toc4944974"/>
+      </navPoint>
+      <navPoint id="num_68" playOrder="68" class="chapter">
+        <navLabel>
+          <text>KUSINÀRÀ - ÐỊA ÐIỂM KHẢO CỔ</text>
+        </navLabel>
+        <content src="index_split_013.html#id_Toc4944975"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_69" playOrder="69" class="chapter">
+      <navLabel>
+        <text>CÁC HỘI NGHỊ KIẾT TẬP VÀ KINH ÐIỂN</text>
+      </navLabel>
+      <content src="index_split_014.html#id_Toc4944976"/>
+    </navPoint>
+    <navPoint id="num_70" playOrder="70" class="chapter">
+      <navLabel>
+        <text>THƯ MỤC TÀI LIỆU THAM KHẢO</text>
+      </navLabel>
+      <content src="index_split_015.html"/>
+    </navPoint>
+  </navMap>
+</ncx>
