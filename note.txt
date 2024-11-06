@@ -3,7 +3,7 @@ firebase serve
 firebase serve --host 0.0.0.0
 
 Preview for others
-firebase hosting:channel:deploy CHANNEL_ID -> PROJECT_ID--CHANNEL_ID-RANDOM_HASH.web.app
+firebase hosting:channel:deploy CHANNEL_ID -> PROJECT_ID--CHANNEL_ID-RANDOM_HASH.web.app (ng.code email)
 firebase deploy -m "first commit."
 {
   "hosting": {
@@ -34,3 +34,6 @@ firebase target:apply hosting nikaya nikaya
     }
   }
 }
+
+ng.code
+https://search.google.com/search-console?resource_id=https%3A%2F%2Fnikaya.web.app%2F
