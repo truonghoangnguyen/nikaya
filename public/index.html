@@ -36,10 +36,35 @@
     <script src="/static/js/epubview.js"></script>
     <script src="/static/js/epub.js"></script>
     <script src="/static/js/site.js"></script>
+    <script src="/books/sw-register.js"></script>
+    <script src="/books/inject.js"></script>
     
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="/static/favicon.ico">
+    <script>
+      // Handle .html.se paths and directory paths
+      if (window.location.pathname.endsWith('.html.se')) {
+        // Extract the original path without .se
+        const originalPath = window.location.pathname.slice(0, -3);
+        // Store it for use in the app
+        window.searchPath = originalPath;
+        console.log('Search path:', window.searchPath);
+      } else if (window.location.pathname.startsWith('/books/')) {
+        // Store the directory path
+        window.searchPath = window.location.pathname;
+        console.log('Directory path:', window.searchPath);
+      }
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+          .then(function(registration) {
+            console.log('Service Worker registered with scope:', registration.scope);
+          })
+          .catch(function(error) {
+            console.log('Service Worker registration failed:', error);
+          });
+      }
+    </script>
 </head>
 
 <body>

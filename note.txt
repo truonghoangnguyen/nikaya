@@ -37,3 +37,22 @@ firebase target:apply hosting nikaya nikaya
 
 ng.code
 https://search.google.com/search-console?resource_id=https%3A%2F%2Fnikaya.web.app%2F
+
+
+# Initialize Firebase Functions
+cd /Users/work/projects/nikaya
+firebase init functions
+# Choose "Initialize a new codebase"
+# Choose JavaScript
+# Choose "N" for ESLint
+# Choose "Y" for installing dependencies
+
+# Install dependencies
+cd functions
+npm install
+
+# Deploy the function
+firebase deploy --only functions
+
+# Start the local emulator
+firebase emulators:start

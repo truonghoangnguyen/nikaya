@@ -1,0 +1,49 @@
+{
+  "hosting": {
+    "public": "public",
+    "target": "nikaya",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "headers": [
+      {
+        "source": "**/*.html",
+        "headers": [
+          {
+            "key": "Content-Security-Policy",
+            "value": "script-src 'self' 'unsafe-inline' https://ajax.googleapis.com https://*.googleapis.com"
+          }
+        ]
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/books/**",
+        "destination": "/index.html",
+        "regex": "^/books/(?!.*\\.(html|js|css|png|jpg|jpeg|gif|ico|xml|txt|json|map)).*$"
+      },
+      {
+        "source": "**/*.html.se",
+        "destination": "/index.html"
+      },
+      {
+        "source": "**/*.html",
+        "function": "injectScript"
+      }
+    ]
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    }
+  ]
+}
